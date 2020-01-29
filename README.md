@@ -13,6 +13,7 @@ Subdirectories
 * `data_derived` - derived datasets (e.g. cleaned, sampled, reworked)
 * `source` - any custom functions sourced by scripts
 * `output` - temporary figures, tables, etc that you want to save
+* `docs` - documentation and resources
 
 Scripts (`.R`, `.Rmd`) can live at the top level. Name scripts by project keyword, function, and  perhaps include initials if you are working independently to start with (e.g. `ticks_eda_bam.R`). As a pipeline develops, include the sequence structure (e.g. `ticks01_download.R`, `ticks02_clean.R`, `ticks03_eda.R`,...).
 
