@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.403.3"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=nwt,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/25dad4157e3658b9d935d05068f7cf5f</alternateIdentifier>
+    <title>Individual plant phenology data for Saddle nodal plots, 1984 - 1992.</title>
+    <creator>
+      <individualName>
+        <givenName>Marilyn</givenName>
+        <surName>Walker</surName>
+      </individualName>
+      <electronicMailAddress>marilyn.walker@homerenergy.com</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Marilyn</givenName>
+        <surName>Walker</surName>
+      </individualName>
+      <electronicMailAddress>marilyn.walker@homerenergy.com</electronicMailAddress>
+      <role>principalInvestigator</role>
+    </associatedParty>
+    <pubDate>2000</pubDate>
+    <language>English</language>
+    <abstract>Phenological data were collected weekly for permanently tagged plants located in 14 permanent plots (refered to as the nodal plots) in the Niwot Ridge Saddle area. 12 of the plots represent the 6 plant communities or noda (two from each nodum) identified in the Saddle (May 1973). The two remaing plots were located adjacent to two temporary snowfences erected near Saddle grid stake 49. The plots were 1x10 m, and were further divided into 10, 1x1 m quadrats. Plant species studied include Acomastylis (Geum) rossii, Bistorta (Polygonum) bistortoides and Bistorta (Polygonum) vivipara. Ten individuals of each species present in a plot were randomly selected. Plants were tagged approximately two inches behind each plant with an aluminum tag labelled with the species abbreviation and plant number. Tagged plant locations were determined using a Cartesian coordinate system with the outside corner of quadrat 1 serving as the origin. These locations are on permanent file at INSTAAR. Data collection began on 1 June, or as plots became snow free, and continued until senescence. Missing tags were replaced during the first week of data collection. Missing plants were replaced by a new plant in immediate area and the new coordinates were recorded.</abstract>
+    <keywordSet>
+      <keyword>Acomastylis (Geum) rossii</keyword>
+      <keyword>Bistorta (Polygonum) bistortoides</keyword>
+      <keyword>Bistorta (Polygonum) vivipara</keyword>
+      <keyword>plant development</keyword>
+      <keyword>leaf length</keyword>
+      <keyword>bud</keyword>
+      <keyword>inflorescence</keyword>
+      <keyword>developing fruit</keyword>
+      <keyword>mature fruit</keyword>
+      <keyword>saddle</keyword>
+      <keyword>nodal plots</keyword>
+      <keyword>Niwot Ridge LTER</keyword>
+      <keyword>NWT</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>phenology</keyword>
+      <keyword>plant growth</keyword>
+      <keyword>coordinates</keyword>
+      <keyword>alpine</keyword>
+      <keyword>long term</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Study areas are nodal plots in the Saddle. Original data are stored with the NWT LTER data manager.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5891563</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5891563</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05481558</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05481558</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1984</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1992</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Geum rossii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Polygonum bistortoides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Polygonum vivipara</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>The initial iteration of the documentation section was created by David Remucald and Mike Hartman in February of 1996, using soilmois.mw as a template. Data for 1984-1989 and 1992 were appended to the data section, and the file was placed under sccs on 27 September 2000.[MAH 27 September 2000] Updated year column to four digits [TMA 13 November 2006] The title and keywords were edited, labels shortened and definitions added.[HCH 12 May 2016]Niwot metadata converted via script to EML[ATW 2019-10-21]</description>
+    </maintenance>
+    <contact>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+        <deliveryPoint>University of Colorado</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80303</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>https://nwt.lternet.edu/</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Data for 1984-1989 and 1992 manually entered using an EasyEntry form and then processed on niwotlter, the NWT LTER server. Seasonal summary data (including pollen, seed dispersal, and color change information) from these plots was also recorded and metadata can be found in: http://niwot.colorado.edu/meta_data/ndlphnsm.mw.meta.txt.</para>
+          <para>Plots 2 and 11 are representative of the dry meadow. Plots 1 and 12 are representative of the dry fellfield. Plots 14 and 24 are representative of the moist shrub tundra. Plots 3 and 10 are representative of the moist meadow. Plots 16 and 19, are representative of the snowbed, and plots 32 and 82 are associated with the snowfences near Saddle grid stake 49.</para>
+          <para>There was no Bistorta vivipara in plots 1 and 12. Not all measurements were made for all years, therefore empty columns will exist for different parameters and different years.</para>
+          <para>Tim Bardsley and Mike Hartman conducted a rudimentary survey of the nodal (also known as the Ebert-May plots) on 7 September 1994. All bearings reported below are for magnetic, not true, north; a declination of 11.5 degrees should be added to the former to convert to the latter. The corner stakes of these plots had been retagged recently (summer of 1993?) by Diane Ebert-May. With the following exceptions the plot locations corresponded to those in figure 1 of Halfpenny et al. (1983). Plot 14 was found to be located southwest of Saddle grid stake 37, not 36. Plot 82 was not listed in the figure, and therefore not located. The following list contains nodal plot number, fixed object from which bearings were taken &amp; distances measured (Saddle grid stake number unless indicated otherwise), bearing (degrees) to tagged stake at corner of nodal plot, and distance (meters) to tagged stake at corner of nodal plot:</para>
+          <para>1,10,240,16.80</para>
+          <para>2,southwest corner of base of wind turbine,295,24.85</para>
+          <para>3,8,196,69.17</para>
+          <para>6,northeast corner of subnivean shelter,138,23.9</para>
+          <para>9,6,112,7.65</para>
+          <para>10,7,24,27.35</para>
+          <para>11,8,355,25.40</para>
+          <para>12,19,309,12.79</para>
+          <para>14,37,238,24.70</para>
+          <para>16,35,181,10.56</para>
+          <para>19,45,176,9.39</para>
+          <para>24,47,176,28.0</para>
+          <para>32,58,150,36.37</para>
+          <para>Species codes are 6-character codes comprised of the first 3 characters of the of the genus and the first 3 characters of the specific name.</para>
+          <para/>
+          <para>CITATIONS:</para>
+          <para>[1]May, D.E. 1973. Models for predicting composition and production of alpine tundra vegetation from Niwot Ridge, Colorado. M.A. thesis, University of Colorado, Boulder. 99 pp.</para>
+          <para>[2]Emerick, J.C., 1976: Effects of artificially increased winter snow cover on plant canopy architecture and primary production in selected areas of Colorado alpine tundra. Ph.D. thesis, University of Colorado, Boulder. 192 pp.</para>
+          <para>[3]Halfpenny, J.C., K.P. Ingraham, and J.A. Adams. 1983. Working atlas for the Saddle, Niwot Ridge, Front Range, Colorado. University of Colorado Long-Term Ecological Research Data Report 83/1. 24 pp.</para>
+          <para>[4]Pollak, O., S. Phillips, K. Shaw, and L. Herger. 1988. Procedures manual for plant community dynamics. University of Colorado Long-Term Ecological Research Data Report 88/1. 61 pp.</para>
+          <para>[5]Walker, M.D., R.C. Ingersoll, and P.J. Webber. 1995. Effects of Interannual Climate Variation on Phenology and Growth of Two Alpine Forbs. Ecology 76: 1067-1083.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: The Niwot Ridge LTER Research Program 1998-2004: Controls on the Structure, Function &amp; Interactions of Alpine &amp; Subalpine Ecosystems of the Colorado Front Range</title>
+      <personnel>
+        <organizationName>Niwot Ridge LTER</organizationName>
+        <role>pointOfContact</role>
+      </personnel>
+      <funding>National Science Foundation:9810218</funding>
+    </project>
+    <dataTable>
+      <entityName>ndlphnrw.mw.data.csv</entityName>
+      <entityDescription>Individual plant phenology data for Saddle nodal plots, 1984 - 1992.</entityDescription>
+      <physical>
+        <objectName>ndlphnrw.mw.data.csv</objectName>
+        <size unit="byte">925383</size>
+        <authentication method="MD5">fd78b56b31c2d35fa399af292b962d4d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/403/3/ecbca8547dba9cc7797502a143afe74d</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year (yyyy)</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>spp_code</attributeName>
+          <attributeLabel>spp_code</attributeLabel>
+          <attributeDefinition>species code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plot_num</attributeName>
+          <attributeLabel>plot_num</attributeLabel>
+          <attributeDefinition>plot number</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>quad_num</attributeName>
+          <attributeLabel>quad_num</attributeLabel>
+          <attributeDefinition>quadrat number</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>coords</attributeName>
+          <attributeLabel>coords</attributeLabel>
+          <attributeDefinition>coordinates</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plant_num</attributeName>
+          <attributeLabel>plant_num</attributeLabel>
+          <attributeDefinition>plant number</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>jday</attributeName>
+          <attributeLabel>jday</attributeLabel>
+          <attributeDefinition>Julian date</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>plant_ht</attributeName>
+          <attributeLabel>plant_ht</attributeLabel>
+          <attributeDefinition>plant height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>leaf_length</attributeName>
+          <attributeLabel>leaf_length</attributeLabel>
+          <attributeDefinition>length of longest leaf</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>leaf_num</attributeName>
+          <attributeLabel>leaf_num</attributeLabel>
+          <attributeDefinition>number of leaves</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>inflor_num</attributeName>
+          <attributeLabel>inflor_num</attributeLabel>
+          <attributeDefinition>number of inflorescences</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>bud_num</attributeName>
+          <attributeLabel>bud_num</attributeLabel>
+          <attributeDefinition>number of buds</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>flower_num</attributeName>
+          <attributeLabel>flower_num</attributeLabel>
+          <attributeDefinition>number of flowers</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fruit_dev_num</attributeName>
+          <attributeLabel>fruit_dev_num</attributeLabel>
+          <attributeDefinition>number of developing fruits</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fruit_mat_num</attributeName>
+          <attributeLabel>fruit_mat_num</attributeLabel>
+          <attributeDefinition>number of mature fruits</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>17051</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit abbreviation="y" id="year" multiplierToSI="31557600"
+          name="year" parentSI="second" unitType="time">
+          <description>The period of time loosely associated with a calendar or astronomical year or the orbital period of any planet. In general usage, year is used interchangebly with a Gregorian year.</description>
+        </unit>
+        <unit id="number" name="number" unitType="dimensionless">
+          <description>a number</description>
+        </unit>
+        <unit id="nominalDay" multiplierToSI="86400" name="nominalDay"
+          parentSI="second" unitType="time">
+          <description>one day excluding leap seconds; 86400 seconds</description>
+        </unit>
+        <unit abbreviation="mm" id="millimeter" multiplierToSI="0.001"
+          name="millimeter" parentSI="meter">
+          <description>.001 meters</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

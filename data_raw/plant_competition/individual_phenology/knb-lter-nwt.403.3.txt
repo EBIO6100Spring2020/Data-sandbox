@@ -1,0 +1,480 @@
+
+  
+    
+      uid=nwt,o=LTER,dc=ecoinformatics,dc=org
+      read
+      write
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/25dad4157e3658b9d935d05068f7cf5f
+    Individual plant phenology data for Saddle nodal plots, 1984 - 1992.
+    
+      Marilyn Walker
+      marilyn.walker@homerenergy.com
+    
+    
+      Marilyn Walker
+      marilyn.walker@homerenergy.com
+      principalInvestigator
+    
+    2000
+    English
+    Phenological data were collected weekly for permanently tagged plants located in 14 permanent plots (refered to as the nodal plots) in the Niwot Ridge Saddle area. 12 of the plots represent the 6 plant communities or noda (two from each nodum) identified in the Saddle (May 1973). The two remaing plots were located adjacent to two temporary snowfences erected near Saddle grid stake 49. The plots were 1x10 m, and were further divided into 10, 1x1 m quadrats. Plant species studied include Acomastylis (Geum) rossii, Bistorta (Polygonum) bistortoides and Bistorta (Polygonum) vivipara. Ten individuals of each species present in a plot were randomly selected. Plants were tagged approximately two inches behind each plant with an aluminum tag labelled with the species abbreviation and plant number. Tagged plant locations were determined using a Cartesian coordinate system with the outside corner of quadrat 1 serving as the origin. These locations are on permanent file at INSTAAR. Data collection began on 1 June, or as plots became snow free, and continued until senescence. Missing tags were replaced during the first week of data collection. Missing plants were replaced by a new plant in immediate area and the new coordinates were recorded.
+    
+      Acomastylis (Geum) rossii
+      Bistorta (Polygonum) bistortoides
+      Bistorta (Polygonum) vivipara
+      plant development
+      leaf length
+      bud
+      inflorescence
+      developing fruit
+      mature fruit
+      saddle
+      nodal plots
+      Niwot Ridge LTER
+      NWT
+    
+    
+      phenology
+      plant growth
+      coordinates
+      alpine
+      long term
+      LTER controlled vocabulary
+    
+    
+      
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+
+    
+    
+      
+        Study areas are nodal plots in the Saddle. Original data are stored with the NWT LTER data manager.
+        
+          -105.5891563
+          -105.5891563
+          40.05481558
+          40.05481558
+        
+      
+      
+        
+          
+            1984
+          
+          
+            1992
+          
+        
+      
+      
+        
+          species
+          Geum rossii
+        
+        
+          species
+          Polygonum bistortoides
+        
+        
+          species
+          Polygonum vivipara
+        
+      
+    
+    
+      The initial iteration of the documentation section was created by David Remucald and Mike Hartman in February of 1996, using soilmois.mw as a template. Data for 1984-1989 and 1992 were appended to the data section, and the file was placed under sccs on 27 September 2000.[MAH 27 September 2000] Updated year column to four digits [TMA 13 November 2006] The title and keywords were edited, labels shortened and definitions added.[HCH 12 May 2016]Niwot metadata converted via script to EML[ATW 2019-10-21]
+    
+    
+      Niwot Ridge LTER
+      Information Manager
+      			4001 Discovery Drive, UCB 450
+			University of Colorado
+			Boulder, CO 80303  United States
+      lternwt@colorado.edu
+      https://nwt.lternet.edu/
+    
+    
+      
+        
+          Data for 1984-1989 and 1992 manually entered using an EasyEntry form and then processed on niwotlter, the NWT LTER server. Seasonal summary data (including pollen, seed dispersal, and color change information) from these plots was also recorded and metadata can be found in: http://niwot.colorado.edu/meta_data/ndlphnsm.mw.meta.txt.
+          Plots 2 and 11 are representative of the dry meadow. Plots 1 and 12 are representative of the dry fellfield. Plots 14 and 24 are representative of the moist shrub tundra. Plots 3 and 10 are representative of the moist meadow. Plots 16 and 19, are representative of the snowbed, and plots 32 and 82 are associated with the snowfences near Saddle grid stake 49.
+          There was no Bistorta vivipara in plots 1 and 12. Not all measurements were made for all years, therefore empty columns will exist for different parameters and different years.
+          Tim Bardsley and Mike Hartman conducted a rudimentary survey of the nodal (also known as the Ebert-May plots) on 7 September 1994. All bearings reported below are for magnetic, not true, north; a declination of 11.5 degrees should be added to the former to convert to the latter. The corner stakes of these plots had been retagged recently (summer of 1993?) by Diane Ebert-May. With the following exceptions the plot locations corresponded to those in figure 1 of Halfpenny et al. (1983). Plot 14 was found to be located southwest of Saddle grid stake 37, not 36. Plot 82 was not listed in the figure, and therefore not located. The following list contains nodal plot number, fixed object from which bearings were taken & distances measured (Saddle grid stake number unless indicated otherwise), bearing (degrees) to tagged stake at corner of nodal plot, and distance (meters) to tagged stake at corner of nodal plot:
+          1,10,240,16.80
+          2,southwest corner of base of wind turbine,295,24.85
+          3,8,196,69.17
+          6,northeast corner of subnivean shelter,138,23.9
+          9,6,112,7.65
+          10,7,24,27.35
+          11,8,355,25.40
+          12,19,309,12.79
+          14,37,238,24.70
+          16,35,181,10.56
+          19,45,176,9.39
+          24,47,176,28.0
+          32,58,150,36.37
+          Species codes are 6-character codes comprised of the first 3 characters of the of the genus and the first 3 characters of the specific name.
+          
+          CITATIONS:
+          [1]May, D.E. 1973. Models for predicting composition and production of alpine tundra vegetation from Niwot Ridge, Colorado. M.A. thesis, University of Colorado, Boulder. 99 pp.
+          [2]Emerick, J.C., 1976: Effects of artificially increased winter snow cover on plant canopy architecture and primary production in selected areas of Colorado alpine tundra. Ph.D. thesis, University of Colorado, Boulder. 192 pp.
+          [3]Halfpenny, J.C., K.P. Ingraham, and J.A. Adams. 1983. Working atlas for the Saddle, Niwot Ridge, Front Range, Colorado. University of Colorado Long-Term Ecological Research Data Report 83/1. 24 pp.
+          [4]Pollak, O., S. Phillips, K. Shaw, and L. Herger. 1988. Procedures manual for plant community dynamics. University of Colorado Long-Term Ecological Research Data Report 88/1. 61 pp.
+          [5]Walker, M.D., R.C. Ingersoll, and P.J. Webber. 1995. Effects of Interannual Climate Variation on Phenology and Growth of Two Alpine Forbs. Ecology 76: 1067-1083.
+        
+      
+    
+    
+      LTER: The Niwot Ridge LTER Research Program 1998-2004: Controls on the Structure, Function & Interactions of Alpine & Subalpine Ecosystems of the Colorado Front Range
+      
+        Niwot Ridge LTER
+        pointOfContact
+      
+      National Science Foundation:9810218
+    
+    
+      ndlphnrw.mw.data.csv
+      Individual plant phenology data for Saddle nodal plots, 1984 - 1992.
+      
+        ndlphnrw.mw.data.csv
+        925383
+        fd78b56b31c2d35fa399af292b962d4d
+        
+          
+            1
+            \r
+            column
+            
+              ,
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/403/3/ecbca8547dba9cc7797502a143afe74d
+          
+        
+      
+      
+        
+          year
+          year
+          year (yyyy)
+          dateTime
+          
+            
+              YYYY
+              
+            
+          
+        
+        
+          spp_code
+          spp_code
+          species code
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          plot_num
+          plot_num
+          plot number
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+        
+        
+          quad_num
+          quad_num
+          quadrat number
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+        
+        
+          coords
+          coords
+          coordinates
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          plant_num
+          plant_num
+          plant number
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+        
+        
+          jday
+          jday
+          Julian date
+          integer
+          
+            
+              
+                nominalDay
+              
+              
+                integer
+                
+                  0
+                  366
+                
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          plant_ht
+          plant_ht
+          plant height
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          leaf_length
+          leaf_length
+          length of longest leaf
+          float
+          
+            
+              
+                millimeter
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          leaf_num
+          leaf_num
+          number of leaves
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          inflor_num
+          inflor_num
+          number of inflorescences
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          bud_num
+          bud_num
+          number of buds
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          flower_num
+          flower_num
+          number of flowers
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          fruit_dev_num
+          fruit_dev_num
+          number of developing fruits
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          fruit_mat_num
+          fruit_mat_num
+          number of mature fruits
+          float
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+      
+      17051
+    
+  
+  
+    
+      
+        
+          The period of time loosely associated with a calendar or astronomical year or the orbital period of any planet. In general usage, year is used interchangebly with a Gregorian year.
+        
+        
+          a number
+        
+        
+          one day excluding leap seconds; 86400 seconds
+        
+        
+          .001 meters
+        
+      
+    
+  

@@ -1,0 +1,5 @@
+Manifest file for knb-lter-nwt.89.3.zip created on Thu Jan 30 10:28:24 MST 2020
+ndlphnsm.mw.data.csv (79928 bytes)
+knb-lter-nwt.89.3.xml (20749 bytes)
+knb-lter-nwt.89.3.txt (12250 bytes)
+knb-lter-nwt.89.3.report.xml (32231 bytes)

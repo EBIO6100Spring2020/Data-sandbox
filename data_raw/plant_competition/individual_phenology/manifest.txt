@@ -1,0 +1,5 @@
+Manifest file for knb-lter-nwt.403.3.zip created on Thu Jan 30 10:35:14 MST 2020
+ndlphnrw.mw.data.csv (925383 bytes)
+knb-lter-nwt.403.3.xml (23867 bytes)
+knb-lter-nwt.403.3.txt (13704 bytes)
+knb-lter-nwt.403.3.report.xml (32345 bytes)
