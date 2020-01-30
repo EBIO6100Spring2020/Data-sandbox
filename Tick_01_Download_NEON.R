@@ -6,4 +6,7 @@ library(neonUtilities)
 ### downloading NEON data #####
 # Tick Pathogen data are in DP1.10092.001
 zipsByProduct(dpID = "DP1.10092.001", site = "all", package = "basic") # downloads from NEON as zip
-stackByTable("../NEON_pathogens-tick.zip") # merges zips into csv
+stackByTable("filesToStack10092/") # merges zips into csv
+
+tickPathogen <- read.csv("filesToStack10092/stackedFiles/tck_pathogen.csv")
+head(tickPathogen)
