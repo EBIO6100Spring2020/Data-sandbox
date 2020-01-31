@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.93.3"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https:://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=nwt,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/92e199df2a9ffea59762c10edd2fac96</alternateIdentifier>
+    <title>Plant species composition data for Saddle grid, 1989 - ongoing.</title>
+    <creator>
+      <individualName>
+        <givenName>Marilyn</givenName>
+        <surName>Walker</surName>
+      </individualName>
+      <electronicMailAddress>marilyn.walker@homerenergy.com</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Hope</givenName>
+        <surName>Humphries</surName>
+      </individualName>
+      <electronicMailAddress>hope.humphries@colorado.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2018-10-08</pubDate>
+    <language>English</language>
+    <abstract>Permanent 1-m^2 plots were established beside each of the 88 Saddle grid stakes in 1989 by Marilyn Walker, who led the sampling effort until 1997. Each plot was located within 2 m of the stake, but always in the same vegetation type as that associated with the stake. The distance and direction from the grid stake were randomly selected, and thus varied from plot to plot. Point quadrat measurements have been made at irregular intervals from 1989 to the present (1989, 1990, 1995, 1997, 2006, 2008,  and yearly from 2010 onward). The point-quadrat technique used was identical to that described by Auerbach (1992) for sampling in 1989 to 1997: The point-quadrat method was used for estimating plant cover. The aluminum point-quadrat frame was 1 m^2 in size, with double-layer filament spaced 10 cm apart to make a 10 x 10 cm grid, for a total of 100 sample points per plot. Before sampling, the point-quadrat frame was leveled and plots were permanently marked in the following manner. Aluminum tags were nailed into the ground so that a frame could be repositioned in the same location from year to year; i.e., tags with a hole in the middle were used to define the locations for the point frame legs and four tags with a "X" stamped on them (positioned somewhere inside each of the frame corners) were used to define alignment of the frame by positioning the string crossings over these "X"s. Plant genus and species were recorded for top and bottom hits at each point for 1990-1997 data. In 1989, middle hits were also recorded. A plant species hit occurs when a plant part touches a thin metal stick placed at the intersection of 2 filaments in the quadrat. If plant parts of a given species touch the stick at multiple places, only one hit is recorded. In the next sampling year, 2006, and continuing to the present, all hits were recorded at each point, but frame distances were not measured. In addition, exact repositioning of the frame was not possible in some plots due to absence or relocation of tags. Data are formatted as one species hit per row (“string of pearls’).</abstract>
+    <keywordSet>
+      <keyword>vascular</keyword>
+      <keyword>point quadrat</keyword>
+      <keyword>saddle grid plots</keyword>
+      <keyword>NWT signature dataset</keyword>
+      <keyword>Niwot Ridge LTER</keyword>
+      <keyword>NWT</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>plant species composition</keyword>
+      <keyword>communities</keyword>
+      <keyword>vegetation</keyword>
+      <keyword>populations</keyword>
+      <keyword>long term</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>populations</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Study sites were the 88 Niwot Ridge Saddle grid points. Original plot sheets, data entry spreadsheets, data collection/entry notes, and additional point-quadrat technique descriptions are stored with the NWT LTER data manager.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.593512252665</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.586787932435</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0585643979993</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0543984643267</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1989</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Deschampsia cespitosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Geum rossii var. turbinatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygonum bistortoides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Trifolium parryi ssp. parryi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sibbaldia procumbens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Festuca brachyphylla</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Carex scopulorum var. scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mertensia lanceolata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Carex heteroneura var. epapillosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Potentilla diversifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Minuartia obtusiloba</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron simplex</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Artemisia scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chionophila jamesii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ranunculus adoneus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Castilleja occidentalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lewisia pygmaea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Caltha leptosepala</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygonum viviparum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lloydia serotina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Solidago multiradiata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gentiana algida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix nivalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Carex rupestris var. drummondiana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Kobresia myosuroides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Selaginella densa var. scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Calamagrostis purpurascens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poa alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Silene acaulis var. subacaulescens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium dasyphyllum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Oreoxis alpina ssp. alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trisetum spicatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Eritrichium nanum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Tetraneuris acaulis var. caespitosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Paronychia pulvinata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex elynoides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sedum lanceolatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Luzula spicata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tetraneuris grandiflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Arenaria fendleri var. fendleri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campanula uniflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Campanula</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Phlox pulvinata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Poa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Poa glauca ssp. rupicola</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron pinnatisectus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex albonigra</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex nigricans</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex pyrenaica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix planifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhodiola rhodantha</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix petrophila</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Saxifraga rhomboidea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhodiola integrifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Juncus drummondii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Primula parryi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Carex</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Stellaria</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix glauca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron melanocephalus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex lachenalii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pedicularis groenlandica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gentianaceae species</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Elymus trachycaulus ssp. trachycaulus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Phleum alpinum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mertensia oblongifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex capitata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Noccaea montana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Draba</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Poa arctica ssp. grayana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Cerastium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium nanum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stellaria longipes</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Antennaria rosea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Oxyria digyna</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Senecio fremontii var. blitoides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Draba streptocarpa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Antennaria media</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Potentilla</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Chamerion angustifolium ssp. angustifolium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Draba breweri var. cana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Primula angustifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polemonium viscosum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campanula rotundifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Cerastium arvense ssp. strictum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Solidago simplex ssp. simplex var. nana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Draba aurea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Allium geyeri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tonestus pygmaeus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Packera cana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex capillaris</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Gentianella amarella ssp. acuta</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erysimum capitatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex phaeocephala</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex haydeniana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex perglobosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Androsace septentrionalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Artemisia pattersonii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Packera crocata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Helictotrichon mortonianum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Erigeron</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Epilobium anagallidifolium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Minuartia rubella</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Veronica wormskjoldii</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>The initial iteration of the documentation section was created by Leanne Lestak on 18 March 1994, using the itexptqd.mw documentation section as a template. The initial iteration of the header section was generated, and all 1989 and 1990 data were appended to the data section on this date. Minor editorial revisions were made to the documentation section by RCI on 21 March 1994. The file was put under sccs control on that date as well. [RCI 21 March 1994] Minor editorial revisions to the documentation section were suggested by Marilyn Walker and added on 13 May 1994.[RCI 13 May 1994] Plot locations surveyed by Tim Bardsley and Mike Hartman on 6 July 1994 were added to the comments section on 13 July 1994. [RCI 13 July 1994] Plot locations surveyed by Tim Bardsley and Mike Hartman on 13 July 1994 were added to the comments section on 14 July 1994.[RCI 14 July 1994] Comments and data for the 1995 season were added on 14 December 1995.[MAH 14 December 1995] Ancillary metadata for the 1995 data was added to the comments section on 15 December 1995.[MAH 15 December 1995] Unknowns for stakes 60a, 70a, and 76 for 1995 were corrected, and the data for those stakes were reimported into the data section on 29 December 1995.[MAH 29 December 1995] A comment concerning the use of condition code 5 was added to the comments section on 8 January 1996.[MAH 8 January 1995] On 23 January 1996 Leanne Lestak noted that the plot number for point identification number 6214 for 1995 was incorrectly listed in this file as 26. This was changed to the correct plot number of 58 on 23 January 1996.[MAH 23 January 1996] The reference to Walker et al. (1994) was added to the citations section on 2 May 1996.[MAH 2 May 1996] The data section was deleted and replaced with a new data section on 9 May 1996, following the re-entry of all 1989 and 1990 data. Appropriate changes were also made to the documentation section of this file at that time.[MAH 9 May 1996] On 2 August 1996 it was determined that the 1989 data contained an extra, empty column of data at the end of each record. This column was srtipped off, and the data re-inserted into the data section on 2 August 1996.[MAH 2 August 1996] Data for plot 37 recorded in 1996 were appended to the data section on 11 November 1996.[MAH 11 November 1996] Data for the 1997 field season were appended to the data section and ancillary metadata for 1997 were added to the comments section on 8 December 1997. Corrections for several plants that had been misidentified in earlier years were provided by Teresa Nettleton, and the appropriate changes were made on that date as well.[MAH 8 December 1997] It was determined that for the 1997 data, all Cladonia pocillum occurances had been given an incorrect numeric code of 289 instead of the correct code of 298. The 1997 data were reprocessed, and replaced in the data section of this file on 14 January 1998. Corrections for the conditions of several plants from 1995 and 1997 were provided by Teresa Nettleton, and the appropriate changes were made on that date as well.[MAH 14 January 1998] Corrections for several height measurements on the 1997 hard copy data sheets were provided by Teresa Nettleton. The appropriate changes were made, and the data were reprocessed and replaced in the data section of this file on 24 March 1998.[MAH 24 March 1998] Miscellaneous comments and additional present species from 1997 were appended to the comments section on 15 August 2000.[MAH 15 August 2000]. Missing data for 1989, plots 2-19 were inserted into the data section.[TMA 17 April 2006] Data for plot 10A for 1989 were inserted into the data section.[TMA 11 September 2007]. Data were reformatted to remove heights and condition classes, middle heights for 1989 were incorporated, and species numbers were converted to USDA PLANTS codes with associated names. All lichen and moss hits were converted to generic “2MOSS” and “2LICHN” designations for consistency with post-1997 data. Data for 2006 to 2014 were added. Column data were edited to reflect the new format.[HCH 30 December] Data for 2015 and 2016 were appended. New columns for LTER and local site names were added.[HCH 11 January 2018]Niwot metadata converted via script to EML[SCE 2018-10-08] Data for 2017 and part of 2018 were appended, a few lines corrections
+were made to 2018 data, format updated to provide x,y coordinates instead of
+numeric points, write out file as quoted csv, added extended methods[SCE 21 May 2019]  Data for 2017 were replaced with newly qa/qc data; all middle hits changed to 'middle1' or 'middle2' for consistency across time; duplicate hits in same plot identified and corrected, and part of 2018 were appended, a few lines corrections made to litter incorrectly entered as lichen and SAPL2 incorrectly identified as SAGL; authorship reverted to Marilyn Walker as lead author who designed the sampling. [SCE 26 Dec 2019]</description>
+    </maintenance>
+    <contact>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+        <deliveryPoint>University of Colorado</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80303</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>https://nwt.lternet.edu</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The data in this file through 1997 were manually entered from field data sheets by data management personnel using an EasyEntry form. Subsequently, data were entered into Excel spreadsheets formatted to replicate plot sheets. Point records were converted to plant cover using macros. The resulting files were processed and/or archived on the NWT LTER server.</para>
+          <para>In 2006 and thereafter, species and nonspecies codes were recorded using USDA PLANTS codes. Codes used in earlier years were converted to these codes. Codes that begin with “2” are nonspecies.</para>
+          <para>Also, lichens and mosses were not identified to species in these years.</para>
+          <para>All species identifications after 2011 should be considered PRELIMINARY, especially for Carex species. These and earlier data are subject to revision.</para>
+          <para>Ancillary information about data recorded from 1989 to 1997:</para>
+          <para/>
+          <para>In 1990 - 1997, only top and bottom hits were recorded.</para>
+          <para>Species condition codes and canopy heights were recorded for all species</para>
+          <para>for these years, but not thereafter. Species condition and height data </para>
+          <para>are available from the NWT LTER data manager.</para>
+          <para>Distances from the frame to a top canopy plant hit and to a surface</para>
+          <para>layer plant hit were measured to the nearest 0.5 cm and recorded. </para>
+          <para>Plant genus and species were also recorded at both hits at each point. </para>
+          <para>Species condition codes are 1 (live), 2 (standing dead), 3 (dead),</para>
+          <para>and 5 (other). Species condition code 5 was used for all non-vegetation </para>
+          <para>hits (e.g., soil, litter, rock, bare). Hit codes are 1 ("bullseye" hit) </para>
+          <para>and 0 (mediocre hit). Woody (1) or non-woody (0) conditions were also </para>
+          <para>recorded for each species. </para>
+          <para>The sampling methodology differed slightly in 1989 from sampling in 1990-1997.</para>
+          <para>In particular, neither canopy heights nor woodiness conditions were recorded. A</para>
+          <para>third "middle" layer was also often recorded in 1989, and are</para>
+          <para>listed as point ID, plot number, numeric species code, hit quality,</para>
+          <para>and species condition:</para>
+          <para>105,2,48,0,1</para>
+          <para>106,2,9,0,1</para>
+          <para>152,2,48,0,1</para>
+          <para>197,2,9,0,1</para>
+          <para>226,3,98,0,1</para>
+          <para>258,3,9,1,1</para>
+          <para>287,3,98,0,1</para>
+          <para>310,4,48,0,1</para>
+          <para>1244,12,48,0,1</para>
+          <para>1289,12,78,0,1</para>
+          <para>2321,22,48,0,1</para>
+          <para>2322,22,19,0,1</para>
+          <para>2344,22,2,0,1</para>
+          <para>2364,22,2,0,1</para>
+          <para>2525,24,2,0,1</para>
+          <para>2702,26,2,0,1</para>
+          <para>2704,26,8,0,1</para>
+          <para>2763,26,43,0,1</para>
+          <para>2779,26,8,0,1</para>
+          <para>3350,31,8,0,1</para>
+          <para>3368,31,48,0,1</para>
+          <para>3383,31,48,0,1</para>
+          <para>3542,33,78,0,1</para>
+          <para>3577,33,41,0,1</para>
+          <para>3599,33,51,0,1</para>
+          <para>3709,35,41,0,1</para>
+          <para>3727,35,2,0,1</para>
+          <para>3776,35,41,0,1</para>
+          <para>4633,43,8,0,1</para>
+          <para>4847,45,48,0,1</para>
+          <para>5629,52,94,0,1</para>
+          <para>5647,52,201,0,1</para>
+          <para>5653,52,102,0,1</para>
+          <para>5661,52,94,0,1</para>
+          <para>5699,52,201,0,1</para>
+          <para>6716,62,60,0,1</para>
+          <para>6730,62,49,0,1</para>
+          <para>6904,64,2,0,1</para>
+          <para>6950,64,2,0,1</para>
+          <para>6973,64,8,0,1</para>
+          <para>7028,65,41,1,1</para>
+          <para>7283,67,2,0,1</para>
+          <para>7522,70,2,0,1</para>
+          <para>7873,72,25,0,1</para>
+          <para>7929,73,48,0,1</para>
+          <para>7930,73,2,0,1</para>
+          <para>8006,74,129,0,1</para>
+          <para>8118,75,8,0,1</para>
+          <para>8335,77,94,0,1</para>
+          <para>8338,77,102,0,2</para>
+          <para>The orientation for plot 47 differed in 1989, and the corrected data for</para>
+          <para>this plot were provided by Leanne Leastak prior to inclusion in this file.</para>
+          <para>Ancillary metadata for the 1989 data for each plot are plot number,</para>
+          <para>initials of field personnel that sampled the data, and survey date</para>
+          <para>(mm/dd/yy). Field personnel initials are Leanne Lestak (LL), Nan </para>
+          <para>Lederer (NL), and Kary Shaw (KS):</para>
+          <para>1,KS,8/24/89</para>
+          <para>2,NL,8/16/89</para>
+          <para>3,LL,8/7/89</para>
+          <para>4,L&amp;amp;amp;K,7/27/89</para>
+          <para>5,NL,7/26/89</para>
+          <para>6,NL,7/24/89</para>
+          <para>7,KS,7/17/89</para>
+          <para>8,NL,7/11/89</para>
+          <para>9,KS,6/28/89</para>
+          <para>10,LL,7/5/89</para>
+          <para>101,NL,6/27/89</para>
+          <para>11,KS,8/14/89</para>
+          <para>12,LL,8/16/89</para>
+          <para>13,NL,8/24/89</para>
+          <para>14,NL,7/27/89</para>
+          <para>15,LL,7/26/89</para>
+          <para>16,NL,7/26/89</para>
+          <para>17,LL,7/24/89</para>
+          <para>18,KS,7/11/89</para>
+          <para>19,NL,6/28/89</para>
+          <para>20,NL,7/5/89</para>
+          <para>201,NL,6/30/89</para>
+          <para>21,KS,8/14/89</para>
+          <para>22,KS,8/15/89</para>
+          <para>23,NL,8/7/89</para>
+          <para>24,LL,7/27/89</para>
+          <para>25,NL,7/26/89</para>
+          <para>26,LL,7/26/89</para>
+          <para>27,LL,7/17/89</para>
+          <para>28,LL,7/13/89</para>
+          <para>29,KS,7/11/89</para>
+          <para>30,LL,7/5/89</para>
+          <para>301,NL,9/6/89</para>
+          <para>31,KS,8/14/89</para>
+          <para>32,NL,8/7/89</para>
+          <para>33,LL,8/7/89</para>
+          <para>34,LL,7/31/89</para>
+          <para>35,NL,7/31/89</para>
+          <para>36,NL,7/26/89</para>
+          <para>37,NL,8/24/89</para>
+          <para>38,NL,7/13/89</para>
+          <para>39,KS,7/3/89</para>
+          <para>40,NL,7/5/89</para>
+          <para>401,LL,6/30/89</para>
+          <para>41,KS,8/24/89</para>
+          <para>42,NL,8/24/89</para>
+          <para>43,LL,7/31/89</para>
+          <para>44,NL,7/31/89</para>
+          <para>45,NL,7/31/89</para>
+          <para>46,LL,7/26/89</para>
+          <para>47,LL,7/17/89</para>
+          <para>48,LL,7/13/89</para>
+          <para>49,LL,7/7/89</para>
+          <para>50,K&amp;amp;amp;N,6/27/89</para>
+          <para>501,NL,7/7/89</para>
+          <para>51,LL,8/16/89</para>
+          <para>52,NL,8/17/89</para>
+          <para>53,KS,8/15/89</para>
+          <para>54,KS,8/15/89</para>
+          <para>55,LL,8/22/89</para>
+          <para>56,KS,9/6/89</para>
+          <para>57,LL,7/17/89</para>
+          <para>58,NL,7/13/89</para>
+          <para>59,LL,7/3/89</para>
+          <para>60,NL,7/10/89</para>
+          <para>601,NL,6/30/89</para>
+          <para>61,LL,8/16/89</para>
+          <para>62,LL,8/17/89</para>
+          <para>63,KS,8/15/89</para>
+          <para>64,LL,8/22/89</para>
+          <para>65,NL,8/22/89</para>
+          <para>66,KS,8/23/89</para>
+          <para>67,NL,7/24/89</para>
+          <para>68,NL,7/13/89</para>
+          <para>69,KS,7/3/89</para>
+          <para>70,KS,7/10/89</para>
+          <para>701,LL,6/30/89</para>
+          <para>71,KS,8/24/89</para>
+          <para>72,NL,8/17/89</para>
+          <para>73,LL,8/17/89</para>
+          <para>74,NL,8/22/89</para>
+          <para>75,LL,8/22/89</para>
+          <para>76,NL,8/23/89</para>
+          <para>77,LL,7/24/89</para>
+          <para>78,KS,7/17/89</para>
+          <para>79,NL,7/7/89</para>
+          <para>80,NL,7/11/89</para>
+          <para>801,LL,7/3/89</para>
+          <para>Notes and comments for individual plots for the 1989 measurements:</para>
+          <para>5,No corner braces on frame</para>
+          <para>6,No corner braces on frame</para>
+          <para>7,No condition or hit quality-no corner braces on frame</para>
+          <para>8,No condition or hit quality-no corner braces on frame</para>
+          <para>9,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>frame</para>
+          <para>10,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>101,No 2nd and 3rd layers-no condition or hit quality-no corner braces</para>
+          <para>on frame</para>
+          <para>15,No corner braces on frame</para>
+          <para>16,No corner braces on frame</para>
+          <para>17,No corner braces on frame</para>
+          <para>18,No condition or hit quality-no corner braces on frame</para>
+          <para>19,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>20,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>201,No 2nd and 3rd layers-no condition or hit quality-no corner braces</para>
+          <para>25,No corner braces on frame</para>
+          <para>26,No corner braces on frame</para>
+          <para>27,No condition or hit quality-no corner braces on frame</para>
+          <para>28,No condition or hit quality-no corner braces on frame</para>
+          <para>29,No condition or hit quality-no corner braces on frame</para>
+          <para>30,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>36,No corner braces on frame</para>
+          <para>38,No condition or hit quality-no corner braces on frame</para>
+          <para>39,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>40,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>401,No 2nd and 3rd layers-no condition or hit quality-no corner braces</para>
+          <para>46,No corner braces on frame</para>
+          <para>47,No condition or hit quality-no corner braces on frame</para>
+          <para>48,No condition or hit quality-no corner braces on frame</para>
+          <para>49,No condition or hit quality-no corner braces on frame</para>
+          <para>50,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>501,No condition or hit quality-no corner braces on frame</para>
+          <para>57,No condition or hit quality-no corner braces on frame</para>
+          <para>58,No condition or hit quality-no corner braces on frame</para>
+          <para>59,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>60,No condition or hit quality-no corner braces on frame</para>
+          <para>601,No 2nd and 3rd layers-no condition or hit quality-no corner braces</para>
+          <para>67,No corner braces on frame</para>
+          <para>68,No condition or hit quality-no corner braces on frame</para>
+          <para>69,No 2nd and 3rd layers-no condition or hit quality-no corner braces on</para>
+          <para>70,No condition or hit quality-no corner braces on frame</para>
+          <para>701,No 2nd and 3rd layers-no condition or hit quality-no corner braces</para>
+          <para>77,No corner braces on frame</para>
+          <para>78,No condition or hit quality-no corner braces on frame</para>
+          <para>79,No condition or hit quality-no corner braces on frame</para>
+          <para>80,No condition or hit quality-no corner braces on frame</para>
+          <para>801,No 2nd and 3rd layers-no condition or hit quality-no corner braces</para>
+          <para>Ancillary metadata for the 1990 data for each plot are plot number, </para>
+          <para>survey date (mm/dd/yyyy), initials of field personnel that sampled </para>
+          <para>the data, height from ground surface to bottom of point quadrat frame </para>
+          <para>at southwest corner (cm), height from ground surface to bottom of </para>
+          <para>point quadrat frame at southeast corner (cm), height from ground </para>
+          <para>surface to bottom of point quadrat frame at northwest corner (cm), </para>
+          <para>and height from ground surface to bottom of point quadrat frame at </para>
+          <para>northeast corner (cm). Field personnel initials are Kim Furry (KLF),</para>
+          <para>Leanne Lestak (LRL), and Nan Lederer (NDL):</para>
+          <para>1,08/28/1990,KLF,8.5,14.5,6.0,15.0</para>
+          <para>2,08/06/1990,KLF,12.0,24.5,12.5,21.5</para>
+          <para>3,08/06/1990,KLF,22.0,47.5,14.0,38.0</para>
+          <para>4,07/31/1990,KLF,18.0,26.5,14.5,26.5</para>
+          <para>5,08/14/1990,KLF,15.0,23.5,13.5,16.0</para>
+          <para>6,07/18/1990,NDL,21.5,26.0,11.0,13.0</para>
+          <para>7,08/07/1990,NDL,19.5,19.0,19.0,26.5</para>
+          <para>8,07/26/1990,KLF,28.5,20.0,20.5,13.5</para>
+          <para>9,06/29/1990,NDL,30.0,6.5,12.0,14.0</para>
+          <para>10,06/26/1990,NDL,35.5,16.0,18.5,5.5</para>
+          <para>101,06/22/1990,LRL,23.0,24.5,10.0,8.0</para>
+          <para>11,08/16/1990,LRL,6.5,28.0,4.5,33.0</para>
+          <para>12,08/24/1990,KLF,15.0,39.0,10.0,32.0</para>
+          <para>13,08/24/1990,NDL,3.5,22.5,7.0,18.5</para>
+          <para>14,08/16/1990,KLF,10.0,31.5,8.5,28.5</para>
+          <para>15,07/27/1990,LRL,9.0,14.0,21.0,23.0</para>
+          <para>16,08/09/1990,KLF,15.0,20.5,13.0,19.5</para>
+          <para>17,07/18/1990,LRL,18.0,16.0,18.0,12.0</para>
+          <para>18,07/10/1990,KLF,28.5,17.0,26.0,31.0</para>
+          <para>19,06/26/1990,NDL,14.0,10.0,15.5,9.5</para>
+          <para>20,06/26/1990,KLF,22.5,7.5,23.5,6.0</para>
+          <para>201,06/22/1990,NDL,0.0,0.0,0.0,0.0</para>
+          <para>21,08/07/1990,NDL,10.5,38.5,11.0,28.5</para>
+          <para>22,08/06/1990,LRL,23.5,38.5,20.5,40.5</para>
+          <para>23,08/16/1990,LRL,11.0,28.5,10.5,25.5</para>
+          <para>24,08/16/1990,LRL,13.5,17.0,14.0,21.0</para>
+          <para>25,07/27/1990,LRL,12.5,17.0,12.5,22.0</para>
+          <para>26,07/18/1990,LRL,17.5,19.0,16.5,17.0</para>
+          <para>27,07/18/1990,NDL,22.0,11.0,30.0,29.0</para>
+          <para>28,07/10/1990,NDL,20.0,17.0,18.5,15.0</para>
+          <para>29,06/26/1990,KLF,14.0,12.0,13.5,11.5</para>
+          <para>30,07/09/1990,NDL,21.0,9.5,26.0,14.0</para>
+          <para>301,08/28/1990,NDL,10.5,4.0,31.5,31.0</para>
+          <para>31,08/07/1990,KLF,13.0,32.0,9.5,26.0</para>
+          <para>32,08/16/1990,KLF,19.5,42.5,11.0,37.0</para>
+          <para>33,08/16/1990,KLF,7.5,29.5,17.0,46.0</para>
+          <para>34,08/16/1990,KLF,6.0,20.5,10.5,21.0</para>
+          <para>35,08/09/1990,NDL,11.0,21.0,13.5,23.5</para>
+          <para>36,07/26/1990,NDL,18.5,19.0,18.5,23.0</para>
+          <para>37,07/26/1990,NDL,65.0,96.5,75.0,81.0</para>
+          <para>38,07/13/1990,KLF,23.0,23.5,26.0,23.0</para>
+          <para>39,07/09/1990,KLF,12.5,14.5,21.0,20.5</para>
+          <para>40,07/06/1990,KLF,10.5,11.0,17.0,9.0</para>
+          <para>401,06/29/1990,NDL,19.5,10.5,25.5,18.5</para>
+          <para>41,08/28/1990,NDL,23.5,23.5,10.0,24.0</para>
+          <para>42,08/28/1990,KLF,3.5,5.5,15.0,20.5</para>
+          <para>43,07/31/1990,KLF,17.5,38.0,19.0,47.0</para>
+          <para>44,07/31/1990,NDL,16.5,29.5,25.5,32.5</para>
+          <para>45,08/14/1990,NDL,4.0,15.5,8.5,19.5</para>
+          <para>46,07/27/1990,KLF,16.0,24.5,27.0,34.0</para>
+          <para>47,08/09/1990,KLF,13.0,13.0,22.0,24.0</para>
+          <para>48,07/09/1990,NDL,14.5,12.0,19.5,18.0</para>
+          <para>49,07/10/1990,NDL,17.5,8.5,15.0,14.0</para>
+          <para>50,07/06/1990,NDL,25.5,16.0,14.0,5.0</para>
+          <para>501,06/29/1990,KLF,11.0,13.5,31.5,30.5</para>
+          <para>51,06/29/1990,KLF,2.5,37.0,26.0,48.0</para>
+          <para>52,08/06/1990,KLF,22.5,33.0,29.0,38.5</para>
+          <para>53,07/31/1990,NDL,10.5,13.5,22.0,27.0</para>
+          <para>54,08/14/1990,NDL,13.5,32.0,27.5,44.0</para>
+          <para>55,08/14/1990,KLF,11.0,29.0,11.5,39.0</para>
+          <para>56,08/09/1990,NDL,8.0,8.5,18.5,21.5</para>
+          <para>57,08/08/1990,LRL,29.0,25.5,30.0,34.5</para>
+          <para>58,08/24/1990,NDL,20.5,12.0,22.5,14.0</para>
+          <para>59,07/09/1990,NDL,10.5,22.0,20.0,18.5</para>
+          <para>60,07/10/1990,KLF,17.0,9.0,26.0,11.5</para>
+          <para>601,07/03/1990,KLF,31.0,11.5,37.0,19.5</para>
+          <para>61,08/07/1990,NDL,10.5,25.0,15.5,30.0</para>
+          <para>62,08/16/1990,LRL,8.0,23.0,28.0,43.0</para>
+          <para>63,08/24/1990,KLF,8.0,17.0,35.5,44.5</para>
+          <para>64,07/27/1990,KLF,12.5,31.0,19.0,37.5</para>
+          <para>65,08/14/1990,NDL,3.5,26.5,18.0,39.0</para>
+          <para>66,08/09/1990,KLF,8.0,13.5,20.0,21.0</para>
+          <para>67,07/13/1990,LRL,31.5,21.5,45.5,43.0</para>
+          <para>68,08/07/1990,KLF,16.5,14.0,16.0,18.0</para>
+          <para>69,07/09/1990,KLF,25.0,11.5,32.5,17.0</para>
+          <para>70,07/06/1990,KLF,10.0,11.5,21.5,22.0</para>
+          <para>701,07/06/1990,KLF,24.0,4.0,27.5,17.0</para>
+          <para>71,08/24/1990,NDL,11.0,17.0,7.0,21.0</para>
+          <para>72,08/06/1990,LRL,12.0,29.0,23.0,46.5</para>
+          <para>73,07/31/1990,KLF,12.5,20.5,27.5,41.5</para>
+          <para>74,08/14/1990,KLF,16.0,19.0,19.5,26.0</para>
+          <para>75,07/27/1990,LRL,9.5,13.0,16.0,27.5</para>
+          <para>76,08/09/1990,NDL,37.0,15.5,46.0,34.5</para>
+          <para>77,08/08/1990,KLF,16.0,16.5,31.0,19.5</para>
+          <para>78,07/13/1990,KLF,22.5,23.5,28.5,37.5</para>
+          <para>79,07/10/1990,NDL,11.0,10.0,22.5,18.0</para>
+          <para>80,07/10/1990,KLF,18.5,3.0,22.0,15.5</para>
+          <para>801,07/06/1990,NDL,42.5,4.0,52.5,26.0 </para>
+          <para>Notes and comments for individual plots for the 1990 measurements:</para>
+          <para>101,A and B reg. tics moved a few mm to NE</para>
+          <para>17,moved NW marker</para>
+          <para>18,moved SW marker</para>
+          <para>201,no measurements of leg height</para>
+          <para>21,moved SE corner</para>
+          <para>27,moved reg marker at leg A</para>
+          <para>30,moved SW marker</para>
+          <para>31,SE marker moved</para>
+          <para>37,SE corner was clamped to rebar</para>
+          <para>39,NE marker moved</para>
+          <para>40,NW marker moved</para>
+          <para>47,"A" corner (1990)="B" corner (1989)=south corner.Plot orientation is</para>
+          <para>	weird, last yearâ€™s data will be off. {corrected data for 1989 for plot </para>
+          <para>	47 were provided by Leanne Leastak prior to inclusion in this file}</para>
+          <para>50,SW marker moved</para>
+          <para>55,eastern markers "pretty bad" but none were moved</para>
+          <para>63,NE marker very far off</para>
+          <para>65,SE marker is 1"" S of where it should be</para>
+          <para>66,moved SW marker-SW leg hole was replaced</para>
+          <para>69,moved SW reg marker</para>
+          <para>72,NW marker was removed during the winter and found apx. 30cm E.It was replaced.</para>
+          <para>75,SW and SE support pole holes are 1" E of the poles.The poles would not stay on the point.</para>
+          <para>76,NW corner leg .5" off</para>
+          <para>801,moved NE marker</para>
+          <para>Ancillary metadata for the 1995 data for each plot are plot number,</para>
+          <para>survey date (mm/dd/yyyy), initials of field person #1 (999 if unknown), </para>
+          <para>initials of field person #2 (999 if unknown), height from ground surface </para>
+          <para>to bottom of point quadrat frame at southwest corner (cm), height from </para>
+          <para>ground surface to bottom of point quadrat frame at southeast corner (cm), </para>
+          <para>height from ground surface to bottom of point quadrat frame at northwest </para>
+          <para>corner (cm), and height from ground surface to bottom of point quadrat </para>
+          <para>frame at northeast corner (cm):</para>
+          <para>1,09/19/95,LRL,TKN,9.0,15.5,5.0,16.0</para>
+          <para>2,08/23/95,TKN,LRL,12.0,24.5,12.5,21.5</para>
+          <para>3,08/22/95,LRL,TKN,18.5,46.5,12.0,35.0</para>
+          <para>4,08/22/95,RZR,999,18.0,26.5,16.0,27.0</para>
+          <para>5,09/12/95,LRL,TKN,15.0,23.5,16.0,16.0</para>
+          <para>6,08/15/95,LRL,RZR,21.5,24.5,10.0,12.0</para>
+          <para>7,08/29/95,LRL,TKN,19.5,20.0,20.5,27.0</para>
+          <para>8,08/01/95,RZR,LRL,28.0,19.0,21.0,12.0</para>
+          <para>9,07/18/95,TKM,KLR,29.5,5.5,12.0,11.0</para>
+          <para>10,07/11/95,KLR,LRL,35.5,17.5,19.0,5.5</para>
+          <para>101,07/10/95,KLR,LRL,22.0,24.0,9.0,7.0</para>
+          <para>11,09/06/95,TJB,LRL,6.0,26.5,2.0,32.0</para>
+          <para>12,09/12/95,LRL,TKN,10.5,33.5,10.0,30.0</para>
+          <para>13,09/12/95,LRL,TKN,3.0,23.0,7.5,20.0</para>
+          <para>14,09/06/95,TJB,LRL,7.5,29.0,8.5,27.0</para>
+          <para>15,08/16/95,LRL,TKN,9.0,12.0,19.5,21.0</para>
+          <para>16,08/30/95,LRL,TJB,15.0,22.0,16.0,18.0</para>
+          <para>17,08/01/95,LRL,RZR,18.0,14.0,17.0,12.5</para>
+          <para>18,07/31/95,RZR,LRL,29.5,14.5,25.0,31.5</para>
+          <para>19,07/13/95,PLT,KLR,13.0,10.0,15.5,10.0</para>
+          <para>20,07/12/95,PLT,RZR,25.5,10.5,26.5,8.5</para>
+          <para>201,07/11/95,KLR,LRL,13.0,20.0,11.0,17.5</para>
+          <para>21,08/30/95,LRL,TJB,10.0,38.0,7.5,27.5</para>
+          <para>22,08/22/95,LRL,TKN,24.5,38.5,21.0,42.0</para>
+          <para>23,09/06/95,TJB,LRL,11.0,28.5,10.5,26.0</para>
+          <para>24,09/06/95,TJB,LRL,13.0,17.0,14.5,21.5</para>
+          <para>25,08/22/95,LRL,RZR,13.5,17.5,14.0,22.0</para>
+          <para>26,08/01/95,LRL,RZR,17.5,18.5,16.0,17.0</para>
+          <para>27,08/22/95,LRL,RZR,21.0,10.5,28.5,26.5</para>
+          <para>28,09/12/95,LRL,TKN,19.0,15.0,18.0,14.5</para>
+          <para>29,07/18/95,LRL,RZR,14.0,13.0,14.0,13.0</para>
+          <para>30,07/18/95,PLT,KLR,20.5,10.0,25.5,14.0</para>
+          <para>301,09/19/95,TKN,LRL,10.0,3.0,33.5,32.5</para>
+          <para>31,08/24/95,LRL,TKN,12.5,31.5,8.0,26.0</para>
+          <para>32,09/12/95,LRL,TKN,19.5,43.0,13.5,37.5</para>
+          <para>33,09/12/95,LRL,TKN,7.5,29.5,18.5,46.0</para>
+          <para>34,09/12/95,TKN,LRL,6.0,21.0,11.5,29.5</para>
+          <para>35,08/30/95,LRL,TJB,10.5,22.0,17.0,24.0</para>
+          <para>36,08/16/95,TKN,LRL,19.0,21.0,20.5,24.0</para>
+          <para>38,08/15/95,RZR,LRL,22.0,23.5,27.5,25.0</para>
+          <para>39,07/18/95,TKM,KLR,12.5,17.0,22.5,20.0</para>
+          <para>40,07/18/95,LRL,KLR,10.5,10.5,15.5,7.0</para>
+          <para>401,07/12/95,TKN,RZR,19.5,9.5,25.5,17.0</para>
+          <para>41,09/19/95,TKN,LRL,22.5,24.5,7.0,24.0</para>
+          <para>42,09/19/95,TKN,LRL,6.5,10.0,19.0,23.0</para>
+          <para>43,08/22/95,LRL,RZR,15.5,35.0,16.5,42.0</para>
+          <para>44,08/22/95,RZR,LRL,16.0,29.5,25.0,31.5</para>
+          <para>45,08/30/95,LRL,TJB,4.5,16.5,10.0,17.5</para>
+          <para>46,08/16/95,LRL,TKN,15.5,25.0,18.0,33.5</para>
+          <para>47,08/29/95,TKN,LRL,12.5,13.5,20.0,22.0</para>
+          <para>48,08/15/95,LRL,RZR,14.5,10.0,18.0,18.0</para>
+          <para>49,07/31/95,RZR,LRL,16.5,6.5,13.0,11.0</para>
+          <para>50,07/18/95,LRL,RZR,25.5,13.0,14.0,4.5</para>
+          <para>501,07/13/95,KLR,PLT,13.5,15.0,35.0,35.0</para>
+          <para>51,08/16/95,LTR,TKN,3.0,37.5,26.0,48.0</para>
+          <para>52,08/23/95,TKN,LRL,20.5,34.0,28.5,40.0</para>
+          <para>53,08/22/95,RZR,LRL,10.5,14.0,22.5,27.0</para>
+          <para>54,08/30/95,LRL,TJB,15.0,34.5,30.5,46.5</para>
+          <para>55,08/30/95,LRL,TJB,11.5,29.5,11.5,39.5</para>
+          <para>56,08/29/95,LRL,TKN,13.5,13.0,24.0,29.0</para>
+          <para>57,08/24/95,LRL,TKN,29.0,,,</para>
+          <para>58,09/19/95,TKN,LRL,18.5,9.5,20.5,11.0</para>
+          <para>59,07/24/95,LRL,TKN,11.0,22.5,19.0,18.5</para>
+          <para>60,07/20/95,KLR,RZR,17.0,8.5,25.5,10.5</para>
+          <para>601,07/17/95,KLR,LRL,31.5,9.0,35.5,18.5</para>
+          <para>61,08/24/95,TKN,LRL,9.0,25.5,14.5,29.5</para>
+          <para>62,09/19/95,LRL,TKN,6.5,22.5,29.0,42.0</para>
+          <para>63,09/19/95,LRL,TKN,6.5,17.0,35.5,45.0</para>
+          <para>64,08/16/95,TKN,LRL,11.5,30.5,18.0,38.0</para>
+          <para>65,09/06/95,LRL,TJB,4.5,27.0,20.0,45.0</para>
+          <para>66,08/29/95,TKN,LRL,8.0,16.0,21.5,22.5</para>
+          <para>67,07/31/95,LRL,RZR,23.5,18.5,42.5,39.0</para>
+          <para>68,08/24/95,TKN,LRL,19.0,16.0,17.5,20.0</para>
+          <para>69,07/24/95,TKN,LRL,25.0,14.0,32.0,19.0</para>
+          <para>70,07/24/95,TKN,LRL,8.0,11.0,21.0,21.0</para>
+          <para>701,07/17/95,LRL,KLR,25.5,5.0,28.0,14.5</para>
+          <para>71,09/19/95,LRL,TKN,9.0,14.0,4.5,18.5</para>
+          <para>72,08/23/95,TKN,LRL,10.0,28.0,22.0,46.0</para>
+          <para>73,08/23/95,TKN,LRL,13.0,22.0,28.0,43.0</para>
+          <para>74,09/06/95,TJB,LRL,18.0,20.5,22.5,27.0</para>
+          <para>75,08/22/95,RZR,LRL,10.0,12.0,18.5,26.0</para>
+          <para>76,08/29/95,LRL,TKN,37.0,17.5,47.5,35.0</para>
+          <para>77,08/29/95,TKN,LRL,14.5,14.5,28.0,22.0</para>
+          <para>78,07/31/95,LRL,RZR,25.0,26.5,29.0,38.5</para>
+          <para>79,08/15/95,LRL,RZR,11.5,9.0,21.5,17.5</para>
+          <para>80,08/15/95,RZR,LRL,18.5,4.0,22.0,15.5</para>
+          <para>801,07/17/95,KLR,LRL,43.5,4.5,52.0,25.0</para>
+          <para>Notes and comments for individual plots for the 1995 measurements:</para>
+          <para>(Registration marker letters followed by a distance and direction</para>
+          <para>indicate the distance and direction from the given marker to where</para>
+          <para>the hit occurred; with the A marker being located in the southwest </para>
+          <para>corner, B in the southeast corner, C in the northwest corner, and D </para>
+          <para>in the northeast corner)</para>
+          <para>1,A 1mm W, B 2mm S, C 12mm NE</para>
+          <para>2,B 2mm SE, C 5mm S, A holdmarker found down by B holdmarker</para>
+          <para>3,B 40mm SE, D 3mm E</para>
+          <para>4,A 1mm SE, B 2mm S, C 3mm NW</para>
+          <para>5,B 13mm SW, D 8mm S </para>
+          <para>6,C 1mm N, D 1mm W</para>
+          <para>7,A 1mm N, B 1mm S, C 1mm W</para>
+          <para>8,B 2mm S, D 5mm SW</para>
+          <para>9,B .5mm W</para>
+          <para>10,B 3mm NW, C 3mm S, D 2mm SW</para>
+          <para>11,A 1mm E, B 3mm SW, C 2mm SE, D 3mm SE</para>
+          <para>12,B 10mm E, replaced C leg hole, replaced and moved C reg</para>
+          <para>13,A 10mm E, B 15mm SE, C 30mm NE, D 25mm SE</para>
+          <para>14,C 15mm E</para>
+          <para>15,A .5mm N, C .5mm N</para>
+          <para>16,A 3mm NW, B 8mm S, C 10mm NW</para>
+          <para>17,B 1mm NE, D 3mm S</para>
+          <para>18,D 3mm E, C 10mm SE</para>
+          <para>19,A 2mm W, D 1mm NW</para>
+          <para>20,C 2mm NE, D 2mm S</para>
+          <para>201,B 1mm S, C 2mm NW, D 2mm SE</para>
+          <para>21,A 1mm NW, B 22mm SW, D 5mm SW</para>
+          <para>22,B 20mm S, C 1mm S, D 20mm E</para>
+          <para>23,B 20mm S, C 2mm E, D 5mm NE</para>
+          <para>24,A 2mm NW, B 12mm S, C 2mm W</para>
+          <para>25,A 1mm S, D 1mm W</para>
+          <para>26,A 2mm SE, C 1mm W</para>
+          <para>27,A 2mm W, C 14mm E</para>
+          <para>28,D 10mm S</para>
+          <para>29,A 1mm SW, B 2mm S, C 3mm NE, D .5mm W, </para>
+          <para>30,A 2mm W, B 1mm W, D 1mm W</para>
+          <para>301,A 30mm S, C 3mm S, D 15mm SW, C leg is at the plot # ID tag which is </para>
+          <para>	usually at the SW corner of the plot and attached to the rebar </para>
+          <para>	which delineates the 4 corners of the plot. Usually A leg is at the ID tag</para>
+          <para>31,A 3mm E</para>
+          <para>32,B 55mm N, D 15mm SW</para>
+          <para>33,B 5mm S</para>
+          <para>34,B 3mm S</para>
+          <para>35,B 15mm SW, D 1mm S</para>
+          <para>36,A 3mm N, C 2mm NW</para>
+          <para>37,No measurements were taken for plot 37</para>
+          <para>38,A 2mm NW, B 1mm SW</para>
+          <para>39,C 1mm N, D 1mm N</para>
+          <para>40,D 3mm W</para>
+          <para>401,C 4mm E, D 4mm SE</para>
+          <para>41,A 5mm E, B 40mm S, C 5mm S, D 40mm SE</para>
+          <para>42,A 4mm NW, B 10mm SW, C 20mm SE, D 5mm NW</para>
+          <para>43,A 50mm SE, B 50mm NW, D 50mm SE, lots of movement with markers</para>
+          <para>44,D 2mm NE</para>
+          <para>45,C 10mm W, D 5mm SW</para>
+          <para>46,A .5mm W, B 2.5mm S, C reg marker was moved, added another west of original,</para>
+          <para>	gopher disturbance in NW corner of plot.</para>
+          <para>47,A 3mm E, C 15mm N, D 6mm S</para>
+          <para>48,C 1mm E, D 3mm E</para>
+          <para>49,B 2mm SW, C 2mm NE, D 2mm NE</para>
+          <para>50,C 5mm SW, D 5mm SW</para>
+          <para>501,A 10mm E, C 20mm E</para>
+          <para>51,A 3mm N, C 2mm NE, no leg marker at leg C</para>
+          <para>52,D 3mm S</para>
+          <para>53,B 3mm W, C 2mm NW, D 2mm NE</para>
+          <para>54,A 5mm SW, B 15mm SW</para>
+          <para>55,B 5mm N, C 8mm NW, D 5mm NW</para>
+          <para>56,C 10mm N, D 5mm N, A 10mm S, moved B regmarker 10mm SE</para>
+          <para>57,A 5mm E, B 50mm S, C 20mm N</para>
+          <para>58,B 3mm SW, D 5mm S</para>
+          <para>59,B 2mm S, D 2mm S</para>
+          <para>60,B 1mm S, C 2mm N, D 4mm N</para>
+          <para>601,A 5mm SE, C 5mm E, D 1mm SE</para>
+          <para>61,B 20mm S, D 5mm SE</para>
+          <para>62,B 22mm S, C 40mm N</para>
+          <para>63,B 5mm S, C 20mm N, D 10mm W</para>
+          <para>64,A 3mm N, D 4mm SE</para>
+          <para>65,A 8mm E, B 20mm S, C 10mm E, D 20mm SE, replaced D legmarker rock with metal hole tag</para>
+          <para>66,A 30mm NE, B 35mm S, D 20mm SW</para>
+          <para>67,A 10mm NW, B 6mm NW</para>
+          <para>68,B 10mm SE, C 2mm NW, D 10mm E</para>
+          <para>70,A 3mm N, C 6mm NE, D 1mm N</para>
+          <para>701,A 3.5mm SE, B 1mm SE, C 2mm NW, D 4mm W</para>
+          <para>71,B 25mm E, C 10mm NE, D 10mm W, moved B leg 50mm E</para>
+          <para>72,C 5mm SW</para>
+          <para>73,A 1mm E</para>
+          <para>74,B 2mm W, moved A reg marker, D reg missing - replaced</para>
+          <para>75,A 4mm SE, B 5mm E, C 2mm SW</para>
+          <para>76,A 20mm W, C 20mm S</para>
+          <para>77,B 5mm SW, C 2mm SW, D 5mm SW</para>
+          <para>78,A 8mm NE, C 10mm NE</para>
+          <para>79,B 2mm S, D 2mm N </para>
+          <para>80,A 3mm E, C 1mm E</para>
+          <para>801,A 2mm N, B 3mm NW, D 5mm S</para>
+          <para>Species that were observed in 1995 within a given plot, but not </para>
+          <para>identified by the point quadrat technique:</para>
+          <para>(Species codes are 6-character codes comprised of the first 3 </para>
+          <para>characters of the of the genus and the first 3 characters of the </para>
+          <para>specific name. The full scientific names corresponding to the</para>
+          <para>species codes can be found in http://niwot.colorado.edu/data_csvs/pspecies.mw.data.csv)</para>
+          <para>2,MINOBT, POAARC, ARTSCO</para>
+          <para>3,BISBIS, SIBPRO, DESCAE</para>
+          <para>5,FESBRA</para>
+          <para>6,SOLMUL, CASOCC, POASPP, LUZSPI, LEWPYG</para>
+          <para>7,LLOSER, BISBIS, CIMPRO, CASOCC, SALGLA</para>
+          <para>8,CARESP, CASOCC</para>
+          <para>9,BISBIS, CASOCC</para>
+          <para>10,PHLSIB, DRASTR, MERLAN, PARPUL, THLMON, HYMACA</para>
+          <para>101,ERIARE, PHLSIB, SILACA, HYMGRA, DRASTR, LLOSER, ERISIM</para>
+          <para>11,CASOCC, LEWPYG, POAARC</para>
+          <para>14,BISVIV, TRIPAR, CASOCC, POAARC</para>
+          <para>15,ARTSCO</para>
+          <para>17,CHIJAM, CASOCC, LUZSPI, LEWPYG, CAMUNI</para>
+          <para>18,ERISIM, BISBIS, SAXRHO, BISVIV, CARSCO</para>
+          <para>19,THLMON, MERLAN</para>
+          <para>20,DRASTR, BISBIS, LLOSER, ERIARE, OREALP, HYMACA</para>
+          <para>201,MERLAN, LLOSER, BISBIS, ALLGEY, CASOCC</para>
+          <para>21,MINOBT, AREFEN</para>
+          <para>23,CASOCC, RANADO, FESBRA, TRIPAR</para>
+          <para>24,LEWPYG, POAARC, RANADO, ARTSCO</para>
+          <para>25,CHIJAM</para>
+          <para>26,MINOBT</para>
+          <para>27,CASOCC, SEDLAN, GENALG, ERISIM</para>
+          <para>28,TRIPAR, SELDEN, ACOROS, THLMON</para>
+          <para>29,MERLAN, SAXRHO, ALLGEY, BISBIS, POTSPP, CALLEP</para>
+          <para>30,LLOSER, BISBIS, DRASTR, HYMACA</para>
+          <para>31,BISVIV, MINOBT</para>
+          <para>32,LLOSER, ARTSCO</para>
+          <para>33,BISBIS</para>
+          <para>34,BISBIS, ARTSCO, BISVIV, POAARC, LEWPYG</para>
+          <para>35,FESBRA, CARSCO, LEWPYG</para>
+          <para>36,BISVIV, GENALG, CHIJAM</para>
+          <para>38,ARTSCO, THLMON, POASPP</para>
+          <para>39,ERIARE, THLMON, LLOSER, CAMUNI, CASOCC, OREALP, DRASTR, HYMACA</para>
+          <para>40,MINOBT, LLOSER, ERIARE, HYMACA, CASOCC, SAXRHO, DRASTR</para>
+          <para>401,ACOROS, CALPUR, SILACA</para>
+          <para>43,MINOBT, LEWPYG</para>
+          <para>44,BISBIS</para>
+          <para>45,RANADO, POAARC, ACOROS</para>
+          <para>46,BISBIS, ARTSCO, CALLEP, BISVIV</para>
+          <para>47,POTRUB, BISBIS, MNIUSP</para>
+          <para>48,ARTSCO, STELON</para>
+          <para>49,MINOBT, LLOSER, AREFEN, PHLSIB, TRIPAR, LEWPYG</para>
+          <para>50,PHLSIB, HYMACA, BISVIV, SAXRHO, DRASTR, SEDLAN</para>
+          <para>501,THLMON, BISVIV, SEDRHO</para>
+          <para>51,BISBIS, SEDLAN, POASPP, TRISPI, TRIANG, LUZSPI, PARPUL</para>
+          <para>54,RANADO</para>
+          <para>56,CLERHO, POAARC, CARPYR</para>
+          <para>57,LLOSER, BISBIS, CLERHO</para>
+          <para>58,CASOCC, STELSP</para>
+          <para>59,HYMACA, SEDLAN</para>
+          <para>60,BISVIV, CARRUP</para>
+          <para>601,CAMUNI, PHLMON, ERIARE, ERISIM, MERLAN, SILACA, ARTSCO, PRIANG</para>
+          <para>61,AREFEN, TRIPAR, SELDEN</para>
+          <para>62,BISBIS, SILACA</para>
+          <para>65,LEWPYG, ARTSCO, DRABSP</para>
+          <para>66,ACOROS, POAALP, OXYDIG, DRABSP, ARTSCO</para>
+          <para>67,BISVIV, GENALG</para>
+          <para>68,BISBIS, ARTSCO, PEDGRO, Minuartia species, POASP, PEDISP</para>
+          <para>69,GENALG, MINOBT, PARPUL, THLMON, ERIARE</para>
+          <para>70,BISVIV, ERISIM, THLMON, OREALP, MINOBT, SELDEN, DRASTR</para>
+          <para>701,OREALP, LLOSER, MERLAN, CAMUNI, HYMGRA, DRABSP, ERIPIN, CALPUR, UNKFOR</para>
+          <para>72,MINOBT, CASOCC, CHIJAM, LEWPYG, BISVIV</para>
+          <para>73,BISBIS</para>
+          <para>74,RANADO, SIBPRO, ARTSCO, POAARC</para>
+          <para>75,POASPP, CARNIG, ERIMEL, BISBIS, RANADO, SIBPRO, MINOBT</para>
+          <para>76,ARTSCO</para>
+          <para>77,BISVIV, ACOROS, ARTSCO, KOBMYO</para>
+          <para>78,PHLSIB, ERIARE, AREFEN, MINOBT, SILACA, CASOCC</para>
+          <para>79,ERISIM, KOBMYO, BISVIV, LEWPYG, SEDLAN</para>
+          <para>801,SALGLA, PHLMON, UNKFOR, ERIARE, CAMUNI, ERISIM, SELDEN</para>
+          <para>Plot 37 was the only plot measured in 1996. It was measured on</para>
+          <para>9 August 1996 by PLT. The height from the ground surface to</para>
+          <para>the bottom of the point quadrat frame at the southwest, southeast,</para>
+          <para>northwest, and northeast corners were 6.2 cm, 9.8 cm, 7.5 cm and</para>
+          <para>8.1 cm respectively.</para>
+          <para>Ancillary metadata for the 1997 data for each plot are plot number,</para>
+          <para>survey date (mm/dd/yyyy), initials of field person #1 (999 if unknown),</para>
+          <para>initials of field person #2 (999 if unknown), height from ground surface</para>
+          <para>to bottom of point quadrat frame at southwest corner (cm), height from</para>
+          <para>ground surface to bottom of point quadrat frame at southeast corner (cm),</para>
+          <para>height from ground surface to bottom of point quadrat frame at northwest</para>
+          <para>corner (cm), and height from ground surface to bottom of point quadrat</para>
+          <para>1,07/17/97,TKN,BAG,12.0,18.0,09.0,18.0</para>
+          <para>2,07/17/97,TKN,BAG,14.0,27.5,14.0,24.5</para>
+          <para>3,07/17/97,TKN,BAG,17.0,42.0,08.5,33.0</para>
+          <para>4,07/17/97,TKN,BAG,16.5,26.0,14.5,27.0</para>
+          <para>5,07/17/97,TKN,BAG,18.5,27.0,19.0,20.0</para>
+          <para>6,07/17/97,TKN,BAG,21.0,26.0,12.0,14.0</para>
+          <para>7,07/14/97,TKN,BAG,25.0,24.0,25.5,35.0</para>
+          <para>8,07/14/97,TKN,BAG,36.0,28.0,28.0,21.5</para>
+          <para>9,07/10/97,TKN,BAG,31.0,09.0,16.5,17.5</para>
+          <para>10,07/10/97,TKN,BAG,33.0,16.0,18.0,05.0</para>
+          <para>101,07/07/97,TKN,BAG,21.5,22.0,05.5,08.0</para>
+          <para>11,07/17/97,TKN,BAG,04.0,25.0,03.0,30.0</para>
+          <para>12,07/17/97,TKN,BAG,12.5,35.0,06.0,28.5</para>
+          <para>13,07/17/97,TKN,BAG,04.0,20.0,06.0,16.0</para>
+          <para>14,07/17/97,TKN,BAG,07.0,29.0,10.0,27.0</para>
+          <para>15,07/24/97,TKN,BAG,11.5,16.0,23.5,24.0</para>
+          <para>16,07/31/97,TKN,BAG,19.0,27.0,19.0,24.5</para>
+          <para>17,07/31/97,BAG,TKN,31.0,26.0,31.0,25.0</para>
+          <para>18,08/07/97,BAG,TKN,32.5,20.0,29.5,33.5</para>
+          <para>19,07/09/97,TKN,BAG,17.0,15.0,19.0,13.0</para>
+          <para>20,07/10/97,TKN,BAG,22.0,08.0,21.0,05.0</para>
+          <para>201,07/07/97,TKN,BAG,15.0,22.0,12.0,16.0</para>
+          <para>21,07/23/97,ACL,BAG,10.0,37.5,11.0,28.0</para>
+          <para>22,07/23/97,BAG,ACL,14.5,30.5,13.5,33.5</para>
+          <para>23,07/23/97,BAG,ACL,09.5,27.5,11.0,25.5</para>
+          <para>24,07/23/97,BAG,ACL,08.5,13.0,09.5,17.0</para>
+          <para>25,07/23/97,BAG,ACL,17.5,22.5,18.0,26.5</para>
+          <para>26,07/23/97,BAG,TKN,24.0,28.0,24.0,26.5</para>
+          <para>27,07/24/97,BAG,TKN,26.0,13.0,32.5,33.0</para>
+          <para>28,08/14/97,TKN,MAD,24.0,18.0,21.0,20.0</para>
+          <para>29,07/10/97,TKN,BAG,17.0,17.0,18.5,16.5</para>
+          <para>30,07/09/97,TKN,BAG,22.0,09.0,27.0,12.5</para>
+          <para>301,07/07/97,TKN,BAG,10.5,04.0,31.0,31.0</para>
+          <para>31,07/31/97,TKN,BAG,18.0,36.0,15.5,30.0</para>
+          <para>32,07/31/97,TKN,BAG,17.0,38.0,09.5,33.0</para>
+          <para>33,07/31/97,BAG,TKN,07.0,29.5,18.0,26.0</para>
+          <para>34,08/07/97,BAG,TKN,12.0,25.0,15.0,26.5</para>
+          <para>35,08/07/97,BAG,TKN,11.0,21.5,16.0,24.0</para>
+          <para>36,08/07/97,BAG,TKN,25.0,26.0,25.0,29.0</para>
+          <para>37,08/27/97,BAG,MAD,68.0,99.9,78.5,83.0</para>
+          <para>38,08/14/97,TKN,MAD,31.5,30.0,36.0,32.5</para>
+          <para>39,07/09/97,TKN,BAG,10.0,13.0,19.0,18.0</para>
+          <para>40,07/09/97,TKN,BAG,17.0,18.0,22.5,13.0</para>
+          <para>401,07/07/97,TKN,BAG,23.5,14.5,30.0,24.5</para>
+          <para>41,07/31/97,TKN,BAG,29.0,31.0,14.0,30.5</para>
+          <para>42,07/31/97,BAG,TKN,02.0,04.0,11.5,16.0</para>
+          <para>43,08/07/97,BAG,TKN,14.0,37.0,20.0,45.0</para>
+          <para>44,08/07/97,TKN,BAG,12.5,24.5,20.5,27.0</para>
+          <para>45,08/07/97,TKN,BAG,03.0,15.0,08.0,20.0</para>
+          <para>46,08/07/97,BAG,TKN,14.0,22.5,17.0,33.0</para>
+          <para>47,08/27/97,BAG,MAD,30.5,29.0,38.0,39.0</para>
+          <para>48,08/14/97,TKN,MAD,30.0,27.0,35.0,35.0</para>
+          <para>49,07/14/97,TKN,BAG,17.5,10.0,14.0,15.0</para>
+          <para>50,07/09/97,TKN,BAG,28.0,18.0,16.0,09.0</para>
+          <para>501,07/09/97,TKN,BAG,12.0,13.0,32.5,32.0</para>
+          <para>51,07/31/97,BAG,TKN,06.0,39.0,29.0,50.0</para>
+          <para>52,07/31/97,TKN,BAG,26.0,38.0,34.0,26.0</para>
+          <para>53,08/07/97,BAG,TKN,08.5,11.5,21.0,25.0</para>
+          <para>54,08/07/97,TKN,BAG,11.0,31.0,26.0,41.0</para>
+          <para>55,08/27/97,BAG,MAD,14.5,33.0,15.5,42.5</para>
+          <para>56,08/27/97,BAG,MAD,12.5,13.5,22.5,26.5</para>
+          <para>57,08/27/97,BAG,MAD,38.5,30.5,41.0,44.5</para>
+          <para>58,08/14/97,TKN,MAD,26.0,16.0,28.5,21.0</para>
+          <para>59,07/14/97,TKN,BAG,13.0,26.5,22.0,23.0</para>
+          <para>60,07/09/97,TKN,BAG,20.5,12.0,31.0,16.0</para>
+          <para>601,07/09/97,TKN,BAG,29.0,09.5,33.5,17.0</para>
+          <para>61,07/24/97,BAG,TKN,23.5,38.5,28.5,43.0</para>
+          <para>62,07/24/97,TKN,BAG,08.0,23.0,28.0,40.0</para>
+          <para>63,07/24/97,TKN,BAG,07.0,17.0,35.0,45.0</para>
+          <para>64,07/23/97,TKN,SMM,16.0,37.0,99.9,99.9</para>
+          <para>65,08/27/97,SMM,TKN,05.0,29.0,14.5,43.5</para>
+          <para>66,08/27/97,SMM,TKN,08.0,15.5,20.0,21.5</para>
+          <para>67,07/23/97,TKN,SMM,29.0,21.0,45.0,42.0</para>
+          <para>68,07/23/97,TKN,SMM,15.0,16.0,20.0,22.0</para>
+          <para>69,07/14/97,TKN,BAG,29.0,15.0,33.0,18.5</para>
+          <para>70,07/09/97,TKN,BAG,12.0,14.0,26.0,26.5</para>
+          <para>701,07/09/97,TKN,BAG,26.0,06.0,30.0,19.0</para>
+          <para>71,07/24/97,TKN,BAG,08.0,20.0,04.5,21.0</para>
+          <para>72,07/24/97,BAG,TKN,10.5,29.0,23.5,46.0</para>
+          <para>73,07/24/97,TKN,BAG,12.0,20.0,27.0,40.0</para>
+          <para>74,08/27/97,TKN,SMM,37.0,39.5,39.5,44.5</para>
+          <para>75,08/27/97,TKN,SMM,24.0,26.5,32.0,43.0</para>
+          <para>76,08/27/97,TKN,SMM,29.0,18.0,41.0,29.0</para>
+          <para>77,08/27/97,SMM,TKN,28.0,28.0,42.0,35.0</para>
+          <para>78,07/23/97,TKN,SMM,19.0,21.0,26.0,33.0</para>
+          <para>79,07/14/97,TKN,BAG,12.0,09.0,22.0,18.5</para>
+          <para>80,07/09/97,TKN,BAG,20.5,06.0,23.5,17.5</para>
+          <para>801,07/09/97,TKN,BAG,48.0,06.0,54.0,29.5</para>
+          <para>Notes and comments for individual plots for the 1997 measurements:</para>
+          <para>1, plot tag not in south-west corner it is in west corner  A reg. put in corner near tag A reg 1cm north off C reg 2cm south off</para>
+          <para>2, placed new markers at B and D replaced pegholders at A and B</para>
+          <para>3, C reg moved 1cm south gopher disturbance in north-west corner</para>
+          <para>4,  replaced A reg and pole holder</para>
+          <para>5, A reg moved south-est 1cm C reg moved south-east 1cm major gopher disturbance in south-east corner</para>
+          <para>6, A reg moved 2cm north-west</para>
+          <para>7, A reg moved .5cm east C reg moved 2cm south</para>
+          <para>8, A reg moved 2cm north-west</para>
+          <para>9, C reg moved 2cm south</para>
+          <para>10, C reg moved 1.5cm south</para>
+          <para>101, A reg moved 1.5cm south-east B reg moved 1cm south-east</para>
+          <para>11, B reg moved 2cm sorth-west Creg moved 1cm south-east</para>
+          <para>12, A reg moved 1.5cm west</para>
+          <para>13, B reg moved 2cm north</para>
+          <para>14, C reg moved 5cm east</para>
+          <para>15, </para>
+          <para>16, </para>
+          <para>17, A reg moved 2cm north-west</para>
+          <para>18, A reg moved 1cm north, Breg moved 2cm west unkmos collected</para>
+          <para>19, A reg moved 1.5 cm north</para>
+          <para>20, A reg moved 2cm west C reg moved 1.5 cm south</para>
+          <para>201, A reg moved 3cm south-east B reg moved 1cm morth-west</para>
+          <para>21, A reg moved 1cm west</para>
+          <para>22, B reg moved 1cm west C reg moved 1cm west A reg moved 2cm south-east</para>
+          <para>23, D reg off by 2cm east (couldn't move) </para>
+          <para>24, C reg moved 1cm south</para>
+          <para>25, D reg moved 3 cm west</para>
+          <para>26, B reg moved 1.5 cm wou;-west D reg moved 3 cm west</para>
+          <para>27, A reg moved 2.5 cm north-west</para>
+          <para>28, A reg moved 2cm west unkgra collected</para>
+          <para>29, B reg moved 1cm north-east unkfor collected</para>
+          <para>30, A reg moved 1cm south-east C reg moved 1.5 cm north</para>
+          <para>301, plot tag is at the C reg A reg off 3cm south C reg off 6cm south-east D reg off 5cm south</para>
+          <para>31, C reg moved 1 cm south carex sp. collected</para>
+          <para>32, C reg moved 1.5cm east potsp collected</para>
+          <para>33, A reg moved 1cm north-west</para>
+          <para>34, D reg moved 2cm south-east C reg moved 1.5cm south</para>
+          <para>35, A reg moved 1cm north-west C reg moved .5cm south-east</para>
+          <para>36, C reg replaced A reg moved 3cm north-west</para>
+          <para>37, replaced corner at D reg</para>
+          <para>38, A reg moved 2cm north B reg moved .5cm south</para>
+          <para>39, C reg moved 1cm south</para>
+          <para>40, C reg moved 1.5cm south-east unkfor collected</para>
+          <para>401, A reg moved 4cm west B reg moved 1cm south</para>
+          <para>41, A reg off 3.5cm south</para>
+          <para>42, A reg moved 1.5cm south-east</para>
+          <para>43, Lots of movement D reg moved 4cm east B reg moved 3cm south-east A reg moved 4cm west</para>
+          <para>44, B reg moved 2cm north</para>
+          <para>45, A reg moved 1cm north-west</para>
+          <para>46, </para>
+          <para>47, D reg moved 1cm north C reg moved 2cm north-west A reg moved 2cm east</para>
+          <para>48, C reg moved 2cm south-west A reg moved 1.5cm south-west carsp. collected</para>
+          <para>49,  C reg moved 1cm south</para>
+          <para>50, A reg moved 1.5 cm north-west B reg off 3cm east (couldn't move)</para>
+          <para>501, A reg moved .5cm west C reg moved 15cm east</para>
+          <para>51, A reg moved 1cm north-west</para>
+          <para>52, C reg moved 1cm south-east A reg moved 1cm north</para>
+          <para>53, trispi/poarc collected</para>
+          <para>54, B reg moved 2.5 cm north-west</para>
+          <para>55, </para>
+          <para>56, C reg moved 3cm north d reg moved 2cm north-west</para>
+          <para>57, B reg moved 4cm south-east C reg moved 1.5cm north unkmos potsp. and unkfor collected</para>
+          <para>58, C reg moved .5cm north</para>
+          <para>59, C reg moved 2cm south</para>
+          <para>60, D reg moved 1cm east clapyx from previous years should be clapoc</para>
+          <para>601, B reg moved .5cm south, A reg moved 1.5cm south-east </para>
+          <para>61, C reg moved 1.5cm south</para>
+          <para>62, B reg moved 1cm north D reg replaced</para>
+          <para>63, B reg off 2cm south-west</para>
+          <para>64, A reg moved 2cm north-west</para>
+          <para>65, B reg off by 1.5cm north, D reg off by 1.5 cm south</para>
+          <para>66, A reg moved 4cm south, B reg moved 2.5cm south-west</para>
+          <para>67, B reg moved 1.5cm north-west A reg moved 3cm north-west</para>
+          <para>68, unkmos collected C reg moved 2cm south</para>
+          <para>69, A reg moved 2 m west B reg moved 1cm west</para>
+          <para>70, A reg moved 1.5 cm north-east</para>
+          <para>701, A reg moved 3cm north-west C reg moved 1cm south</para>
+          <para>71,  </para>
+          <para>72, D reg moved 2cm north-east A reg moved 1cm north</para>
+          <para>73, A reg moved 1.5cm south-west</para>
+          <para>74, D reg moved 2cm north B reg moved 4cm east C reg moved 2cm south </para>
+          <para>75, </para>
+          <para>76, A reg off by 6cm east C reg off 2cm south</para>
+          <para>77, A reg moved 2cm north</para>
+          <para>78, C reg moved 1cm south-east A reg 1.5cm south-west</para>
+          <para>79, A reg moved 1.5c south D reg moved 2cm north-east</para>
+          <para>80, D reg moved 1cm west B reg moved 1cm east</para>
+          <para>801, A reg moved 1.5cm ewast C reg moved 3cm north-east</para>
+          <para>species codes can be found in http://culter.colorado.edu:1030/exec/.extracttoolA?pspecies.mw.)</para>
+          <para>1,NONE</para>
+          <para>2, POTRUB, ARTSCO, CLAPYX</para>
+          <para>3, POTRUB</para>
+          <para>4,NONE</para>
+          <para>5, LUZSPI, LEWPYG, FESBRA</para>
+          <para>6, CHIJAM, LEWPYG, CASOCC, FESBRA</para>
+          <para>7, RHOINT, ERISIM, THASUB, TRIPAR</para>
+          <para>8, POTSP., CARRUP</para>
+          <para>9, SAXRHO, LUZSPI, SEDLAN, CAMUNE, THASUB, BISBIS, CARSCO</para>
+          <para>10, BISBIS, OREALP</para>
+          <para>101, SILACA, ERIARE, XANSP.</para>
+          <para>11, LLOSER, ACOROS, SEDLAN, CASOCC, SAXRHO, LEWPYG, SEDLAN, POAARC</para>
+          <para>12, FESBRA</para>
+          <para>13, LECATR, LECTHO</para>
+          <para>14, SELDEN, TRIPAR, CASSOCC, FESBRA, RHIGEO, LECATR, LECRUP</para>
+          <para>15, LEWPYG, CLAPYX</para>
+          <para>16, LEWPYG, BISBIS, FESBRA</para>
+          <para>17, LLOSER, UNKMOS</para>
+          <para>18, ERISIM, CLAPYX, THLMON, BISBIS, SAXRHO, CARSCO, STEMON</para>
+          <para>19, LUZSPI, CASOCC, DRASTR, ERARE, PHLSIB, SEDLAN</para>
+          <para>20, LLOSER, BISBIS, HYMACA, DACMAD</para>
+          <para>201, HYMGRA, ARTSCO, DACMAD, ERIARE, CLAPYX, AREFEN</para>
+          <para>21, LUZSPI</para>
+          <para>22, ERISIM, RANADO</para>
+          <para>23, LECRUP, ARTSCO, RANADO, FESBRA</para>
+          <para>24, POAARC, BISBIS, LEWPYG</para>
+          <para>25, POLPIL</para>
+          <para>26, TRIPAR, POLPIL, CLAPYX</para>
+          <para>27, SEDLAN, STEMON, ARTSCO</para>
+          <para>28, ACOROS, BISVIV</para>
+          <para>29, MERLAN, HYMACA, DACMAD, STELON, CETISL, ALLGEY</para>
+          <para>30, SEDLAN, ARTSCO, THLMON, BISBIS, ERIARE, HYMACA</para>
+          <para>301,NONE</para>
+          <para>31, POTDIV</para>
+          <para>32, CHIJAM, LLOSER, ARTSCO</para>
+          <para>33, CLAPYX</para>
+          <para>34, POAARC, RANADO, ARTSCO, BISVIV</para>
+          <para>35, LEWPYG, CARSCO</para>
+          <para>36, CHIJAM, GENALG, BISVIV, LEWPYG</para>
+          <para>37,NONE</para>
+          <para>38, CARSCO, CAMROE, STELON</para>
+          <para>39, LLOSER, CAMUNI, DRASTR, MINSP., HYMGRA, ERIARE, UNKGRA</para>
+          <para>40, LLOSER, MINOBT, PHLSIB, DRASTR, SAXRHO, HYMACA, DACMAD</para>
+          <para>401, ACOROS, ERIARE, SILACA, LECATR</para>
+          <para>41, UNKMOS</para>
+          <para>42,NONE</para>
+          <para>43, RHIGEO, POAALP, BISVIV, LEWPYG, MINOBT</para>
+          <para>44, ERIMEL, BISBIS, CALLEP</para>
+          <para>45, ERIMEL, ACOROS, ARTSCO</para>
+          <para>46,NONE</para>
+          <para>47, STEMON, UNKFOR</para>
+          <para>48, DRABSP., XANTAR, THLMON</para>
+          <para>49, SEDLAN, CLAPOC, LLOSER, DRABSP., LEWPYG, KOBMYO, BISBIS, TRIPAR</para>
+          <para>50, ERIARE, HYMACA, LLOSER</para>
+          <para>501, LECTHO, CETISL, STELSP., SEDLAN, BISVIV</para>
+          <para>51, SEDLAN, PELMAL, POAARC, BISBIS, LUZSPI, ARTSCO, PARPUL</para>
+          <para>52,NONE</para>
+          <para>53, LEWPYG, POAARC</para>
+          <para>54, POAARC</para>
+          <para>55, UNKSOL, POLYSP.</para>
+          <para>56, CLERHO</para>
+          <para>57, CLERHO</para>
+          <para>58, STELON, DRABSP., ERIARE</para>
+          <para>59, BISBIS, SEDLAN, ANTROS</para>
+          <para>60, CLAPYX, THASUB, FESBRA, BISVIV</para>
+          <para>601, BISVIV, LECRUP, ERISIM, XANTAR, ERIARE, HYMGRA, THAMON, UNKFOR</para>
+          <para>61, CALLEP, AREFEN</para>
+          <para>62, SILACA</para>
+          <para>63,NONE</para>
+          <para>64, POAARC, SIBPRO, POAALP, RANADO, CARSCO</para>
+          <para>65, LEWPYG, POAALP, RANADO, TRISPI</para>
+          <para>66, FESBRA, LEWPYG, ERIMEL</para>
+          <para>67, BISVIV</para>
+          <para>68, PEDISP., POAARC, PARENE</para>
+          <para>69, XANTAR, ERIARE, MINOBT, DRABSP., CETNIV, THLMON</para>
+          <para>70, CALPUR, POTPUL, THLMON, CETNIV, OREALP, BISVIV</para>
+          <para>701, CETISL, LECTHO, XANTAR, RHIGEO, UNKUMB, DRABSP.</para>
+          <para>71, XANTAR, LEACARM, XANELE, UNKMOS</para>
+          <para>72, CHIJAM, CASSOCC, BISBIS, POLPIL, LEWPYG</para>
+          <para>73, ARTSCO, RHIGEO</para>
+          <para>74, SIBPRO, RANADO</para>
+          <para>75, RANADO, ERIMEL, POAARC, BISBIS, SILACA</para>
+          <para>76, ANTALP, POAARC, POAALP</para>
+          <para>77, RHOINT, CLERHO, BISBIS</para>
+          <para>78, PLHSIB, ERIARE, MINOBT, STELON</para>
+          <para>79, DESCAE, CETISL, BISBIS, VETNIV, UNKFOR</para>
+          <para>80, XANTAR, DACMAD, CAMUNI, KOBMYO, RHYGEO</para>
+          <para>801, LLOSER, BISVIV, DRABSP., LECTHO, SELDEN, ERIARE, THLMON</para>
+          <para>Tim Bardsley and Mike Hartman conducted a rudimentary survey of some of</para>
+          <para>the more heavily used NWT LTER research plots in 1994 in order to</para>
+          <para>reference the plots to established objects/points on Niwot Ridge.</para>
+          <para>A Silva Ranger compass was used with E declination set at 12 degrees;</para>
+          <para>the accuracy of the bearings is +/- 3 degrees. All distances were</para>
+          <para>measured across the ground surface (not at a fixed horizontal level);</para>
+          <para>such distances are accurate to +/- 2%. The Saddle grid species </para>
+          <para>composition plots were 1x1 m and the corners were marked by aluminum </para>
+          <para>tags nailed to the ground. An iron rebar post was placed outside of </para>
+          <para>each of these corners and the following bearings and distances are from </para>
+          <para>the corresponding Saddle grid stake to the northwesterly of these posts </para>
+          <para>for each plot. In some cases then, depending on the location of the </para>
+          <para>plot relative to the Saddle grid stake, the distance measured is not to </para>
+          <para>the nearest rebar for a given plot. For plots surveyed on 6 July 1994, </para>
+          <para>the grid stake number, bearing from the grid stake to the northwest </para>
+          <para>corner rebar post (in degrees), and the distance from the grid stake to </para>
+          <para>the northwest corner rebar post (in meters) are:</para>
+          <para>6,321,5.34</para>
+          <para>7,310,3.85</para>
+          <para>8,114,3.85</para>
+          <para>9,250,2.82</para>
+          <para>10,40,3.08</para>
+          <para>10A,38,3.89</para>
+          <para>16,234,3.20</para>
+          <para>17,32,3.17</para>
+          <para>18,322,3.76</para>
+          <para>19,40,2.38</para>
+          <para>20,40,3.68</para>
+          <para>20A,165,3.56</para>
+          <para>26,110,2.70</para>
+          <para>27,320,4.44</para>
+          <para>28,37,2.81</para>
+          <para>29,138,1.55</para>
+          <para>30,24,4.08</para>
+          <para>30A,329,9.80</para>
+          <para>36,127,2.72</para>
+          <para>37,,	{plot in shrubs, not found}</para>
+          <para>38,310,1.75</para>
+          <para>39,40,2.82</para>
+          <para>40,42,3.30</para>
+          <para>40A,118,1.25</para>
+          <para>46,47,3.77</para>
+          <para>47,288,3.25</para>
+          <para>48,26,3.77</para>
+          <para>49,26,3.00</para>
+          <para>50,122,2.30</para>
+          <para>50A,248,4.76</para>
+          <para>56,58,4.74</para>
+          <para>57,138,2.37</para>
+          <para>58,26,2.39</para>
+          <para>59,116,2.64</para>
+          <para>60,35,2.67</para>
+          <para>60A,32,3.40</para>
+          <para>66,52,4.43</para>
+          <para>67,35,3.40</para>
+          <para>68,46,2.35</para>
+          <para>69,28,2.64</para>
+          <para>70,50,2.58</para>
+          <para>70A,32,3.50</para>
+          <para>76,254,3.73</para>
+          <para>77,23,4.46</para>
+          <para>78,116,4.01</para>
+          <para>79,31,3.33</para>
+          <para>80,29,3.12</para>
+          <para>80A,134,2.04</para>
+          <para>For plots surveyed on 13 July 1994, the grid stake number, bearing </para>
+          <para>from the grid stake to the northwest (or northern-most) corner </para>
+          <para>rebar post (in degrees), and the distance from the grid stake to </para>
+          <para>the northwest (or northern-most) corner rebar post (in meters) are:</para>
+          <para>1,111,5.02</para>
+          <para>2,52,3.02</para>
+          <para>3,39,5.44</para>
+          <para>4,50,3.27</para>
+          <para>5,55,2.97</para>
+          <para>11,282,7.70</para>
+          <para>12,96,2.76</para>
+          <para>13,65,1.86</para>
+          <para>14,325,5.63</para>
+          <para>15,42,2.69</para>
+          <para>21,154,3.18</para>
+          <para>22,312,3.56</para>
+          <para>23,58,3.43</para>
+          <para>24,129,5.06</para>
+          <para>25,167,4.02</para>
+          <para>31,304,4.94</para>
+          <para>32,284,4.65</para>
+          <para>33,47,5.53</para>
+          <para>34,21,4.28</para>
+          <para>35,246,3.88</para>
+          <para>41,40,4.08</para>
+          <para>42,280,4.02</para>
+          <para>43,1,5.94</para>
+          <para>44,251,2.95</para>
+          <para>45,128,3.49</para>
+          <para>51,253,6.20</para>
+          <para>52,252,4.48</para>
+          <para>53,135,3.82</para>
+          <para>54,327,4.73</para>
+          <para>55,224,3.66</para>
+          <para>61,34,6.00</para>
+          <para>62,311,7.40</para>
+          <para>63,244,4.97</para>
+          <para>64,31,4.66</para>
+          <para>65,312,6.48</para>
+          <para>71,296,6.20</para>
+          <para>72,112,5.70</para>
+          <para>73,240,5.11</para>
+          <para>74,188,1.54</para>
+          <para>75,144,2.90</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change</title>
+      <personnel>
+        <organizationName>Niwot Ridge LTER</organizationName>
+        <role>pointOfContact</role>
+      </personnel>
+      <award>
+        <funderName>National Science Foundation</funderName>
+        <awardNumber>1637686</awardNumber>
+        <title>LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change</title>
+      </award>
+      <award>
+        <funderName>National Science Foundation</funderName>
+        <awardNumber>1027341</awardNumber>
+        <title>The Niwot Ridge Long-Term Ecological Research Program 2011-2016: Tipping Points in High-Elevation Ecosystems in Response to Changes in Climate and Atmospheric Deposition</title>
+      </award>
+      <award>
+        <funderName>National Science Foundation</funderName>
+        <awardNumber>423662</awardNumber>
+        <title>Long Term Ecological Research: The Landscape Continuum Model: A Biogeochemical Paradigm for High Elevation Ecosystems</title>
+      </award>
+      <award>
+        <funderName>National Science Foundation</funderName>
+        <awardNumber>9810218</awardNumber>
+        <title>The Niwot Ridge LTER Research Program 1998-2004: Controls on the Structure, Function &amp; Interactions of Alpine &amp; Subalpine Ecosystems of the Colorado Front Range</title>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>saddptqd.hh.data.csv</entityName>
+      <entityDescription>Plant species composition data for Saddle grid, 1989 - ongoing.</entityDescription>
+      <physical>
+        <objectName>saddptqd.hh.data.csv</objectName>
+        <size unit="byte">16083652</size>
+        <authentication method="MD5">7469c910b1b25f150d200fce4e526e2a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/93/3/03590a13459ffb31dc411ef6634ffaf2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>LTER_site</attributeName>
+          <attributeLabel>LTER_site</attributeLabel>
+          <attributeDefinition>Niwot Ridge LTER site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>local_site</attributeName>
+          <attributeLabel>local_site</attributeLabel>
+          <attributeDefinition>saddle grid site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year (yyyy)</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1989</minimum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>plot</attributeName>
+          <attributeLabel>plot</attributeLabel>
+          <attributeDefinition>plot number (eastern-most plots are 101</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>point</attributeName>
+          <attributeLabel>point</attributeLabel>
+          <attributeDefinition>point identification number across plots</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>x</attributeName>
+          <attributeLabel>x</attributeLabel>
+          <attributeDefinition>x coordinate of point</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>y</attributeName>
+          <attributeLabel>y</attributeLabel>
+          <attributeDefinition>y coordinate of point</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>hit_type</attributeName>
+          <attributeLabel>hit_type</attributeLabel>
+          <attributeDefinition>hit type (bottom</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>USDA_code</attributeName>
+          <attributeLabel>USDA_code</attributeLabel>
+          <attributeDefinition>USDA PLANTS database code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>USDA_name</attributeName>
+          <attributeLabel>USDA_name</attributeLabel>
+          <attributeDefinition>USDA PLANTS database name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>221176</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>Saddle point quad extended methods</entityName>
+      <entityDescription>Saddle point quad extended methods</entityDescription>
+      <physical>
+        <objectName>Saddle_point_quad_extended_methods.js.docx</objectName>
+        <size unit="byte">24764</size>
+        <authentication method="MD5">c05076e603ec482704e5ef0ab01ebaf5</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Microsoft Word</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/93/3/74f74df6503464dcbf9e49f0d3564f95</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>otherEntity</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

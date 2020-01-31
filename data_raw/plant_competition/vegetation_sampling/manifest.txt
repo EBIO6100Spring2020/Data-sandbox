@@ -1,0 +1,6 @@
+Manifest file for knb-lter-nwt.93.3.zip created on Thu Jan 30 10:00:23 MST 2020
+saddptqd.hh.data.csv (16083652 bytes)
+Saddle_point_quad_extended_methods.js.docx (24764 bytes)
+knb-lter-nwt.93.3.xml (99975 bytes)
+knb-lter-nwt.93.3.txt (66940 bytes)
+knb-lter-nwt.93.3.report.xml (41929 bytes)
