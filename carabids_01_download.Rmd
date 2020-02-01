@@ -5,27 +5,21 @@ date: "1/28/2020"
 output: rmarkdown::github_document
 ---
 
-```{r, results=FALSE}
+```{r, echo=FALSE}
 library(neonUtilities)
 ```
 
-##### Carabid data
+Download carabid data
 ```{r}
 carabids_all <- loadByProduct(dpID = "DP1.10022.001", site = "NIWO") #ground beetles
 #list2env(carabids_all, .GlobalEnv) splits 
-save as rdata
-
+save(carabids_all, file="data_raw/carabids_all.Rdata")
 ```
 
 
-To Do
-which df's from the carabid dataset are important?
-find relevant Niwot data
-find relevant Ameriflux data
-
 ##### Predictor variable NEON dpIDs
 DP3.30025.001 slope/aspect 
-DP3.30024.001 elevation - hydrology (DEM)
+DP3.30024.001 elevation - hydrology (DEM) - download as geotiffs
 DP1.00006.001 precipitation
 DP1.00098.001 relative humidity
 DP1.00005.001 IR biological temp
@@ -41,3 +35,6 @@ DP1.10033.001 Litterfall and fine woody debris sampling
 microtopography
 canopy gaps
 canopy cover
+
+Niwot data?
+Ameriflux data?

@@ -1,0 +1,29 @@
+---
+title: "carabids_02_EDA"
+author: "Anna Spiers"
+date: "2/1/2020"
+output: rmarkdown::github_document
+---
+
+Load carabid data
+```{r}
+load(file="data_raw/carabids_all.Rdata")
+list2env(carabids_all, .GlobalEnv)  
+```
+
+Visualize carabid data
+paraTaxononmistid vs expertTaxonomistID
+```{r}
+colnames(bet_parataxonomistID)
+
+unique(bet_parataxonomistID$taxonID)
+unique(bet_parataxonomistID$taxonRank)
+unique(bet_parataxonomistID$morphospeciesID)
+unique(bet_parataxonomistID$scientificName)
+# important columns: morphospecies, taxonID, taxonRank
+# only have morphospecies if they didn't get the taxonID down to species level
+
+
+colnames(bet_expertTaxonomistID)
+# important columns: 
+```
