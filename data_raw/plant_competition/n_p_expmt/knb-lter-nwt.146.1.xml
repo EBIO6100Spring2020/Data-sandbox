@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.146.1"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=nwt,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/a63ab020ec983982f88881a33300db60</alternateIdentifier>
+    <shortName>Fertcovr and Fertcovs</shortName>
+    <title>N and P fertilization experiment plant species composition and diversity data for South of saddle, 1990 - 2000.</title>
+    <creator>
+      <individualName>
+        <givenName>Terry</givenName>
+        <surName>Theodose</surName>
+      </individualName>
+      <electronicMailAddress>theodose@usm.mained.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>William F</givenName>
+        <surName>Bowman</surName>
+      </individualName>
+      <electronicMailAddress>william.bowman@colorado.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-0158-4039</userId>
+    </creator>
+    <pubDate>2019-12-30</pubDate>
+    <language>English</language>
+    <abstract>
+      <para>
+  The effects of nitrogen, phosphorus, and nitrogen+phosphorus
+  fertilization on alpine plant species composition and diversity in a
+  dry and a wet meadow community were examined. A point-quadrat system
+  was used to estimate the cover frequencies for each species in plots
+  in the 2 communities on the south slope of Niwot Ridge. Treatments
+  were N, P, N+P, and control. Observations were made once per year per
+  plot over a period of several years. Diversity (Shannon-Weaver)
+  indices were also calculated.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>species composition</keyword>
+      <keyword>species diversity</keyword>
+      <keyword>fertilization</keyword>
+      <keyword>nitrogen</keyword>
+      <keyword>phosphorus</keyword>
+      <keyword>alpine</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>disturbance</keyword>
+      <keyword>populations</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>dry meadow</keyword>
+      <keyword>wet meadow</keyword>
+      <keyword>cover</keyword>
+      <keyword>point-quadrat</keyword>
+      <keyword>plant</keyword>
+      <keyword>core disturbance</keyword>
+      <keyword>south of saddle</keyword>
+      <keyword>Niwot Ridge LTER</keyword>
+      <keyword>NWT</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>DNP3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5887961</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5887961</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05202192</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05202192</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNN3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5887614</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5887614</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0520152</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0520152</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNN2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5887158</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5887158</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05202727</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05202727</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DCC2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5886861</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5886861</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05202117</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05202117</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DPP2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5886553</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5886553</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05201335</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05201335</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNP2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5886182</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5886182</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05200332</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05200332</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNN1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5886163</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5886163</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05203946</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05203946</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DPP1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5885891</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5885891</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05206681</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05206681</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DCC1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5885849</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5885849</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05209672</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05209672</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNP1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5886183</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5886183</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0520944</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0520944</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DCC3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5887463</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5887463</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0518412</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0518412</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DPP3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5887769</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5887769</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05185281</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05185281</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNP4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5888418</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5888418</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05187202</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05187202</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DPP4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5888776</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5888776</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05188574</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05188574</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DCC5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5889162</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5889162</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05189126</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05189126</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNN4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.588951</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.588951</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05189007</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05189007</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DCC4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5888157</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5888157</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05186158</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05186158</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DPP5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5888015</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5888015</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05182383</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05182383</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNP5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5888181</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5888181</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05179611</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05179611</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DNN5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5887804</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5887804</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05179405</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05179405</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WCC1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5905207</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5905207</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05188324</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05188324</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNN1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5905529</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5905529</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05190288</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05190288</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNP1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5905548</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5905548</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05186006</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05186006</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNP2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5905934</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5905934</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05187693</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05187693</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WPP1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5906235</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5906235</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05188999</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05188999</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WCC2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5906698</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5906698</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05190139</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05190139</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WPP2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5907021</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5907021</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05190382</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05190382</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WCC2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5907355</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5907355</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05192078</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05192078</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WPP3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5907743</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5907743</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05194377</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05194377</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WCC4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5907956</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5907956</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05196126</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05196126</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WPP4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5908119</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5908119</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05198038</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05198038</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WCC5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5908293</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5908293</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0520019</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0520019</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNN2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5908787</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5908787</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0519753</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0519753</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNN3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5908356</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5908356</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05196708</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05196708</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNP5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5908169</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5908169</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05194707</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05194707</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNP4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5907962</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5907962</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05191703</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05191703</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNN4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.590752</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.590752</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05189826</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05189826</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNP3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5907002</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5907002</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05187953</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05187953</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WNN5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5906847</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5906847</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05183293</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05183293</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WPP5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5906667</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5906667</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05178455</northBoundingCoordinate>
+          <southBoundingCoordinate>40.05178455</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1990-07-03</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2000-07-24</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Achillea millefolium var. alpicola</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Agrostis mertensii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Allium geyeri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Androsace septentrionalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Antennaria media</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Arenaria fendleri var. tweedyi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Artemisia campestris ssp. borealis var. borealis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Artemisia pattersonii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Artemisia scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Calamagrostis purpurascens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Caltha leptosepala</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campanula rotundifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Carex</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Carex aquatilis var. stans</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex aurea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex elynoides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Carex heteroneura var. epapillosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex misandra</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex nigricans</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex nova</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Carex rupestris var. drummondiana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex saxatilis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Carex scopulorum var. scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Castilleja occidentalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Cerastium arvense ssp. strictum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Conioselinum scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Deschampsia cespitosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dodecatheon pulchellum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Draba aurea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Draba breweri var. cana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Elymus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Elymus trachycaulus ssp. trachycaulus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Epilobium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron melanocephalus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron simplex</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Eritrichium nanum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Erysimum capitatum var. purshii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Festuca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Festuca brachyphylla</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Frasera</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gentiana algida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gentiana prostrata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Geum rossii var. turbinatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Juncus biglumis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Juncus drummondii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Juncus triglumis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Kobresia myosuroides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lewisia pygmaea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lloydia serotina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Luzula spicata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mertensia lanceolata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Minuartia biflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Minuartia obtusiloba</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>NaN</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Noccaea fendleri ssp. glauca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Oreoxis alpina ssp. alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Packera cana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Paronychia pulvinata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pedicularis groenlandica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Phlox pulvinata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Poa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poa alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Poa arctica ssp. grayana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Subspecies</taxonRankName>
+          <taxonRankValue>Poa glauca ssp. rupicola</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polemonium viscosum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygonum bistortoides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygonum viviparum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Potentilla diversifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Potentilla ovina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Primula angustifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhodiola integrifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhodiola rhodantha</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix glauca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix planifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Saxifraga rhomboidea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Secale</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sedum lanceolatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Selaginella densa var. scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Silene acaulis var. subacaulescens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Solidago multiradiata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Solidago simplex</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stellaria umbellata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Swertia perennis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Tetraneuris acaulis var. caespitosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tetraneuris grandiflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tonestus pygmaeus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium dasyphyllum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trisetum spicatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Valeriana edulis var. edulis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Viola adunca</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>The initial iteration of the documentation section of this file was developed by Rick Ingersoll on 11-15 February 1994. The file was put under sccs control on 15 February 1994.[RCI 15 February 1994] Plot code of PN4 was corrected, i.e., converted to DNP4 on 16 February 1994.[RCI 16 February 1994] Comments provided by Terry Theodose were incorporated into the documentation section on 23 February 1994.[RCI February 1994] Data for 1994 were appended to the data section on 30 August 1994.[RCI 30 August 1994] It was determined that the second set of records for WCC1 for 07/31/91 was, in fact, for WCC2. These were corrected on 8 September 1994. [RCI 8 September 1994] Fertilization plot locations surveyed by Tim Bardsley and Mike Hartman on 13 July and 7 September 1994 were added to the comments section on 13 September 1994.[RCI 13 September 1994] On 2 June 1995, Terry Theodose noted that the species code GENAMA used for the 1990-91 wet meadow data should have been GENALG. This discrepancy was the result of different field data forms and field personnnel from the surveys conducted in the subsequent years. Therefore, the species code GENAMA was globally replaced with the species code GENALG on 8 June 1995. It should be noted that because both codes were never used together for the same plot in the same year, that the /data1/Datman/Nwtdata/fertcovs.tt file would have been unaffected by the change and consequently no manipulation of the data in that file was required. It should also be noted that the original EasyEntry source files were not edited, i.e., the GENAMA code is still present in the affected files.[RCI 8 June 1995] Data for the 1995 field season was appended to the data section on 23 January 1996.[MAH 23 January 1996] Investigator contact information for William Bowman was added on 6 May 1996.[MAH 6 May 1996] Data for the 1996 field season was appended to the data section on 27 August 1996.[MAH 27 August 1996] On 3 March 1998 it was realized that a duplicate set of data for plot DCC5 from 1996 were listed in place of the data for plot DCC1 from 1996. The erroneous records were replaced with the correct records on that date.[MAH 3 March 1998] Dry meadow data for 1998 were appended to the data section and a comment concerning the absence of 1997 data was inserted into the comments section on 13 September 2000.[MAH 13 September 2000] Dry meadow data for 2000 were appended to the data section as well as a comment regarding the missing data for 1999 was inserted into the comments section on 27 February 2001.[TMA 27 February 2001] Revised title, keywords, and timing to reflect inclusion in core disturbance data sets.[HCH 10 April 2010] Title edited further for consistency with other data sets.[HCH 19 April 2010] Labels shortened and definitions added.[HCH 29 April 2016] Error in file structure (values tab rather than comma delimited in 2000s) fixed.[SCE 21 August 2018] Semi-quantitative observations from the data collection forms were incorporated into the data section on 16 February 1994.[RCI 16 February 1994] Comments provided by Terry Theodose were incorporated into the documentation section on 23 February 1994.[RCI 23 February 1994] Data for 1994 were appended on 30 August 1994. [RCI 30 August 1994] The plot code for WCC1 was incorrectly listed twice for 07/31/91. It was determined that the second listing was actually data for WCC2 and this was corrected on 8 September 1994. [RCI 8 September 1994] Fertilization plot locations surveyed by Tim Bardsley and Mike Hartman on 13 July and 7 September 1994 were added to the comments section on 13 September 1994.[RCI 13 September 1994] In January 1995, Terry Theodose identified some problems with a portion of the data contained in this file. TT met with Rick Ingersoll in early June 1995 and pointed out that number of species present was exceedingly high for many of the 1991-92 dry meadow surveys. Subsequently, it was discovered that because of the varied personnel involved in collecting the five years of data, in combination with a variety of hard-copy data and EasyEntry data entry forms, some of the species which were neither "hit" nor observed as being present were entered as 000 (rather than 999) "hits". Thus, for a subset of these data, all of the species listed on the hard-copy data forms were considered as being present. The raw EasyEntry files were corrected (all 000 hits converted to 999 hits) and the raw data were reprocessed. The entire data section was deleted and replaced with the newly processed 1990-94 data on 13 June 1995.[RCI 13 June 1995] Comments regarding discrepancies between "number of species" in this file and "number of species" hand written on the tops of the hard-copy field data forms were added to the comments section on 13 July 1995.[RCI 13 July 1995] Data for the 1995 field season were appended to the data section on 23 January 1996.[MAH 23 January 1996] Investigator contact information for William Bowman was added on 6 May 1996.[MAH 6 May 1996] Data for the 1996 field season were appended to the data section on 27 August 1996.[MAH 27 August 1996] On 3 March 1998 it was realized that a duplicate set of data for plot DCC5 from 1996 were listed in place of the data for plot DCC1 from 1996. The erroneous records were replaced with the correct records on that date.[MAH 3 March 1998] Dry meadow data for 1998 were appended to the data section and a comment concerning the absence of 1997 data was inserted into the comments section on 13 September 2000.[MAH 13 September 2000] Dry meadow data for 2000 were appended to the data section and comment was added to the comments section that data for 1999 is not present due to misplaced datasheets.[TMA 27 February 2001] Revised title, keywords, and timing to reflect inclusion in core disturbance data sets. [HCH 10 April 2010] Title edited further for consistency with other data sets.[HCH 19 April 2010] Labels were shortened and definitions added.[HCH 29 April 2016]Data was from fertcovr.tt.data.csv was joined with data from pspecies.js.data.csv in order to add USDA species name by matching NWT species codes. Codes for BAREEE, ROCKKK, SCATTT and ARTSPP were inferred and added to missing value codes. Data for fertcovs.tt.data.csv was edited to add a comments column and include all comments when available. Metadata and abstracts were combined for fertcovr.tt.data.csv and fertcovs.tt.data.csv to combine into one package with both datafiles [ATW 11 December 2019].</description>
+    </maintenance>
+    <contact>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+        <deliveryPoint>University of Colorado</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80303</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>https://nwt.lternet.edu/</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  These data were manually entered into the computer from field data
+  sheets using an EasyEntry program. The resulting files were
+  post-processed on a Sun SPARC 2 and archived. Plot codes consist of 4
+  characters: The initial character indicates whether the plot was dry
+  (D) or wet (W) meadow, the middle 2 characters represent the treatment
+  [control (CC), nitrogen fertilization (NN), phosphorus fertilization
+  (PP), and nitrogen+phosphorus fertilization (NP)], and the final
+  character represents the plot number.
+</para>
+          <para>
+  Tim Bardsley and Mike Hartman conducted a rudimentary survey of the
+  wet meadow plots on 13 July 1994 in order to reference the plots to
+  established objects/points on Niwot Ridge. A Silva Ranger compass was
+  used with E declination set at 12 degrees; the accuracy of the
+  bearings is +/- 3 degrees. All distances were measured across the
+  ground surface (not at a fixed horizontal level); such distances are
+  accurate to +/- 2%. The bearing from the northwest corner of the c1
+  wet meadow plot to the centerline of the wind turbine was 202 degrees.
+  Thus, the bearing from the centerline of the wind turbine to the
+  northwest corner of the c1 wet meadow plot was 22 degrees. The
+  distance form the northwest corner of the c1 wet meadow plot to the
+  southwest corner of the base of the wind turbine was 278.2 meters. A
+  crude map of the relationships among the dry meadow plots was provided
+  by Bill Bowman and that map is on file with the LTER data manager.
+  Plot n1 was oriented west and south of c1. Plot np1 was approximately
+  due south of c1. The following plots were approximately due west of
+  np1 (with the most proximal listed first): np2, p1, c2, p2, c3, p3,
+  c4, np4, and c5. The bearing from the northwest corner of c1 to the
+  northwest corner of c5 was 309 degrees. South of this row, and
+  oriented approximately from west to east were plots n2, n3, np5, np4,
+  n4, np3, n5, and p5. The plots n2, n5, and p5 were slightly out of
+  line with the other plots in the row; the bearings from the northwest
+  corner of c1 to the northwest corner of these plots were 292, 249, and
+  239 degrees, respectively. Note that a band of willows (approximately
+  L-shaped) separates plots n5 and p5 from c2, p1, and np2. The
+  distances (meters) reported below are between the northwest corner of
+  c1 and the northwest corner of the given plot:
+</para>
+          <para>
+  n1,3.55
+</para>
+          <para>
+  np1,3.27
+</para>
+          <para>
+  np2,6.19
+</para>
+          <para>
+  p1,8.51
+</para>
+          <para>
+  c2,12.65
+</para>
+          <para>
+  p2,15.59
+</para>
+          <para>
+  c3,18.84
+</para>
+          <para>
+  p3,22.75
+</para>
+          <para>
+  c4,24.89
+</para>
+          <para>
+  p4,27.09
+</para>
+          <para>
+  c5,29.55
+</para>
+          <para>
+  n2,32.39
+</para>
+          <para>
+  n3,28.45
+</para>
+          <para>
+  np5,26.20
+</para>
+          <para>
+  np4,23.63
+</para>
+          <para>
+  n4,19.95
+</para>
+          <para>
+  np3,15.55
+</para>
+          <para>
+  n5,15.00
+</para>
+          <para>
+  p5,16.75
+</para>
+          <para>
+  Tim Bardsley and Mike Hartman conducted a rudimentary survey of the
+  dry meadow plots on 7 September 1994. A less sophisticated compass was
+  used for this survey and, consequently, all bearings reported below
+  are for magnetic, not true, north; a declination of 11.5 degrees
+  should be added to the former to convert to the latter. The bearing
+  from the northeast corner of the c1 dry meadow plot to the centerline
+  of the wind turbine was 345 degrees. Thus, the bearing from the
+  centerline of the wind turbine to the northeast corner of the c1 dry
+  meadow plot was 165 degrees. The distance from the northeast corner of
+  the c1 dry meadow plot to the southwest corner of the base of the wind
+  turbine was 231.0 meters. The bearings (degrees) and distances
+  (meters) reported below are from the northeast corner of the c1 dry
+  meadow plot to the northeast corner of the given plot:
+</para>
+          <para>
+  np1,259,3.37
+</para>
+          <para>
+  p1,178,3.12
+</para>
+          <para>
+  n1,209,6.90
+</para>
+          <para>
+  np2,192,10.46
+</para>
+          <para>
+  p2,212,10.83
+</para>
+          <para>
+  c2,222,12.20
+</para>
+          <para>
+  n2,239,13.58
+</para>
+          <para>
+  n3,232,17.41
+</para>
+          <para>
+  np3,246,19.26
+</para>
+          <para>
+  c3,199,31.47
+</para>
+          <para>
+  p3,211,31.62
+</para>
+          <para>
+  c4,214,32.50
+</para>
+          <para>
+  np4,221,33.41
+</para>
+          <para>
+  p4,228,34.60
+</para>
+          <para>
+  c5,232,36.48
+</para>
+          <para>
+  n4,234,39.07
+</para>
+          <para>
+  p5,206,35.55
+</para>
+          <para>
+  n5,207,37.74
+</para>
+          <para>
+  np5,205,39.20
+</para>
+          <para>
+  Note that the plot code nomenclature used in the surveys is slightly
+  different than the plot code nomenclature used elsewhere in this file.
+  The code DNN5, for example, would be equivalent to n5 in the second of
+  the 2 listings above.
+</para>
+          <para>
+  Species codes are 6-character codes comprised of the first 3
+  characters of the of the genus and the first 3 characters of the
+  specific name.
+</para>
+          <para>
+  Graminoid, forb, and woody species observed in a plot are included for
+  the purposes of Shannon-Weaver Index calculations, regardless of
+  whether or not those species were identified by the point quadrat
+  technique. These cases can be readily identified because number of
+  hits=001 and percent cover=0.0000. Non-graminoids, non-forbs, and
+  non-woody species (e.g., SELDEN (Selaginella densa)) and non-plant
+  hits (e.g., BAREEE (bare soil)) are included in the percent cover
+  calculations but are not used in the Shannon-Weaver Index
+  calculations.
+</para>
+          <para>
+  Semi-quantitative observations made during data collection are
+  recorded with the appropriate plot in the data section.
+</para>
+          <para>
+  During mid-June 1995, a comparison was made between the "number
+  of species" hand written on top of the hard-copy field data forms
+  and the "number of species" calculated for this file. This
+  was done for approximately 20% of the records in this file. Of the
+  examined records, there was agreement between the two sources for
+  22.5% of the records. For 70% of the examined records, the number of
+  species on the hard-copy forms was 1-2 greater than those contained in
+  the current file. Careful examination showed that this was due, in
+  most cases, to incorrectly including the BAREEE or SELDEN hits as a
+  "species" in the hand written tally. For the remaining 5% of
+  the examined records, the number of species on the hard-copy forms was
+  1-2 less than those contained in the current file. This was due to
+  incorrectly considering MINBIF and MINOBT as separate species and
+  UNKNOW as a distinct species in the entry and/or processing of the
+  data in the current file. There was a single case (2.5% of the
+  examined records) where a species total in the current file was 1 less
+  than the tally on the hard-copy form because a "presence"
+  category had been overlooked by data entry personnel. Terry Theodose
+  concluded that the basic trends and conclusions resulting from
+  independent evaluation of "number of species" from the two
+  sources would be insignificant and that correction of the few minor
+  errors in the current file was not of an immediate priority.
+  Nonetheless, NWT LTER data management personnel might obtain copies of
+  the hard-copy data forms from Bill Bowman in the future for the
+  purposes of resolving those errors.
+</para>
+          <para>
+  Data for 1997 were collected using drastically different methods than
+  the data in this file, and are therefore not included. Data sheets for
+  1999 season data were misplaced.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change</title>
+      <personnel>
+        <organizationName>University of Colorado</organizationName>
+        <role>pointOfContact</role>
+      </personnel>
+      <funding>National Science Foundation:1637686</funding>
+    </project>
+    <dataTable>
+      <entityName>Species composition data</entityName>
+      <entityDescription>Species composition data</entityDescription>
+      <physical>
+        <objectName>fertcovr.tt.data.csv</objectName>
+        <size unit="byte">447510</size>
+        <authentication method="MD5">89623560cd06c39536f9e4f96ee4eb6f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/146/1/537d8c82d2761303dc8e0fe447ddef14</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>date (yyyy-mm-dd)</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plot_code</attributeName>
+          <attributeLabel>Plot Code</attributeLabel>
+          <attributeDefinition>plot code consisting of 4 characters: The initial character indicates whether the plot was dry (D) or wet (W) meadow, the middle 2 characters represent the treatment [control (CC), nitrogen fertilization (NN), phosphorus fertilization (PP), and nitrogen+phosphorus fertilization (NP)], and the final character represents the plot number.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>spp_code</attributeName>
+          <attributeLabel>Species code</attributeLabel>
+          <attributeDefinition>species code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BAREEE</code>
+                    <definition>Presumed to be bare soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ROCKKK</code>
+                    <definition>Presumed to be rock</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SCATTT</code>
+                    <definition>Presumed to be scat</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ARTSPP</code>
+                    <definition>Presumed to be Artemisia species</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>USDA_name</attributeName>
+          <attributeLabel>USDA species name</attributeLabel>
+          <attributeDefinition>USDA species name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>num_hits</attributeName>
+          <attributeLabel>Number of hits</attributeLabel>
+          <attributeDefinition>number of hits</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>cover</attributeName>
+          <attributeLabel>Cover</attributeLabel>
+          <attributeDefinition>percent cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>7198</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Species diversity data</entityName>
+      <entityDescription>Species diversity data</entityDescription>
+      <physical>
+        <objectName>fertcovs.tt.data.csv</objectName>
+        <size unit="byte">13216</size>
+        <authentication method="MD5">e9123dc1807d2d6d0a396c61f34b4159</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/146/1/cb8aed004b465e5352996a1465bdea78</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>date (yyyy-mm-dd)</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plot_code</attributeName>
+          <attributeLabel>Plot Code</attributeLabel>
+          <attributeDefinition>plot code consisting of 4 characters: The initial character indicates whether the plot was dry (D) or wet (W) meadow, the middle 2 characters represent the treatment [control (CC), nitrogen fertilization (NN), phosphorus fertilization (PP), and nitrogen+phosphorus fertilization (NP)], and the final character represents the plot number.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>num_hits_cover</attributeName>
+          <attributeLabel>Number of hits cover</attributeLabel>
+          <attributeDefinition>number of hits used for percent cover calculations</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>num_species</attributeName>
+          <attributeLabel>Number of Species</attributeLabel>
+          <attributeDefinition>number of species</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>num_hits_divers</attributeName>
+          <attributeLabel>Number of Hits Diversity</attributeLabel>
+          <attributeDefinition>number of hits used for Shannon-Weaver calculation</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>diversity_index</attributeName>
+          <attributeLabel>Diversity Index</attributeLabel>
+          <attributeDefinition>Shannon-Weaver diversity index</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>No Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>320</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="number" name="number" unitType="dimensionless">
+          <description>a number</description>
+        </unit>
+        <unit abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+        <unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <description>a designation asserting the absence of an associated unit</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

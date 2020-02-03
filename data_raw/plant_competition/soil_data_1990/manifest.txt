@@ -1,0 +1,5 @@
+Manifest file for knb-lter-nwt.77.1.zip created on Fri Dec 13 11:15:42 MST 2019
+saddsoil.dw.data.csv (5419 bytes)
+knb-lter-nwt.77.1.xml (20255 bytes)
+knb-lter-nwt.77.1.txt (11296 bytes)
+knb-lter-nwt.77.1.report.xml (32240 bytes)

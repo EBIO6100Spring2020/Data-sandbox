@@ -1,0 +1,411 @@
+
+  
+    
+      uid=nwt,o=LTER,dc=ecoinformatics,dc=org
+      read
+      write
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/fef5b6e2f9364cab37d4e0dc8d0a3bc4
+    Soil moisture and nutrient data for Saddle grid, 1990.
+    
+      Donald. A (Skip) Walker
+      dawalker@alaska.edu
+    
+    
+      Donald. A (Skip) Walker
+      dawalker@alaska.edu
+      principalInvestigator
+    
+    2019-11-25
+    English
+    Soil samples from a 10-cm depth were collected at each vegetated grid stake on the Saddle. These samples were analyzed for carbon and organic matter content. Texture, pH, moisture, and bulk density were also determined. The samples were collected in 1990 and were analyzed at the Soil Testing Laboratory at Colorado State University and at the INSTAAR sedimentology laboratory.
+    
+      pH
+      hygroscopic moisture content
+      saddle grid point
+      organic_matter_dynamics
+      Niwot Ridge LTER
+      NWT
+    
+    
+      soil moisture
+      nutrients
+      organic carbon
+      bulk density
+      organic matter
+      biogeochemistry
+      LTER controlled vocabulary
+    
+    
+      organic matter
+      LTER core area
+    
+    
+      
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+
+    
+    
+      
+        Study sites were the 88 grid points on the Saddle, except unvegetated (“rock”) points. Skip Walker should be consulted about the location of original samples and data.
+        
+          -105.5935123
+          -105.5867879
+          40.0585644
+          40.04903177
+        
+      
+      
+        
+          
+            1990-08-20
+          
+          
+            1990-08-23
+          
+        
+      
+    
+    
+      The documentation section of this file was developed from a NWT LTER Data Directory form completed by Skip Walker on 10 December 1991. It was written by Rick Ingersoll on 2 March 1993.[2 March 1993] The procedures listed in the comments section were provided to Rick Ingersoll by Kim Furry on 18 November 1991 and these were added on 1 April 1993. The header and data were provided to Rick Ingersoll by Liz Arnold on 30 July 1991 and these were added on 1 April 1993. This file was put under sccs control on 1 April 1993.[RCI 1 April 1993] Liz Arnold provided units which heretofore were not listed for some of the varibles on 8 April 1993.[RCI 9 April 1993] URL locations for related data were updated on 27 September 2000.[MAH 27 September 2000] Edited title and keywords for inclusion in core organic matter dynamics data sets. Removed mention of nitrogen and phosphorus from the abstract and keywords because these variables are not present in the data set.[HCH 30 April 2010] The title, variables, keywords, and location were edited. Labels were shortened and definitions added. Information about lack of sampling of rock points was added to the methods. Empty rows for rock points were omitted from the data. Column 13, “comments”, was omitted because it contained only identification of rock points.[HCH 23 September 2015] Data was updated to remove colons in column names and replace "1:25_pH" name with "pH_ratio" [ATW 25 November 2019]. Niwot metadata converted via script to EML[ATW 2019-11-25]
+    
+    
+      Niwot Ridge LTER
+      Information Manager
+      			4001 Discovery Drive, UCB 450
+			University of Colorado
+			Boulder, CO 80303  United States
+      lternwt@colorado.edu
+      https://nwt.lternet.edu/
+    
+    
+      
+        
+          Soil was collected at 10 cm depth. Wet weight was the weight of the soil immediately following collection. Dry weight was the weight of the air-dried soil. Percent moisture content was calculated as ((wet weight - dry weight)/dry weight) * 100. Bulk density was calculated as the dry weight/432 and was in units of g/ml. The soil volume collected was 432 ml. Soil was then fractionated and the following tests were performed on the <2mm portions. The >2mm portions were weighed and stored. pH was measured initially using a 1:2.5 ratio (10g soil to 25ml distilled water). pH was measured again on some samples (10g) using a paste method. In order to calculate percent hygroscopic moisture, a few grams of soil were placed in a 105 degrees Celsius oven for 15 hrs. These samples were weighed prior to and after this drying procedure. The Walkley-Black procedure was used to determine oxidizable organic carbon. That number was then multiplied by 1.724 to get oxidizable organic matter. The values for oxidizable organic carbon and oxidizable organic matter were multiplied by 1.30 to obtain total organic carbon and total organic matter, respectively.
+          https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-nwt&identifier=404
+          https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-nwt&identifier=40
+          https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-nwt&identifier=99
+          https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-nwt&identifier=86
+          No samples were collected at saddle grid points 1, 13, 30A, 41, 42, 63, and 71; these are unvegetated “rock” points.
+        
+      
+    
+    
+      LTER: The Niwot Ridge LTER Research Program 1998-2004: Controls on the Structure, Function & Interactions of Alpine & Subalpine Ecosystems of the Colorado Front Range
+      
+        Niwot Ridge LTER
+        pointOfContact
+      
+      National Science Foundation:9810218
+    
+    
+      saddsoil.dw.data.csv
+      Soil moisture and nutrient data for Saddle grid, 1990.
+      
+        saddsoil.dw.data.csv
+        5419
+        17dcf856f45766e7c5f9537a1586c07d
+        
+          
+            1
+            \n
+            column
+            
+              ,
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/77/1/908a965134af04c88532304fe3a3e407
+          
+        
+      
+      
+        
+          grid_pt
+          grid_pt
+          grid stake number
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          date
+          date
+          date of sample collection (yyyy-mm-dd)
+          dateTime
+          
+            
+              YYYY-MM-DD
+              
+                
+                  1999-08-20
+                  maximum-1990-08-22
+                
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          moisture
+          moisture
+          percent moisture
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          bulk_dens
+          bulk_dens
+          bulk density
+          float
+          
+            
+              
+                gramsPerMilliliter
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          wt_<2mm
+          wt_<2mm
+          weight of <2mm fraction
+          float
+          
+            
+              
+                gram
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          pH_ratio
+          pH_ratio
+           ph measured as ratio of 1 to 2.5 soil to water ratio
+          float
+          
+            
+              
+                pH
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          paste_pH
+          paste_pH
+          paste pH
+          float
+          
+            
+              
+                pH
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          hygro_mois
+          hygro_mois
+          percent hygroscopic moisture content
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          oxid_org_C
+          oxid_org_C
+          readily oxidizable organic carbon
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          oxid_org_mat
+          oxid_org_mat
+          readily oxidizable organic matter
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          tot_org_C
+          tot_org_C
+          total organic carbon
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+        
+          tot_org_mat
+          tot_org_mat
+          total organic matter
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            no data
+          
+        
+      
+      81
+    
+  
+  
+    
+      
+        
+          ratio of two quantities as percent composition (1:100)
+        
+        
+          grams per milliliter
+        
+        
+          0.001 kg
+        
+        
+          measure of hydrogen ion concentration
+        
+      
+    
+  

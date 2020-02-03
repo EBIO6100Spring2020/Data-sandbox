@@ -1,0 +1,1391 @@
+
+  
+    
+      uid=nwt,o=LTER,dc=ecoinformatics,dc=org
+      read
+      write
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/a63ab020ec983982f88881a33300db60
+    Fertcovr and Fertcovs
+    N and P fertilization experiment plant species composition and diversity data for South of saddle, 1990 - 2000.
+    
+      Terry Theodose
+      theodose@usm.mained.edu
+    
+    
+      William F Bowman
+      william.bowman@colorado.edu
+      https://orcid.org/0000-0003-0158-4039
+    
+    2019-12-30
+    English
+    
+      
+  The effects of nitrogen, phosphorus, and nitrogen+phosphorus
+  fertilization on alpine plant species composition and diversity in a
+  dry and a wet meadow community were examined. A point-quadrat system
+  was used to estimate the cover frequencies for each species in plots
+  in the 2 communities on the south slope of Niwot Ridge. Treatments
+  were N, P, N+P, and control. Observations were made once per year per
+  plot over a period of several years. Diversity (Shannon-Weaver)
+  indices were also calculated.
+
+    
+    
+      species composition
+      species diversity
+      fertilization
+      nitrogen
+      phosphorus
+      alpine
+      LTER controlled vocabulary
+    
+    
+      disturbance
+      populations
+      LTER core area
+    
+    
+      dry meadow
+      wet meadow
+      cover
+      point-quadrat
+      plant
+      core disturbance
+      south of saddle
+      Niwot Ridge LTER
+      NWT
+    
+    
+      
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+
+    
+    
+      
+        DNP3
+        
+          -105.5887961
+          -105.5887961
+          40.05202192
+          40.05202192
+        
+      
+      
+        DNN3
+        
+          -105.5887614
+          -105.5887614
+          40.0520152
+          40.0520152
+        
+      
+      
+        DNN2
+        
+          -105.5887158
+          -105.5887158
+          40.05202727
+          40.05202727
+        
+      
+      
+        DCC2
+        
+          -105.5886861
+          -105.5886861
+          40.05202117
+          40.05202117
+        
+      
+      
+        DPP2
+        
+          -105.5886553
+          -105.5886553
+          40.05201335
+          40.05201335
+        
+      
+      
+        DNP2
+        
+          -105.5886182
+          -105.5886182
+          40.05200332
+          40.05200332
+        
+      
+      
+        DNN1
+        
+          -105.5886163
+          -105.5886163
+          40.05203946
+          40.05203946
+        
+      
+      
+        DPP1
+        
+          -105.5885891
+          -105.5885891
+          40.05206681
+          40.05206681
+        
+      
+      
+        DCC1
+        
+          -105.5885849
+          -105.5885849
+          40.05209672
+          40.05209672
+        
+      
+      
+        DNP1
+        
+          -105.5886183
+          -105.5886183
+          40.0520944
+          40.0520944
+        
+      
+      
+        DCC3
+        
+          -105.5887463
+          -105.5887463
+          40.0518412
+          40.0518412
+        
+      
+      
+        DPP3
+        
+          -105.5887769
+          -105.5887769
+          40.05185281
+          40.05185281
+        
+      
+      
+        DNP4
+        
+          -105.5888418
+          -105.5888418
+          40.05187202
+          40.05187202
+        
+      
+      
+        DPP4
+        
+          -105.5888776
+          -105.5888776
+          40.05188574
+          40.05188574
+        
+      
+      
+        DCC5
+        
+          -105.5889162
+          -105.5889162
+          40.05189126
+          40.05189126
+        
+      
+      
+        DNN4
+        
+          -105.588951
+          -105.588951
+          40.05189007
+          40.05189007
+        
+      
+      
+        DCC4
+        
+          -105.5888157
+          -105.5888157
+          40.05186158
+          40.05186158
+        
+      
+      
+        DPP5
+        
+          -105.5888015
+          -105.5888015
+          40.05182383
+          40.05182383
+        
+      
+      
+        DNP5
+        
+          -105.5888181
+          -105.5888181
+          40.05179611
+          40.05179611
+        
+      
+      
+        DNN5
+        
+          -105.5887804
+          -105.5887804
+          40.05179405
+          40.05179405
+        
+      
+      
+        WCC1
+        
+          -105.5905207
+          -105.5905207
+          40.05188324
+          40.05188324
+        
+      
+      
+        WNN1
+        
+          -105.5905529
+          -105.5905529
+          40.05190288
+          40.05190288
+        
+      
+      
+        WNP1
+        
+          -105.5905548
+          -105.5905548
+          40.05186006
+          40.05186006
+        
+      
+      
+        WNP2
+        
+          -105.5905934
+          -105.5905934
+          40.05187693
+          40.05187693
+        
+      
+      
+        WPP1
+        
+          -105.5906235
+          -105.5906235
+          40.05188999
+          40.05188999
+        
+      
+      
+        WCC2
+        
+          -105.5906698
+          -105.5906698
+          40.05190139
+          40.05190139
+        
+      
+      
+        WPP2
+        
+          -105.5907021
+          -105.5907021
+          40.05190382
+          40.05190382
+        
+      
+      
+        WCC2
+        
+          -105.5907355
+          -105.5907355
+          40.05192078
+          40.05192078
+        
+      
+      
+        WPP3
+        
+          -105.5907743
+          -105.5907743
+          40.05194377
+          40.05194377
+        
+      
+      
+        WCC4
+        
+          -105.5907956
+          -105.5907956
+          40.05196126
+          40.05196126
+        
+      
+      
+        WPP4
+        
+          -105.5908119
+          -105.5908119
+          40.05198038
+          40.05198038
+        
+      
+      
+        WCC5
+        
+          -105.5908293
+          -105.5908293
+          40.0520019
+          40.0520019
+        
+      
+      
+        WNN2
+        
+          -105.5908787
+          -105.5908787
+          40.0519753
+          40.0519753
+        
+      
+      
+        WNN3
+        
+          -105.5908356
+          -105.5908356
+          40.05196708
+          40.05196708
+        
+      
+      
+        WNP5
+        
+          -105.5908169
+          -105.5908169
+          40.05194707
+          40.05194707
+        
+      
+      
+        WNP4
+        
+          -105.5907962
+          -105.5907962
+          40.05191703
+          40.05191703
+        
+      
+      
+        WNN4
+        
+          -105.590752
+          -105.590752
+          40.05189826
+          40.05189826
+        
+      
+      
+        WNP3
+        
+          -105.5907002
+          -105.5907002
+          40.05187953
+          40.05187953
+        
+      
+      
+        WNN5
+        
+          -105.5906847
+          -105.5906847
+          40.05183293
+          40.05183293
+        
+      
+      
+        WPP5
+        
+          -105.5906667
+          -105.5906667
+          40.05178455
+          40.05178455
+        
+      
+      
+        
+          
+            1990-07-03
+          
+          
+            2000-07-24
+          
+        
+      
+      
+        
+          Variety
+          Achillea millefolium var. alpicola
+        
+        
+          Species
+          Agrostis mertensii
+        
+        
+          Species
+          Allium geyeri
+        
+        
+          Species
+          Androsace septentrionalis
+        
+        
+          Species
+          Antennaria media
+        
+        
+          Variety
+          Arenaria fendleri var. tweedyi
+        
+        
+          Variety
+          Artemisia campestris ssp. borealis var. borealis
+        
+        
+          Species
+          Artemisia pattersonii
+        
+        
+          Species
+          Artemisia scopulorum
+        
+        
+          Species
+          Calamagrostis purpurascens
+        
+        
+          Species
+          Caltha leptosepala
+        
+        
+          Species
+          Campanula rotundifolia
+        
+        
+          Genus
+          Carex
+        
+        
+          Variety
+          Carex aquatilis var. stans
+        
+        
+          Species
+          Carex aurea
+        
+        
+          Species
+          Carex elynoides
+        
+        
+          Variety
+          Carex heteroneura var. epapillosa
+        
+        
+          Species
+          Carex misandra
+        
+        
+          Species
+          Carex nigricans
+        
+        
+          Species
+          Carex nova
+        
+        
+          Variety
+          Carex rupestris var. drummondiana
+        
+        
+          Species
+          Carex saxatilis
+        
+        
+          Variety
+          Carex scopulorum var. scopulorum
+        
+        
+          Species
+          Castilleja occidentalis
+        
+        
+          Subspecies
+          Cerastium arvense ssp. strictum
+        
+        
+          Species
+          Conioselinum scopulorum
+        
+        
+          Species
+          Deschampsia cespitosa
+        
+        
+          Species
+          Dodecatheon pulchellum
+        
+        
+          Species
+          Draba aurea
+        
+        
+          Variety
+          Draba breweri var. cana
+        
+        
+          Genus
+          Elymus
+        
+        
+          Subspecies
+          Elymus trachycaulus ssp. trachycaulus
+        
+        
+          Genus
+          Epilobium
+        
+        
+          Species
+          Erigeron melanocephalus
+        
+        
+          Species
+          Erigeron simplex
+        
+        
+          Species
+          Eritrichium nanum
+        
+        
+          Variety
+          Erysimum capitatum var. purshii
+        
+        
+          Genus
+          Festuca
+        
+        
+          Species
+          Festuca brachyphylla
+        
+        
+          Genus
+          Frasera
+        
+        
+          Species
+          Gentiana algida
+        
+        
+          Species
+          Gentiana prostrata
+        
+        
+          Variety
+          Geum rossii var. turbinatum
+        
+        
+          Species
+          Juncus biglumis
+        
+        
+          Species
+          Juncus drummondii
+        
+        
+          Species
+          Juncus triglumis
+        
+        
+          Species
+          Kobresia myosuroides
+        
+        
+          Species
+          Lewisia pygmaea
+        
+        
+          Species
+          Lloydia serotina
+        
+        
+          Species
+          Luzula spicata
+        
+        
+          Species
+          Mertensia lanceolata
+        
+        
+          Species
+          Minuartia biflora
+        
+        
+          Species
+          Minuartia obtusiloba
+        
+        
+          Genus
+          NaN
+        
+        
+          Subspecies
+          Noccaea fendleri ssp. glauca
+        
+        
+          Subspecies
+          Oreoxis alpina ssp. alpina
+        
+        
+          Species
+          Packera cana
+        
+        
+          Species
+          Paronychia pulvinata
+        
+        
+          Species
+          Pedicularis groenlandica
+        
+        
+          Species
+          Phlox pulvinata
+        
+        
+          Genus
+          Poa
+        
+        
+          Species
+          Poa alpina
+        
+        
+          Subspecies
+          Poa arctica ssp. grayana
+        
+        
+          Subspecies
+          Poa glauca ssp. rupicola
+        
+        
+          Species
+          Polemonium viscosum
+        
+        
+          Species
+          Polygonum bistortoides
+        
+        
+          Species
+          Polygonum viviparum
+        
+        
+          Species
+          Potentilla diversifolia
+        
+        
+          Species
+          Potentilla ovina
+        
+        
+          Species
+          Primula angustifolia
+        
+        
+          Species
+          Rhodiola integrifolia
+        
+        
+          Species
+          Rhodiola rhodantha
+        
+        
+          Species
+          Salix glauca
+        
+        
+          Species
+          Salix planifolia
+        
+        
+          Species
+          Saxifraga rhomboidea
+        
+        
+          Genus
+          Secale
+        
+        
+          Species
+          Sedum lanceolatum
+        
+        
+          Variety
+          Selaginella densa var. scopulorum
+        
+        
+          Variety
+          Silene acaulis var. subacaulescens
+        
+        
+          Species
+          Solidago multiradiata
+        
+        
+          Species
+          Solidago simplex
+        
+        
+          Species
+          Stellaria umbellata
+        
+        
+          Species
+          Swertia perennis
+        
+        
+          Variety
+          Tetraneuris acaulis var. caespitosa
+        
+        
+          Species
+          Tetraneuris grandiflora
+        
+        
+          Species
+          Tonestus pygmaeus
+        
+        
+          Species
+          Trifolium dasyphyllum
+        
+        
+          Species
+          Trisetum spicatum
+        
+        
+          Variety
+          Valeriana edulis var. edulis
+        
+        
+          Species
+          Viola adunca
+        
+      
+    
+    
+      The initial iteration of the documentation section of this file was developed by Rick Ingersoll on 11-15 February 1994. The file was put under sccs control on 15 February 1994.[RCI 15 February 1994] Plot code of PN4 was corrected, i.e., converted to DNP4 on 16 February 1994.[RCI 16 February 1994] Comments provided by Terry Theodose were incorporated into the documentation section on 23 February 1994.[RCI February 1994] Data for 1994 were appended to the data section on 30 August 1994.[RCI 30 August 1994] It was determined that the second set of records for WCC1 for 07/31/91 was, in fact, for WCC2. These were corrected on 8 September 1994. [RCI 8 September 1994] Fertilization plot locations surveyed by Tim Bardsley and Mike Hartman on 13 July and 7 September 1994 were added to the comments section on 13 September 1994.[RCI 13 September 1994] On 2 June 1995, Terry Theodose noted that the species code GENAMA used for the 1990-91 wet meadow data should have been GENALG. This discrepancy was the result of different field data forms and field personnnel from the surveys conducted in the subsequent years. Therefore, the species code GENAMA was globally replaced with the species code GENALG on 8 June 1995. It should be noted that because both codes were never used together for the same plot in the same year, that the /data1/Datman/Nwtdata/fertcovs.tt file would have been unaffected by the change and consequently no manipulation of the data in that file was required. It should also be noted that the original EasyEntry source files were not edited, i.e., the GENAMA code is still present in the affected files.[RCI 8 June 1995] Data for the 1995 field season was appended to the data section on 23 January 1996.[MAH 23 January 1996] Investigator contact information for William Bowman was added on 6 May 1996.[MAH 6 May 1996] Data for the 1996 field season was appended to the data section on 27 August 1996.[MAH 27 August 1996] On 3 March 1998 it was realized that a duplicate set of data for plot DCC5 from 1996 were listed in place of the data for plot DCC1 from 1996. The erroneous records were replaced with the correct records on that date.[MAH 3 March 1998] Dry meadow data for 1998 were appended to the data section and a comment concerning the absence of 1997 data was inserted into the comments section on 13 September 2000.[MAH 13 September 2000] Dry meadow data for 2000 were appended to the data section as well as a comment regarding the missing data for 1999 was inserted into the comments section on 27 February 2001.[TMA 27 February 2001] Revised title, keywords, and timing to reflect inclusion in core disturbance data sets.[HCH 10 April 2010] Title edited further for consistency with other data sets.[HCH 19 April 2010] Labels shortened and definitions added.[HCH 29 April 2016] Error in file structure (values tab rather than comma delimited in 2000s) fixed.[SCE 21 August 2018] Semi-quantitative observations from the data collection forms were incorporated into the data section on 16 February 1994.[RCI 16 February 1994] Comments provided by Terry Theodose were incorporated into the documentation section on 23 February 1994.[RCI 23 February 1994] Data for 1994 were appended on 30 August 1994. [RCI 30 August 1994] The plot code for WCC1 was incorrectly listed twice for 07/31/91. It was determined that the second listing was actually data for WCC2 and this was corrected on 8 September 1994. [RCI 8 September 1994] Fertilization plot locations surveyed by Tim Bardsley and Mike Hartman on 13 July and 7 September 1994 were added to the comments section on 13 September 1994.[RCI 13 September 1994] In January 1995, Terry Theodose identified some problems with a portion of the data contained in this file. TT met with Rick Ingersoll in early June 1995 and pointed out that number of species present was exceedingly high for many of the 1991-92 dry meadow surveys. Subsequently, it was discovered that because of the varied personnel involved in collecting the five years of data, in combination with a variety of hard-copy data and EasyEntry data entry forms, some of the species which were neither "hit" nor observed as being present were entered as 000 (rather than 999) "hits". Thus, for a subset of these data, all of the species listed on the hard-copy data forms were considered as being present. The raw EasyEntry files were corrected (all 000 hits converted to 999 hits) and the raw data were reprocessed. The entire data section was deleted and replaced with the newly processed 1990-94 data on 13 June 1995.[RCI 13 June 1995] Comments regarding discrepancies between "number of species" in this file and "number of species" hand written on the tops of the hard-copy field data forms were added to the comments section on 13 July 1995.[RCI 13 July 1995] Data for the 1995 field season were appended to the data section on 23 January 1996.[MAH 23 January 1996] Investigator contact information for William Bowman was added on 6 May 1996.[MAH 6 May 1996] Data for the 1996 field season were appended to the data section on 27 August 1996.[MAH 27 August 1996] On 3 March 1998 it was realized that a duplicate set of data for plot DCC5 from 1996 were listed in place of the data for plot DCC1 from 1996. The erroneous records were replaced with the correct records on that date.[MAH 3 March 1998] Dry meadow data for 1998 were appended to the data section and a comment concerning the absence of 1997 data was inserted into the comments section on 13 September 2000.[MAH 13 September 2000] Dry meadow data for 2000 were appended to the data section and comment was added to the comments section that data for 1999 is not present due to misplaced datasheets.[TMA 27 February 2001] Revised title, keywords, and timing to reflect inclusion in core disturbance data sets. [HCH 10 April 2010] Title edited further for consistency with other data sets.[HCH 19 April 2010] Labels were shortened and definitions added.[HCH 29 April 2016]Data was from fertcovr.tt.data.csv was joined with data from pspecies.js.data.csv in order to add USDA species name by matching NWT species codes. Codes for BAREEE, ROCKKK, SCATTT and ARTSPP were inferred and added to missing value codes. Data for fertcovs.tt.data.csv was edited to add a comments column and include all comments when available. Metadata and abstracts were combined for fertcovr.tt.data.csv and fertcovs.tt.data.csv to combine into one package with both datafiles [ATW 11 December 2019].
+    
+    
+      Niwot Ridge LTER
+      Information Manager
+      			4001 Discovery Drive, UCB 450
+			University of Colorado
+			Boulder, CO 80303  United States
+      lternwt@colorado.edu
+      https://nwt.lternet.edu/
+    
+    
+      
+        
+          
+  These data were manually entered into the computer from field data
+  sheets using an EasyEntry program. The resulting files were
+  post-processed on a Sun SPARC 2 and archived. Plot codes consist of 4
+  characters: The initial character indicates whether the plot was dry
+  (D) or wet (W) meadow, the middle 2 characters represent the treatment
+  [control (CC), nitrogen fertilization (NN), phosphorus fertilization
+  (PP), and nitrogen+phosphorus fertilization (NP)], and the final
+  character represents the plot number.
+
+          
+  Tim Bardsley and Mike Hartman conducted a rudimentary survey of the
+  wet meadow plots on 13 July 1994 in order to reference the plots to
+  established objects/points on Niwot Ridge. A Silva Ranger compass was
+  used with E declination set at 12 degrees; the accuracy of the
+  bearings is +/- 3 degrees. All distances were measured across the
+  ground surface (not at a fixed horizontal level); such distances are
+  accurate to +/- 2%. The bearing from the northwest corner of the c1
+  wet meadow plot to the centerline of the wind turbine was 202 degrees.
+  Thus, the bearing from the centerline of the wind turbine to the
+  northwest corner of the c1 wet meadow plot was 22 degrees. The
+  distance form the northwest corner of the c1 wet meadow plot to the
+  southwest corner of the base of the wind turbine was 278.2 meters. A
+  crude map of the relationships among the dry meadow plots was provided
+  by Bill Bowman and that map is on file with the LTER data manager.
+  Plot n1 was oriented west and south of c1. Plot np1 was approximately
+  due south of c1. The following plots were approximately due west of
+  np1 (with the most proximal listed first): np2, p1, c2, p2, c3, p3,
+  c4, np4, and c5. The bearing from the northwest corner of c1 to the
+  northwest corner of c5 was 309 degrees. South of this row, and
+  oriented approximately from west to east were plots n2, n3, np5, np4,
+  n4, np3, n5, and p5. The plots n2, n5, and p5 were slightly out of
+  line with the other plots in the row; the bearings from the northwest
+  corner of c1 to the northwest corner of these plots were 292, 249, and
+  239 degrees, respectively. Note that a band of willows (approximately
+  L-shaped) separates plots n5 and p5 from c2, p1, and np2. The
+  distances (meters) reported below are between the northwest corner of
+  c1 and the northwest corner of the given plot:
+
+          
+  n1,3.55
+
+          
+  np1,3.27
+
+          
+  np2,6.19
+
+          
+  p1,8.51
+
+          
+  c2,12.65
+
+          
+  p2,15.59
+
+          
+  c3,18.84
+
+          
+  p3,22.75
+
+          
+  c4,24.89
+
+          
+  p4,27.09
+
+          
+  c5,29.55
+
+          
+  n2,32.39
+
+          
+  n3,28.45
+
+          
+  np5,26.20
+
+          
+  np4,23.63
+
+          
+  n4,19.95
+
+          
+  np3,15.55
+
+          
+  n5,15.00
+
+          
+  p5,16.75
+
+          
+  Tim Bardsley and Mike Hartman conducted a rudimentary survey of the
+  dry meadow plots on 7 September 1994. A less sophisticated compass was
+  used for this survey and, consequently, all bearings reported below
+  are for magnetic, not true, north; a declination of 11.5 degrees
+  should be added to the former to convert to the latter. The bearing
+  from the northeast corner of the c1 dry meadow plot to the centerline
+  of the wind turbine was 345 degrees. Thus, the bearing from the
+  centerline of the wind turbine to the northeast corner of the c1 dry
+  meadow plot was 165 degrees. The distance from the northeast corner of
+  the c1 dry meadow plot to the southwest corner of the base of the wind
+  turbine was 231.0 meters. The bearings (degrees) and distances
+  (meters) reported below are from the northeast corner of the c1 dry
+  meadow plot to the northeast corner of the given plot:
+
+          
+  np1,259,3.37
+
+          
+  p1,178,3.12
+
+          
+  n1,209,6.90
+
+          
+  np2,192,10.46
+
+          
+  p2,212,10.83
+
+          
+  c2,222,12.20
+
+          
+  n2,239,13.58
+
+          
+  n3,232,17.41
+
+          
+  np3,246,19.26
+
+          
+  c3,199,31.47
+
+          
+  p3,211,31.62
+
+          
+  c4,214,32.50
+
+          
+  np4,221,33.41
+
+          
+  p4,228,34.60
+
+          
+  c5,232,36.48
+
+          
+  n4,234,39.07
+
+          
+  p5,206,35.55
+
+          
+  n5,207,37.74
+
+          
+  np5,205,39.20
+
+          
+  Note that the plot code nomenclature used in the surveys is slightly
+  different than the plot code nomenclature used elsewhere in this file.
+  The code DNN5, for example, would be equivalent to n5 in the second of
+  the 2 listings above.
+
+          
+  Species codes are 6-character codes comprised of the first 3
+  characters of the of the genus and the first 3 characters of the
+  specific name.
+
+          
+  Graminoid, forb, and woody species observed in a plot are included for
+  the purposes of Shannon-Weaver Index calculations, regardless of
+  whether or not those species were identified by the point quadrat
+  technique. These cases can be readily identified because number of
+  hits=001 and percent cover=0.0000. Non-graminoids, non-forbs, and
+  non-woody species (e.g., SELDEN (Selaginella densa)) and non-plant
+  hits (e.g., BAREEE (bare soil)) are included in the percent cover
+  calculations but are not used in the Shannon-Weaver Index
+  calculations.
+
+          
+  Semi-quantitative observations made during data collection are
+  recorded with the appropriate plot in the data section.
+
+          
+  During mid-June 1995, a comparison was made between the "number
+  of species" hand written on top of the hard-copy field data forms
+  and the "number of species" calculated for this file. This
+  was done for approximately 20% of the records in this file. Of the
+  examined records, there was agreement between the two sources for
+  22.5% of the records. For 70% of the examined records, the number of
+  species on the hard-copy forms was 1-2 greater than those contained in
+  the current file. Careful examination showed that this was due, in
+  most cases, to incorrectly including the BAREEE or SELDEN hits as a
+  "species" in the hand written tally. For the remaining 5% of
+  the examined records, the number of species on the hard-copy forms was
+  1-2 less than those contained in the current file. This was due to
+  incorrectly considering MINBIF and MINOBT as separate species and
+  UNKNOW as a distinct species in the entry and/or processing of the
+  data in the current file. There was a single case (2.5% of the
+  examined records) where a species total in the current file was 1 less
+  than the tally on the hard-copy form because a "presence"
+  category had been overlooked by data entry personnel. Terry Theodose
+  concluded that the basic trends and conclusions resulting from
+  independent evaluation of "number of species" from the two
+  sources would be insignificant and that correction of the few minor
+  errors in the current file was not of an immediate priority.
+  Nonetheless, NWT LTER data management personnel might obtain copies of
+  the hard-copy data forms from Bill Bowman in the future for the
+  purposes of resolving those errors.
+
+          
+  Data for 1997 were collected using drastically different methods than
+  the data in this file, and are therefore not included. Data sheets for
+  1999 season data were misplaced.
+
+        
+      
+    
+    
+      LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change
+      
+        University of Colorado
+        pointOfContact
+      
+      National Science Foundation:1637686
+    
+    
+      Species composition data
+      Species composition data
+      
+        fertcovr.tt.data.csv
+        447510
+        89623560cd06c39536f9e4f96ee4eb6f
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+              "
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/146/1/537d8c82d2761303dc8e0fe447ddef14
+          
+        
+      
+      
+        
+          date
+          Date
+          date (yyyy-mm-dd)
+          dateTime
+          
+            
+              YYYY-MM-DD
+              
+            
+          
+        
+        
+          plot_code
+          Plot Code
+          plot code consisting of 4 characters: The initial character indicates whether the plot was dry (D) or wet (W) meadow, the middle 2 characters represent the treatment [control (CC), nitrogen fertilization (NN), phosphorus fertilization (PP), and nitrogen+phosphorus fertilization (NP)], and the final character represents the plot number.
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+        
+          spp_code
+          Species code
+          species code
+          string
+          
+            
+              
+                
+                  
+                    BAREEE
+                    Presumed to be bare soil
+                  
+                  
+                    ROCKKK
+                    Presumed to be rock
+                  
+                  
+                    SCATTT
+                    Presumed to be scat
+                  
+                  
+                    ARTSPP
+                    Presumed to be Artemisia species
+                  
+                
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+        
+          USDA_name
+          USDA species name
+          USDA species name
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+        
+          num_hits
+          Number of hits
+          number of hits
+          integer
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+        
+          cover
+          Cover
+          percent cover
+          float
+          
+            
+              
+                percent
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+      
+      7198
+    
+    
+      Species diversity data
+      Species diversity data
+      
+        fertcovs.tt.data.csv
+        13216
+        e9123dc1807d2d6d0a396c61f34b4159
+        
+          
+            1
+            \r
+            column
+            
+              ,
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/146/1/cb8aed004b465e5352996a1465bdea78
+          
+        
+      
+      
+        
+          date
+          Date
+          date (yyyy-mm-dd)
+          dateTime
+          
+            
+              YYYY-MM-DD
+              
+            
+          
+        
+        
+          plot_code
+          Plot Code
+          plot code consisting of 4 characters: The initial character indicates whether the plot was dry (D) or wet (W) meadow, the middle 2 characters represent the treatment [control (CC), nitrogen fertilization (NN), phosphorus fertilization (PP), and nitrogen+phosphorus fertilization (NP)], and the final character represents the plot number.
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+        
+          num_hits_cover
+          Number of hits cover
+          number of hits used for percent cover calculations
+          integer
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+        
+          num_species
+          Number of Species
+          number of species
+          integer
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+        
+          num_hits_divers
+          Number of Hits Diversity
+          number of hits used for Shannon-Weaver calculation
+          integer
+          
+            
+              
+                number
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+        
+          diversity_index
+          Diversity Index
+          Shannon-Weaver diversity index
+          float
+          
+            
+              
+                dimensionless
+              
+              
+                real
+              
+            
+          
+          
+            NaN
+            No Data
+          
+        
+        
+          comments
+          Comments
+          comments
+          string
+          
+            
+              
+                
+                  any text
+                
+              
+            
+          
+        
+      
+      320
+    
+  
+  
+    
+      
+        
+          a number
+        
+        
+          ratio of two quantities as percent composition (1:100)
+        
+        
+          a designation asserting the absence of an associated unit
+        
+      
+    
+  

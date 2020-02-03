@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.77.1"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=nwt,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/fef5b6e2f9364cab37d4e0dc8d0a3bc4</alternateIdentifier>
+    <title>Soil moisture and nutrient data for Saddle grid, 1990.</title>
+    <creator>
+      <individualName>
+        <givenName>Donald. A (Skip)</givenName>
+        <surName>Walker</surName>
+      </individualName>
+      <electronicMailAddress>dawalker@alaska.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Donald. A (Skip)</givenName>
+        <surName>Walker</surName>
+      </individualName>
+      <electronicMailAddress>dawalker@alaska.edu</electronicMailAddress>
+      <role>principalInvestigator</role>
+    </associatedParty>
+    <pubDate>2019-11-25</pubDate>
+    <language>English</language>
+    <abstract>Soil samples from a 10-cm depth were collected at each vegetated grid stake on the Saddle. These samples were analyzed for carbon and organic matter content. Texture, pH, moisture, and bulk density were also determined. The samples were collected in 1990 and were analyzed at the Soil Testing Laboratory at Colorado State University and at the INSTAAR sedimentology laboratory.</abstract>
+    <keywordSet>
+      <keyword>pH</keyword>
+      <keyword>hygroscopic moisture content</keyword>
+      <keyword>saddle grid point</keyword>
+      <keyword>organic_matter_dynamics</keyword>
+      <keyword>Niwot Ridge LTER</keyword>
+      <keyword>NWT</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>soil moisture</keyword>
+      <keyword>nutrients</keyword>
+      <keyword>organic carbon</keyword>
+      <keyword>bulk density</keyword>
+      <keyword>organic matter</keyword>
+      <keyword>biogeochemistry</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>organic matter</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Study sites were the 88 grid points on the Saddle, except unvegetated (“rock”) points. Skip Walker should be consulted about the location of original samples and data.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5935123</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5867879</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0585644</northBoundingCoordinate>
+          <southBoundingCoordinate>40.04903177</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1990-08-20</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1990-08-23</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>The documentation section of this file was developed from a NWT LTER Data Directory form completed by Skip Walker on 10 December 1991. It was written by Rick Ingersoll on 2 March 1993.[2 March 1993] The procedures listed in the comments section were provided to Rick Ingersoll by Kim Furry on 18 November 1991 and these were added on 1 April 1993. The header and data were provided to Rick Ingersoll by Liz Arnold on 30 July 1991 and these were added on 1 April 1993. This file was put under sccs control on 1 April 1993.[RCI 1 April 1993] Liz Arnold provided units which heretofore were not listed for some of the varibles on 8 April 1993.[RCI 9 April 1993] URL locations for related data were updated on 27 September 2000.[MAH 27 September 2000] Edited title and keywords for inclusion in core organic matter dynamics data sets. Removed mention of nitrogen and phosphorus from the abstract and keywords because these variables are not present in the data set.[HCH 30 April 2010] The title, variables, keywords, and location were edited. Labels were shortened and definitions added. Information about lack of sampling of rock points was added to the methods. Empty rows for rock points were omitted from the data. Column 13, “comments”, was omitted because it contained only identification of rock points.[HCH 23 September 2015] Data was updated to remove colons in column names and replace "1:25_pH" name with "pH_ratio" [ATW 25 November 2019]. Niwot metadata converted via script to EML[ATW 2019-11-25]</description>
+    </maintenance>
+    <contact>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+        <deliveryPoint>University of Colorado</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80303</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>https://nwt.lternet.edu/</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Soil was collected at 10 cm depth. Wet weight was the weight of the soil immediately following collection. Dry weight was the weight of the air-dried soil. Percent moisture content was calculated as ((wet weight - dry weight)/dry weight) * 100. Bulk density was calculated as the dry weight/432 and was in units of g/ml. The soil volume collected was 432 ml. Soil was then fractionated and the following tests were performed on the &lt;2mm portions. The &gt;2mm portions were weighed and stored. pH was measured initially using a 1:2.5 ratio (10g soil to 25ml distilled water). pH was measured again on some samples (10g) using a paste method. In order to calculate percent hygroscopic moisture, a few grams of soil were placed in a 105 degrees Celsius oven for 15 hrs. These samples were weighed prior to and after this drying procedure. The Walkley-Black procedure was used to determine oxidizable organic carbon. That number was then multiplied by 1.724 to get oxidizable organic matter. The values for oxidizable organic carbon and oxidizable organic matter were multiplied by 1.30 to obtain total organic carbon and total organic matter, respectively.</para>
+          <para>https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-nwt&amp;identifier=404</para>
+          <para>https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-nwt&amp;identifier=40</para>
+          <para>https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-nwt&amp;identifier=99</para>
+          <para>https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-nwt&amp;identifier=86</para>
+          <para>No samples were collected at saddle grid points 1, 13, 30A, 41, 42, 63, and 71; these are unvegetated “rock” points.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: The Niwot Ridge LTER Research Program 1998-2004: Controls on the Structure, Function &amp; Interactions of Alpine &amp; Subalpine Ecosystems of the Colorado Front Range</title>
+      <personnel>
+        <organizationName>Niwot Ridge LTER</organizationName>
+        <role>pointOfContact</role>
+      </personnel>
+      <funding>National Science Foundation:9810218</funding>
+    </project>
+    <dataTable>
+      <entityName>saddsoil.dw.data.csv</entityName>
+      <entityDescription>Soil moisture and nutrient data for Saddle grid, 1990.</entityDescription>
+      <physical>
+        <objectName>saddsoil.dw.data.csv</objectName>
+        <size unit="byte">5419</size>
+        <authentication method="MD5">17dcf856f45766e7c5f9537a1586c07d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/77/1/908a965134af04c88532304fe3a3e407</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>grid_pt</attributeName>
+          <attributeLabel>grid_pt</attributeLabel>
+          <attributeDefinition>grid stake number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of sample collection (yyyy-mm-dd)</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1999-08-20</minimum>
+                  <maximum exclusive="false">maximum-1990-08-22</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>moisture</attributeName>
+          <attributeLabel>moisture</attributeLabel>
+          <attributeDefinition>percent moisture</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>bulk_dens</attributeName>
+          <attributeLabel>bulk_dens</attributeLabel>
+          <attributeDefinition>bulk density</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMilliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>wt_&lt;2mm</attributeName>
+          <attributeLabel>wt_&lt;2mm</attributeLabel>
+          <attributeDefinition>weight of &lt;2mm fraction</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pH_ratio</attributeName>
+          <attributeLabel>pH_ratio</attributeLabel>
+          <attributeDefinition> ph measured as ratio of 1 to 2.5 soil to water ratio</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>pH</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>paste_pH</attributeName>
+          <attributeLabel>paste_pH</attributeLabel>
+          <attributeDefinition>paste pH</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>pH</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>hygro_mois</attributeName>
+          <attributeLabel>hygro_mois</attributeLabel>
+          <attributeDefinition>percent hygroscopic moisture content</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>oxid_org_C</attributeName>
+          <attributeLabel>oxid_org_C</attributeLabel>
+          <attributeDefinition>readily oxidizable organic carbon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>oxid_org_mat</attributeName>
+          <attributeLabel>oxid_org_mat</attributeLabel>
+          <attributeDefinition>readily oxidizable organic matter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_org_C</attributeName>
+          <attributeLabel>tot_org_C</attributeLabel>
+          <attributeDefinition>total organic carbon</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_org_mat</attributeName>
+          <attributeLabel>tot_org_mat</attributeLabel>
+          <attributeDefinition>total organic matter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>81</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+        <unit abbreviation="g/ml" id="gramsPerMilliliter"
+          multiplierToSI="1000" name="gramsPerMilliliter"
+          parentSI="kilogramsPerCubicMeter" unitType="massDensity">
+          <description>grams per milliliter</description>
+        </unit>
+        <unit abbreviation="g" id="gram" multiplierToSI="0.001"
+          name="gram" parentSI="kilogram" unitType="mass">
+          <description>0.001 kg</description>
+        </unit>
+        <unit abbreviation="pH" id="pH" name="pH" unitType="amountOfSubstanceConcentration">
+          <description>measure of hydrogen ion concentration</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

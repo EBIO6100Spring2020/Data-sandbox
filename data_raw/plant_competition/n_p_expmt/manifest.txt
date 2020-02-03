@@ -1,0 +1,6 @@
+Manifest file for knb-lter-nwt.146.1.zip created on Mon Feb 03 11:56:22 MST 2020
+fertcovr.tt.data.csv (447510 bytes)
+fertcovs.tt.data.csv (13216 bytes)
+knb-lter-nwt.146.1.xml (67999 bytes)
+knb-lter-nwt.146.1.txt (34621 bytes)
+knb-lter-nwt.146.1.report.xml (51798 bytes)

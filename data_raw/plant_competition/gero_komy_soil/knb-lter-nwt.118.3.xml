@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.118.3"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=nwt,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/c1fae5bda5917d891f0984de6ec0662d</alternateIdentifier>
+    <title>Geum and Kobresia soil inorganic and organic property data for Saddle and North of Tvan, 1993.</title>
+    <creator>
+      <individualName>
+        <givenName>Tim</givenName>
+        <surName>Seastedt</surName>
+      </individualName>
+      <electronicMailAddress>timothy.seastedt@colorado.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Tim</givenName>
+        <surName>Seastedt</surName>
+      </individualName>
+      <electronicMailAddress>timothy.seastedt@colorado.edu</electronicMailAddress>
+      <role>principalInvestigator</role>
+    </associatedParty>
+    <pubDate>1994</pubDate>
+    <language>English</language>
+    <abstract>This study was initiated to examine bulk density and organic matter content differences between soils where Geum (Acomastylis) rossii and Kobresia myosuroides were present. A subset of samples were also measured for total C, N, and P. Paired plots were randomly selected in locations where Kobresia and Geum populations were adjacent to one another. Soil samples were collected from 35 plots, 22 and 13 of which had southerly and northerly aspects, respectively. Soil cores were removed with 3.5-cm interior diameter PVC pipe that was driven into the tundra by use of a rubber mallet. The minimum depth of individual cores was 9 cm, and these depths were recorded at the time of removal (15 July, 19 July, 22 July, and 9 August 1993).</abstract>
+    <keywordSet>
+      <keyword>Geum rossii</keyword>
+      <keyword>Acomastylis</keyword>
+      <keyword>Kobresia myosuroides</keyword>
+      <keyword>soil cores</keyword>
+      <keyword>soil weight</keyword>
+      <keyword>rock weight</keyword>
+      <keyword>C:N ratio</keyword>
+      <keyword>soil pools and fluxes</keyword>
+      <keyword>gopher disturbance</keyword>
+      <keyword>Saddle</keyword>
+      <keyword>organic_matter_dynamics</keyword>
+      <keyword>north of Tvan</keyword>
+      <keyword>Niwot Ridge LTER</keyword>
+      <keyword>NWT</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>soil organic matter</keyword>
+      <keyword>bulk density</keyword>
+      <keyword>carbon</keyword>
+      <keyword>nitrogen</keyword>
+      <keyword>phosphorus</keyword>
+      <keyword>biogeochemistry</keyword>
+      <keyword>alpine</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Study areas were located on Niwot Ridge and around gopher-disturbed areas on a south-facing slope located about 100-150 m northeast of TVan and a north-facing slope located on the west side of the Saddle. Consult Tim Seastedt for location of original data.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.5923174</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5889748</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.05492794</northBoundingCoordinate>
+          <southBoundingCoordinate>40.04903177</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1993-07-15</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1993-08-09</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Geum rossii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Kobresia myosuroides</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>The initial iteration of the documentation section of this file was generated by Roberto Cortinas and Rick Ingersoll in early June of 1994. The data for 1993 were added to the data section and the file was put under sccs control on 3 June 1994.[RCI 3 June 1994] Comments were provided by Tim Seastedt and incorporated into the documentation section on 22 June 1994.[RCI 22 June 1994] Total C, N, and P data were inserted into the data section and appropriate comments were inserted into the abstract and comments section on 3 January 1997.[MAH 3 January 1997] Edited title and keywords for inclusion in core organic matter dynamics data sets.[HCH 30 April 2010] The title, keywords, and units were edited, labels shortened, and definitions added.[HCH 13 May 2016] Units for density were updated to be gramsperCubicCentimeter as inferred from similar datasets, changed from grampercentimeter [ATW 28 Oct. 2019]. Niwot metadata converted via script to EML[ATW 2019-10-29]</description>
+    </maintenance>
+    <contact>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+        <deliveryPoint>University of Colorado</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80303</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>https://nwt.lternet.edu/</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The organic matter data were manually entered from laboratory data sheets using an EasyEntry form. The soil physical property data were provided on floppy diskette by Roberto Cortinas and had been saved as an ASCII file from a 1-2-3 spreadsheet. The latter data were joined with the former during processing on niwotlter (NWT LTER server). The CHN and total phosphorus analysis were performed by the Stable Isotope/Soil Biology Laboratory of the University of Georgia Institute of Ecology. Detailed information concerning the methods used in the Dumas combustion assays performed to determine total N and total C, as well as the persulfate digestions and colorimetric assays performed to determine total phosphorus are available from the Laboratory via the World Wide Web at http://ash.ecology.uga.edu/. The total N, total C, C/N ratio, and total P data were provided by Tim Seastedt in a 24 December 1996 email message. An ASCII version of the original message has been archived as /data1/Datman/Tims/Som/Archive/email.cnp. A copy of the message was reformatted using various Unix commands, and the data were joined with the data in this file. Empty columns were added to the records for samples which were not sent for further analysis in order to maintain a consistent format.</para>
+          <para>Cores were collected and placed in labelled paper bags. After air drying, cores were poured through #10 soil sieve. Large rocks and organic material (&gt;1 cm) were removed and placed in a separate dish. Cores were homogenized using a wooden pestle in a mortar. The resulting homogenate was passed through #10 sieve with a gloved (vinyl) hand. After sieving, the soil was air dried again.</para>
+          <para>In the laboratory, soil samples were dried at 105 degrees Celsius for at least 24 hours. The samples were then sieved through a 2-mm mesh screen. Rocks were separated from the sample and weighed. The sieved soils were also weighed. Soil bulk density was calculated as (sieved dry soil weight/core volume), whereas total bulk density was calculated as (sieved dry soil + rock weight/core volume). New crucibles were ashed to ensure removal of organics. Otherwise they were cleaned with soap and water, followed by a distilled water rinse. Approximately 2 g of air dried soil was placed into a previously weighed crucible and the crucible + sample weight was recorded. The crucible and soil sample were oven dried at 105 degrees Celsius until constant weight was reached. This weight was recorded. After pre-charring, samples were muffled for 2 hr at 550 degrees Celsius and reweighed after allowing rehydration at 105 degrees Celsius.</para>
+          <para>Plots were located near the gopher-disturbed sites utilized for the litter decomposition studies (/data1/Datman/Nwtdata/litdecom.rc).</para>
+          <para>The carbon fraction can be estimated by multiplying the organic matter fraction by 0.44.</para>
+          <para/>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: The Niwot Ridge LTER Research Program 1998-2004: Controls on the Structure, Function &amp; Interactions of Alpine &amp; Subalpine Ecosystems of the Colorado Front Range</title>
+      <personnel>
+        <organizationName>Niwot Ridge LTER</organizationName>
+        <role>pointOfContact</role>
+      </personnel>
+      <funding>National Science Foundation:9810218</funding>
+    </project>
+    <dataTable>
+      <entityName>soilprop.rc.data.csv</entityName>
+      <entityDescription>Geum and Kobresia soil inorganic and organic property data for Saddle and North of Tvan, 1993.</entityDescription>
+      <physical>
+        <objectName>soilprop.rc.data.csv</objectName>
+        <size unit="byte">5759</size>
+        <authentication method="MD5">a9981c82be6873baf4dca81634a00fa5</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/118/3/53b63675e8fc3bdab03201a006f684f5</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>collect_date</attributeName>
+          <attributeLabel>collect_date</attributeLabel>
+          <attributeDefinition>core collection date (yyyy-mm-dd)</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1993-07-15</minimum>
+                  <maximum exclusive="false">1993-08-09</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>plot_num</attributeName>
+          <attributeLabel>plot_num</attributeLabel>
+          <attributeDefinition>plot number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_Kobr_core</attributeName>
+          <attributeLabel>depth_Kobr_core</attributeLabel>
+          <attributeDefinition>depth of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">13</minimum>
+                  <maximum exclusive="false">22</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_Geum_core</attributeName>
+          <attributeLabel>depth_Geum_core</attributeLabel>
+          <attributeDefinition>depth of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">8.5</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>rock_wt_Kobr</attributeName>
+          <attributeLabel>rock_wt_Kobr</attributeLabel>
+          <attributeDefinition>rock weight of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>rock_wt_Geum</attributeName>
+          <attributeLabel>rock_wt_Geum</attributeLabel>
+          <attributeDefinition>rock weight of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soil_wt_Kobr</attributeName>
+          <attributeLabel>soil_wt_Kobr</attributeLabel>
+          <attributeDefinition>soil weight of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soil_wt_Geum</attributeName>
+          <attributeLabel>soil_wt_Geum</attributeLabel>
+          <attributeDefinition>soil weight of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soil_bulk_dens_Kobr</attributeName>
+          <attributeLabel>soil_bulk_dens_Kobr</attributeLabel>
+          <attributeDefinition>soil bulk density of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerCubicCentimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>soil_bulk_dens_Geum</attributeName>
+          <attributeLabel>soil_bulk_dens_Geum</attributeLabel>
+          <attributeDefinition>soil bulk density of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerCubicCentimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_wt_Kobr</attributeName>
+          <attributeLabel>tot_wt_Kobr</attributeLabel>
+          <attributeDefinition>total weight of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_wt_Geum</attributeName>
+          <attributeLabel>tot_wt_Geum</attributeLabel>
+          <attributeDefinition>total weight of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_bulk_dens_Kobr</attributeName>
+          <attributeLabel>tot_bulk_dens_Kobr</attributeLabel>
+          <attributeDefinition>total bulk density of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerCubicCentimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_bulk_dens_Geum</attributeName>
+          <attributeLabel>tot_bulk_dens_Geum</attributeLabel>
+          <attributeDefinition>total bulk density of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerCubicCentimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SOM_Kobr</attributeName>
+          <attributeLabel>SOM_Kobr</attributeLabel>
+          <attributeDefinition>soil organic matter content (as a proportion of dry mass) of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>ratio</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SOM_Geum</attributeName>
+          <attributeLabel>SOM_Geum</attributeLabel>
+          <attributeDefinition>soil organic matter content (as a proportion of dry mass) of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>ratio</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_P_Kobr</attributeName>
+          <attributeLabel>tot_P_Kobr</attributeLabel>
+          <attributeDefinition>total phosphorus of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_P_Geum</attributeName>
+          <attributeLabel>tot_P_Geum</attributeLabel>
+          <attributeDefinition>total phosphorus of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_N_Kobr</attributeName>
+          <attributeLabel>tot_N_Kobr</attributeLabel>
+          <attributeDefinition>total nitrogen of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_N_Geum</attributeName>
+          <attributeLabel>tot_N_Geum</attributeLabel>
+          <attributeDefinition>total nitrogen of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_C_Kobr</attributeName>
+          <attributeLabel>tot_C_Kobr</attributeLabel>
+          <attributeDefinition>total carbon of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tot_C_Geum</attributeName>
+          <attributeLabel>tot_C_Geum</attributeLabel>
+          <attributeDefinition>total carbon of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C:N_ratio_Kobr</attributeName>
+          <attributeLabel>C:N_ratio_Kobr</attributeLabel>
+          <attributeDefinition>carbon:nitrogen ratio of Kobresia soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>ratio</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C:N_ratio_Geum</attributeName>
+          <attributeLabel>C:N_ratio_Geum</attributeLabel>
+          <attributeDefinition>carbon:nitrogen ratio of Geum soil core</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>ratio</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>35</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit abbreviation="cm" id="centimeter" multiplierToSI="0.01"
+          name="centimeter" parentSI="meter">
+          <description>.01 meters</description>
+        </unit>
+        <unit abbreviation="g" id="gram" multiplierToSI="0.001"
+          name="gram" parentSI="kilogram" unitType="mass">
+          <description>0.001 kg</description>
+        </unit>
+        <unit abbreviation="g/cm^3" id="gramsPerCubicCentimeter"
+          multiplierToSI="1000" name="gramsPerCubicCentimeter"
+          parentSI="kilogramsPerCubicMeter" unitType="massDensity">
+          <description>grams per cubic centimeter</description>
+        </unit>
+        <unit abbreviation="ratio" id="ratio" name="ratio" unitType="dimensionless">
+          <description>ratio of two quantities</description>
+        </unit>
+        <unit abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

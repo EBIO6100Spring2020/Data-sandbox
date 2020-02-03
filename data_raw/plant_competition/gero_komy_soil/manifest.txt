@@ -1,0 +1,5 @@
+Manifest file for knb-lter-nwt.118.3.zip created on Mon Feb 03 12:24:24 MST 2020
+soilprop.rc.data.csv (5759 bytes)
+knb-lter-nwt.118.3.xml (31580 bytes)
+knb-lter-nwt.118.3.txt (17284 bytes)
+knb-lter-nwt.118.3.report.xml (33077 bytes)
