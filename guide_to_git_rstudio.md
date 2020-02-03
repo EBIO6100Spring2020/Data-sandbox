@@ -48,7 +48,6 @@ Every GitHub repo puts the list of prior commits online. Here is the list of com
 
 ##### Step 3: Pushing in RStudio
 
-Once you have at least one commit ready to put into the online repo, all you need to do to commit is hit the "Push" button in RStudio. This is the green upward-facing arrow. **Remember to pull before you pull.** This will now add your committed changes to the online (master) version of the repo. Note that changes you made that you did not stage and commit will not be reflected in the repo.
-
+Once you have at least one commit ready to put into the online repo, all you need to do to commit is hit the "Push" button in RStudio. This is the green upward-facing arrow. **Remember to pull before you push.** This will now add your committed changes to the online (master) version of the repo. Note that changes you made that you did not stage and commit will not be reflected in the repo.
 
 
