@@ -4,7 +4,20 @@ Project: NEON-Niwot forest species SDMs
 This is a centralized location to organize our thoughts and resources for this project. Thoughts and data are focused on Niwot Ridge site, unless specified otherwise.
 
 ##### Scientific questions we could ask
-1. How will carabid species distributions shift with global warming in a subalpine forest?
+1. How will carabid species distributions shift with global warming in a subalpine forest?  
+1. Is there a shift in community composition through time at all in the NEON data available? For multiple sites, account for habitat and environmental differences. see Brooks et al. 2012 hyp1
+1. Across NEON sites, do temporal community trends differ in magnitude and direction between habitats and regions? see Brooks et al. 2012 hyp2
+1. Are community trends unique to combinations of habitats and regions? That is, might we expect species's responses to environmental change to be dictated mostly by habitat? see Brooks et al. 2012 hyp3
+2. What are shifts in phenology of species through time? see Hoekman et al. 2017  
+3. What is carabid community response to habitat and land-use change over time?  
+4. What are shifts in phenology of species through time and across habitat? see Hoekman et al. 2017
+5. Is fine-scale change in microhabitat heterogeneity more important to carabid abundance and richness than larger-scale changes in landscape diversity? Could more stable habitats (e.g. forest) buffer wider-scale perturbations? see Brooks et al. 2012
+
+
+
+add more papers to the lit list
+see 3 hypotheses from taht one paper
+find carbid data on bold
 
 ##### Why carabids?
 * identifying habitat associations in a dominant insect group would be an important step toward understanding the consequences of global climate change in high mountain areas  (Hiramatsu and Usio 2018)
@@ -18,7 +31,8 @@ This is a centralized location to organize our thoughts and resources for this p
 
 | Predictor variable  | source | dpID | spatial distribution | temporal distribution | literature |
 | ------------- | ----- | -------- | --------------------- | ---------- | ------------ |
-| carabid abundance & species ID | NEON | DP1.10022.001 | 4 traps per plot (10) at each terrestrial site, arrayed 20m from the center of the plot in each cardinal direction | 2015-2019, biweekly sampling each season | [Hoekman et al. 2017](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1744) |
+| carabid richness & abundance | NEON | DP1.10022.001 | 4 traps per plot (10) at each terrestrial site, arrayed 20m from the center of the plot in each cardinal direction | 2015-2019, biweekly sampling during growing season | [Hoekman et al. 2017](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1744) |
+| carabid DNA barcode | NEON | DP1.10020.001 |  |  |  |
 | slope/aspect | NEON | DP3.30025.001 |  |  |  |
 | elevation | NEON | DP3.30024.001 |  |  |  | 
 | precipitation | NEON | DP1.00006.001 |  |  |  | 
@@ -47,4 +61,9 @@ This is a centralized location to organize our thoughts and resources for this p
 
 ##### Literature
 * Plant diversity sampling design at NEON, [Barnett et al. 2019](https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecs2.2603)
-
+* NEON design for ground beetle sampling [Hoekman et al. 2017](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1744)
+* Carabids in a Japanese Alpine-Subalpine Zone, [Hiramatsu and Usio 2018](https://www.hindawi.com/journals/psyche/2018/9754376/)
+* Forest beetle assemblages and LiDAR, [Muller & Brandl 2009](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2009.01677.x)
+* The UK's ECN, kinda like the US's NEON [Brooks et al. 2012]()
+    * largest population declines in montane habitat
+* Forty years of carabid beetle research in Europe, [Kotze et al. 2011](https://zookeys.pensoft.net/article/2426/)

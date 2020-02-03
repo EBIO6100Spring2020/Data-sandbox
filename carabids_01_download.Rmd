@@ -11,9 +11,11 @@ library(neonUtilities)
 
 Download carabid data
 ```{r}
-carabids_all <- loadByProduct(dpID = "DP1.10022.001", site = "NIWO") #ground beetles
-#list2env(carabids_all, .GlobalEnv) splits 
-save(carabids_all, file="data_raw/carabids_all.Rdata")
+carabids_NIWO <- loadByProduct(dpID = "DP1.10022.001", site = "NIWO") #ground beetles
+save(carabids_NIWO, file="data_raw/carabids_NIWO.Rdata")
+
+carabids_barcode_NIWO <- loadByProduct(dpID = "DP1.10020.001", site = "NIWO") #ground beetle barcodes
+save(carabids_barcode_NIWO, file="data_raw/carabids_barcode_NIWO.Rdata")
 ```
 
 

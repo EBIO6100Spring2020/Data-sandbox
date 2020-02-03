@@ -7,9 +7,12 @@ output: rmarkdown::github_document
 
 Load carabid data
 ```{r}
-load(file="data_raw/carabids_all.Rdata")
-list2env(carabids_all, .GlobalEnv)  
+load(file="data_raw/carabids_NIWO.Rdata")
+list2env(carabids_NIWO, .GlobalEnv)  
+load(file="data_raw/carabids_barcode_NIWO.Rdata")
+list2env(carabids_barcode_NIWO, .GlobalEnv)  
 ```
+
 
 Visualize carabid data
 paraTaxononmistid vs expertTaxonomistID
@@ -24,6 +27,10 @@ unique(bet_parataxonomistID$scientificName)
 # only have morphospecies if they didn't get the taxonID down to species level
 
 
-colnames(bet_expertTaxonomistID)
+colnames(bet_expertTaxonomistIDProcessed)
 # important columns: 
+
+# Join by individualID
+# first join barcode with expert tax ID and reconcile ID's
+# then join expert-barcode dataset with paratax and reconcile ID's
 ```
