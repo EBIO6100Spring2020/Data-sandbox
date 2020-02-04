@@ -36,4 +36,7 @@ Downloaded by SN on 3 Feb
 
 Study in 1990 taking soil properties at every point on the saddle sampling grid. pH, moisture, bulk density recorded.
 
+After looking at the data, it's for only one plot in one year. There are no non-lichen plants in the vegetatio data for the corresponding sampling points. I don't think this data will be able to serve us.
+
 Downloaded by SN on 3 Feb
+Explored by SN on 4 Feb
