@@ -31,7 +31,7 @@ find carbid data on bold
 
 | Predictor variable  | source | dpID | spatial distribution | temporal distribution | literature |
 | ------------- | ----- | -------- | --------------------- | ---------- | ------------ |
-| carabid richness & abundance | NEON | DP1.10022.001 | 4 traps per plot (10) at each terrestrial site, arrayed 20m from the center of the plot in each cardinal direction | 2015-2019, biweekly sampling during growing season | [Hoekman et al. 2017](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1744) |
+| carabid richness & abundance | NEON | DP1.10022.001 | 4 traps per plot (10) at each terrestrial site, arrayed 20m from the center of the plot in each cardinal direction | 2015-2019, biweekly sampling during growing season | [NEON carabid data user guide](https://github.com/EBIO6100Spring2020/Data-sandbox/blob/master/docs/NEON_beetle_userGuide_vA.pdf) [Hoekman et al. 2017](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1744) |
 | carabid DNA barcode | NEON | DP1.10020.001 |  |  |  |
 | slope/aspect | NEON | DP3.30025.001 |  |  |  |
 | elevation | NEON | DP3.30024.001 |  |  |  | 
@@ -64,6 +64,10 @@ find carbid data on bold
 * NEON design for ground beetle sampling [Hoekman et al. 2017](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1744)
 * Carabids in a Japanese Alpine-Subalpine Zone, [Hiramatsu and Usio 2018](https://www.hindawi.com/journals/psyche/2018/9754376/)
 * Forest beetle assemblages and LiDAR, [Muller & Brandl 2009](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2009.01677.x)
+    * LiDAR-derived variables: canopy height SD and max tree height at traps from DSM, mean altitude at trap from DTM, microclimaatic conditions proexy from laser penetration rate - see Table 2
+    * decrease in body size with laser penetration ratio and larger species in closed forests
+    * increase in activity of xylophagous species with an increase of the laser penetration ratio.
+    * decrease in the activity of mycetophagous and phytophagous species with altitude because of a reduced availability of hosts. 
 * The UK's ECN, kinda like the US's NEON [Brooks et al. 2012]()
     * largest population declines in montane habitat
 * Forty years of carabid beetle research in Europe, [Kotze et al. 2011](https://zookeys.pensoft.net/article/2426/)
