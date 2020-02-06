@@ -13,19 +13,13 @@ This is a centralized location to organize our thoughts and resources for this p
 4. What are shifts in phenology of species through time and across habitat? see Hoekman et al. 2017
 5. Is fine-scale change in microhabitat heterogeneity more important to carabid abundance and richness than larger-scale changes in landscape diversity? Could more stable habitats (e.g. forest) buffer wider-scale perturbations? see Brooks et al. 2012
 
-
-
-add more papers to the lit list
-see 3 hypotheses from taht one paper
-find carbid data on bold
-
 ##### Why carabids?
 * identifying habitat associations in a dominant insect group would be an important step toward understanding the consequences of global climate change in high mountain areas  (Hiramatsu and Usio 2018)
 * Because of their known sensitivity to changes in habitat structure and requisitly altered microhabitat, carabid beetles have been suggested to serve as useful bioindicators of environmental and land use change (Hiramatsu and Usio 2018)
 * To date, numerous studies have shown that carabid beetle richness and/or assemblage composition change along altitudinal gradients [5–7] and/or with vegetation type [8–11] (Hiramatsu and Usio 2018)
 * Remote sensing can measure carabid habitat at the local and landscape scales. Identifying the predictive relationships between beetle assemblages to remote sensing variables allows conservation managers to measure carabids at a scale appropriate for their biology and scale up to that which management decisions function (Muller et al. 2009).
 
-##### Data products to use
+##### Data products we could use
 * Response variable: carabid community abundance and composition  
     * Source: NEON carabid data at NIWO 2015-19  
 
@@ -71,3 +65,6 @@ find carbid data on bold
 * The UK's ECN, kinda like the US's NEON [Brooks et al. 2012]()
     * largest population declines in montane habitat
 * Forty years of carabid beetle research in Europe, [Kotze et al. 2011](https://zookeys.pensoft.net/article/2426/)
+
+##### Resources
+* [taxize](https://ropensci.org/tutorials/taxize_tutorial/) package for taxon nomenclature
