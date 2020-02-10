@@ -53,6 +53,12 @@ This is a centralized location to organize our thoughts and resources for this p
 | carabids | [carabids.org](https://www.carabids.org/portal/en-us/explore) | Europe, Africa, Asia |  |  
 |  |  |  |  |  
 
+##### Data questions
+* How to choose which species to model? [Dittrich et al. 2020](https://www.mdpi.com/2072-4292/12/1/80/htm) chose species to reduce interannual variability by selecting ones that are (1) not directly depending on ephemeral resources and (2) nonspecific predators, feeding on various soil arthropods.
+* Model occupancy or abundance? Maybe occupancy since we don't have abundant records
+* Canopy structural variability seems like an important predictor (Davies & Asner 2014) - how to quantify this?
+* Incorporate structural variables at trap-, plot-, and site-scales. Muller et al 2014 found higher arthropod diversity with increased canopy structural variability and density *at the tree scale*, but lower diversity *at the stand scale*
+
 ##### Literature
 * Plant diversity sampling design at NEON, [Barnett et al. 2019](https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecs2.2603)
 * NEON design for ground beetle sampling [Hoekman et al. 2017](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1744)
@@ -65,6 +71,19 @@ This is a centralized location to organize our thoughts and resources for this p
 * The UK's ECN, kinda like the US's NEON [Brooks et al. 2012]()
     * largest population declines in montane habitat
 * Forty years of carabid beetle research in Europe, [Kotze et al. 2011](https://zookeys.pensoft.net/article/2426/)
+* Use satellite imagery to build mountainous rove beetle SDM. Machine learning models performed better than GLM and GAM, [Dittrich et al. 2020](https://www.mdpi.com/2072-4292/12/1/80/htm)
+* studies that have used satellite-derived parameters for SDMs in mountainous regions
+   * [Dudov et al. 2017](https://link.springer.com/article/10.1134/S2079086417030021)
+   * [Oke & Thompson 2015](https://reader.elsevier.com/reader/sd/pii/S0304380015000381?token=D5827B496B1E08299C00AF3D1755BBDB0C19DFECB17E90ED55332A0604FCEBE37DD47F413F373E089863A29B9676D705)
+* Review of advances in animal ecology from LiDAR - helpful table for invertebrates, definitions of structural terms [Davies & Asner 2014](https://scse.d.umn.edu/sites/scse.d.umn.edu/files/joyce_paper_2.pdf)
+   * canopy variability - Beetle body size decreased with increasing variability, [Muller & Brandl 2009](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2009.01677.x); Arthropod diversity increased at the tree scale, [Muller et al. 2013](https://reader.elsevier.com/reader/sd/pii/S0378112713006816?token=B13AFBBE5F3F96F4728531E4B474FB6D9145A9264D543CBC00589FD4206681536C433D888E337EF8E623D10FB685F360)
+   * canopy density - Arthropod diversity increased with increasing canopy density at tree scale, but decreased at stand scale, [Muller et al. 2013](https://reader.elsevier.com/reader/sd/pii/S0378112713006816?token=B13AFBBE5F3F96F4728531E4B474FB6D9145A9264D543CBC00589FD4206681536C433D888E337EF8E623D10FB685F360)
+   * canopy height - Beetle body size increased, abundance decreased with increasing height, [Muller & Brandl 2009](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2009.01677.x)
+   * elevation - Beetle species richness and spider diversity increased, [Muller & Brandl 2009](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/j.1365-2664.2009.01677.x)
+with higher elevation
+   * hydrology - Female carabid beetles preferred steep slopes with high flow accumulation, [Work et al. 2011](https://zookeys.pensoft.net/articles.php?id=2927)
+   * aspect - Female carabid beetles preferred cooler (north-facing) slopes, [Work et al. 2011](https://zookeys.pensoft.net/articles.php?id=2927)
+   * From the eight studies available for review, variability in the canopy profile (both vertical and horizontal), or ‘structural variability’ (Box 3), rather than a single structural metric, was most important for invertebrate assemblages
 
 ##### Resources
 * [taxize](https://ropensci.org/tutorials/taxize_tutorial/) package for taxon nomenclature
