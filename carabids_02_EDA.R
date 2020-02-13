@@ -1,19 +1,21 @@
 # This script explores the differences in species ED between the parataxonomist, expert taxonomist, and barcode datasets on NEON ground beetles, then visualizes the data
 # Para vs expert comparison written by Max
 
-library(neonUtilities) 
-library(tidyverse) 
-#library(taxize)
-#library(reshape2)
+library(neonUtilities)
+library(dplyr)
+library(stringr)
+library(ggplot2)
+library(forcats) #fct_reorder
 
 # Load carabid data
-load(file="data_raw/carabids_NIWO.Rdata")
+load(file="data_raw/beetles/carabids_NIWO.Rdata")
 list2env(carabids_NIWO, .GlobalEnv)  
-load(file="data_raw/carabids_barcode_NIWO.Rdata")
+load(file="data_raw/beetles/carabids_barcode_NIWO.Rdata")
 list2env(carabids_barcode_NIWO, .GlobalEnv)  
 
 
 ### First compare barcode and expert taxonomist
+
 # pull out barcode and expert taxonomist data
 barcode <- bet_BOLDtaxonomy %>%
             mutate(individualID = sampleID, bc_sciname = NA) %>%
@@ -30,7 +32,7 @@ for (i in 1:nrow(barcode)) {
         barcode$bc_sciname[i] <- paste(word(barcode$species[i], 1:2),collapse=" ")
     }
 }
-# couldn't get this to work in simple ifelse format: barcode %>% mutate(bc_sciname = ifelse( sapply(strsplit(species," "),length) == 2, species, paste(word(species, 1:2),collapse=" ")))
+# AIS couldn't get this to work in simple ifelse format: barcode %>% mutate(bc_sciname = ifelse( sapply(strsplit(species," "),length) == 2, species, paste(word(species, 1:2),collapse=" ")))
 
 # Join barcode and expert data
 bc_exp_taxon_df <- expert %>%
@@ -50,7 +52,7 @@ bc_exp_taxon_df %>%
 #100%!
 
 
-### Then compare barcode/expert to parataxonomist
+### Now compare barcode/expert to parataxonomist
 # pull out parataxonomist data
 para <- bet_parataxonomistID %>%
             mutate(para_sciname = scientificName) %>%
@@ -64,7 +66,7 @@ taxon_df <- left_join(para, bc_exp_taxon_df)
 taxon_df %>%
   filter(taxonRank == "species") %>%
   summarize(mean(para_sciname == expert_sciname, na.rm = TRUE)) 
-#0.97
+#0.97 match between specimen identified by expert taxonomist with parataxonomist ID
 
 # Are any species perfectly identified?
 taxon_df %>%
@@ -221,13 +223,22 @@ bet_fielddata %>%
   ggplot() +
   geom_point(aes(x = decimalLongitude, y = decimalLatitude, colour = nlcdClass))
 
-# taxon by habitat - bet_fielddata$nlcdClass
-# cool variables to look at: nativestatuscode
+# cool variables to look at: bet_fielddata$nativestatuscode
+bet_parataxonomistID %>% 
+  filter(scientificName %in% select_spp) %>%
+  select(scientificName, nativeStatusCode) %>%
+  summarize(mean(nativeStatusCode == "N") )
 
 
 
 
+
+### SCRATCH ###
 # How to decide on the final species ID to use?
+
+# Class notes
+# exclude species that are intermittent
+
 # Pseudocode
 # for individuals that have expertID,
   # If paraID matches expertID
@@ -259,9 +270,3 @@ for (i in 1:nrow(taxon_df)) {
     }
 }
 # AIS how to make this tidy?
-
-
-# TO DO
-#1 [ ] compare species synonyms
-#5 [ ] move cleaning steps to cleaning script
-#6 [ ] checkout paper with multinomial prob -> should we do this?
