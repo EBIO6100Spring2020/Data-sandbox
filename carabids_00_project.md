@@ -13,8 +13,8 @@ This is a centralized location to organize our thoughts and resources for this p
 4. What are shifts in phenology of species through time and across habitat? see Hoekman et al. 2017
 5. Is fine-scale change in microhabitat heterogeneity more important to carabid abundance and richness than larger-scale changes in landscape diversity? Could more stable habitats (e.g. forest) buffer wider-scale perturbations? see Brooks et al. 2012
 6. "How much data is enough to forecast accurately?": Develop a prediction model and run it (say) 35 years into the future. Assume this forecast data is real. Re-run the model, giving it varying amounts of "real" data (1 yr, 3 yrs, 5 yrs, 10 yrs etc). For each amount of "real" data, assess forecast accuracy at various timesteps; i.e. how far into the future can we accurately forecast with a given amount of "real" data? Figure out how to predict standard error change through time by simulating fake data.
-7. Predict beetle abundance and and composition at a different spot in the same year.
-8. Forecast 
+7. Predict beetle abundance and and composition at a different spot in the same year. Or forecast rel abundance for the next collection period
+8. Brett feedback from class pres - we're describing a bootstrapped forecast (generating fake data - if this is the truth, what uncertainty is there?) Think about the generative process in data collection
 
 ##### Why carabids?
 * identifying habitat associations in a dominant insect group would be an important step toward understanding the consequences of global climate change in high mountain areas  (Hiramatsu and Usio 2018)
@@ -49,18 +49,34 @@ This is a centralized location to organize our thoughts and resources for this p
 | litterfall/woody debris |  |  |  |  |  | 
 | surface temp |  |  |  |  |  | 
 | microtopography |  |  |  |  |  | 
-|  |  |  |  |  |  | 
+| time to snowmelt |  |  |  |  |  | 
+| max. snowpack |  |  |  |  |  | 
 
 | Miscellaneous data  | source | spatial distribution | temporal distribution |
 | ------- | ----------------- | --------- | ---------- | 
 | carabids | [carabids.org](https://www.carabids.org/portal/en-us/explore) | Europe, Africa, Asia |  |  
 |  |  |  |  |  
 
-##### Data questions
+##### Carabid traits
+These are the 7 most abundant and accurately identified species at Niwot Ridge.
+| Species | Responsible | Associated traits | Reference |
+| ------------- | ----- | -------- | -----|
+| Amara alpina | Anna |   |  |
+| Amara quenseli | Anna |   |  |
+| Calathus advena | Anna |   |  |
+| Carabus taedatus | Anna |   |  |
+| Cymindis unicolor | Christa |   |  |
+| Harpalus nigritarsis | Christa |   |  |
+| Pterostichus restrictus | Christa |   |  |
+
+##### Data thoughts & questions
 * How to choose which species to model? [Dittrich et al. 2020](https://www.mdpi.com/2072-4292/12/1/80/htm) chose species to reduce interannual variability by selecting ones that are (1) not directly depending on ephemeral resources and (2) nonspecific predators, feeding on various soil arthropods.
 * Model occupancy or abundance? Maybe occupancy since we don't have abundant records
 * Canopy structural variability seems like an important predictor (Davies & Asner 2014) - how to quantify this?
 * Incorporate structural variables at trap-, plot-, and site-scales. Muller et al 2014 found higher arthropod diversity with increased canopy structural variability and density *at the tree scale*, but lower diversity *at the stand scale*
+* Proxy for understory veg could be elevation or dist to stream
+* NEON veg diversity data (2m scale cover)
+* Climatic/meteorological variables: When Henry Nix started creating SDMs, bioclim was important> WorldClim should be at a fine enough scale for across-site NEON comparisons. Kiarney 2018 & 2019 (Methods in Ecology) used worldclim or bioclim to get 30m scale meteorological data for small-scale microclimate modeling
 
 ##### Literature
 * Plant diversity sampling design at NEON, [Barnett et al. 2019](https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecs2.2603)
