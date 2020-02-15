@@ -1,0 +1,1636 @@
+# Package ID: knb-lter-nwt.210.1 Cataloging System:https://pasta.edirepository.org.
+# Data set title: Saddle catchment sensor network data, 2017- ongoing..
+# Data set creator:  Jennifer F Morse -  
+# Contact:    - Information Manager Niwot Ridge LTER  - lternwt@colorado.edu
+# Stylesheet v1.3 for metadata conversion into program: John H. Porter, Univ. Virginia, jporter@Virginia.edu 
+#
+#install package tidyverse if not already installed
+if(!require(tidyverse)){ install.packages("tidyverse") }  
+library("tidyverse") 
+infile1 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/14b7546f842944600a80a59109e9d257") 
+infile1 <-sub("^https","http",infile1)
+# This creates a tibble named: dt1 
+	dt1 <-read_delim(infile1  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min",   
+                        "ppt_total",   
+                        "ppt2_total"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() ), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt1$airtemp_max <- ifelse((trimws(as.character(dt1$airtemp_max))==trimws("NaN")),NA,dt1$airtemp_max)
+dt1$flag_airtemp_max <- ifelse((trimws(as.character(dt1$flag_airtemp_max))==trimws("NaN")),NA,dt1$flag_airtemp_max)
+dt1$time_airtemp_max <- ifelse((trimws(as.character(dt1$time_airtemp_max))==trimws("NaN")),NA,dt1$time_airtemp_max)
+dt1$airtemp_min <- ifelse((trimws(as.character(dt1$airtemp_min))==trimws("NaN")),NA,dt1$airtemp_min)
+dt1$flag_airtemp_min <- ifelse((trimws(as.character(dt1$flag_airtemp_min))==trimws("NaN")),NA,dt1$flag_airtemp_min)
+dt1$time_airtemp_min <- ifelse((trimws(as.character(dt1$time_airtemp_min))==trimws("NaN")),NA,dt1$time_airtemp_min)
+dt1$airtemp_avg <- ifelse((trimws(as.character(dt1$airtemp_avg))==trimws("NaN")),NA,dt1$airtemp_avg)
+dt1$flag_airtemp_avg <- ifelse((trimws(as.character(dt1$flag_airtemp_avg))==trimws("NaN")),NA,dt1$flag_airtemp_avg)
+dt1$rh_max <- ifelse((trimws(as.character(dt1$rh_max))==trimws("NaN")),NA,dt1$rh_max)
+dt1$flag_rh_max <- ifelse((trimws(as.character(dt1$flag_rh_max))==trimws("NaN")),NA,dt1$flag_rh_max)
+dt1$time_rh_max <- ifelse((trimws(as.character(dt1$time_rh_max))==trimws("NaN")),NA,dt1$time_rh_max)
+dt1$rh_min <- ifelse((trimws(as.character(dt1$rh_min))==trimws("NaN")),NA,dt1$rh_min)
+dt1$flag_rh_min <- ifelse((trimws(as.character(dt1$flag_rh_min))==trimws("NaN")),NA,dt1$flag_rh_min)
+dt1$time_rh_min <- ifelse((trimws(as.character(dt1$time_rh_min))==trimws("NaN")),NA,dt1$time_rh_min)
+dt1$rh_avg <- ifelse((trimws(as.character(dt1$rh_avg))==trimws("NaN")),NA,dt1$rh_avg)
+dt1$flag_rh_avg <- ifelse((trimws(as.character(dt1$flag_rh_avg))==trimws("NaN")),NA,dt1$flag_rh_avg)
+dt1$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt1$soiltemp_30cm_avg))==trimws("NaN")),NA,dt1$soiltemp_30cm_avg)
+dt1$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt1$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt1$flag_soiltemp_30cm_avg)
+dt1$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt1$soiltemp_5cm_avg))==trimws("NaN")),NA,dt1$soiltemp_5cm_avg)
+dt1$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt1$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt1$flag_soiltemp_5cm_avg)
+dt1$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt1$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt1$soilmoisture_a_30cm_avg)
+dt1$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt1$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt1$flag_soilmoisture_a_30cm_avg)
+dt1$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt1$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt1$soilmoisture_a_5cm_avg)
+dt1$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt1$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt1$flag_soilmoisture_a_5cm_avg)
+dt1$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt1$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt1$soilmoisture_b_30cm_avg)
+dt1$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt1$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt1$flag_soilmoisture_b_30cm_avg)
+dt1$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt1$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt1$soilmoisture_b_5cm_avg)
+dt1$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt1$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt1$flag_soilmoisture_b_5cm_avg)
+dt1$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt1$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt1$soilmoisture_c_5cm_avg)
+dt1$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt1$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt1$flag_soilmoisture_c_5cm_avg)
+dt1$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt1$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt1$soilmoisture_c_30cm_avg)
+dt1$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt1$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt1$flag_soilmoisture_c_30cm_avg)
+dt1$dts_sample <- ifelse((trimws(as.character(dt1$dts_sample))==trimws("NaN")),NA,dt1$dts_sample)
+dt1$flag_dts_sample <- ifelse((trimws(as.character(dt1$flag_dts_sample))==trimws("NaN")),NA,dt1$flag_dts_sample)
+dt1$dts_min <- ifelse((trimws(as.character(dt1$dts_min))==trimws("NaN")),NA,dt1$dts_min)
+dt1$flag_dts_min <- ifelse((trimws(as.character(dt1$flag_dts_min))==trimws("NaN")),NA,dt1$flag_dts_min)
+dt1$ppt_total <- ifelse((trimws(as.character(dt1$ppt_total))==trimws("NaN")),NA,dt1$ppt_total)
+dt1$ppt2_total <- ifelse((trimws(as.character(dt1$ppt2_total))==trimws("NaN")),NA,dt1$ppt2_total)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt1) 
+# Here is the structure of the input data tibble: 
+glimpse(dt1) 
+# And some statistical summaries of the data 
+summary(dt1) 
+# Get more details on character variables
+                     
+summary(as.factor(dt1$sensornode)) 
+summary(as.factor(dt1$flag_airtemp_max)) 
+summary(as.factor(dt1$flag_airtemp_min)) 
+summary(as.factor(dt1$flag_airtemp_avg)) 
+summary(as.factor(dt1$flag_rh_max)) 
+summary(as.factor(dt1$flag_rh_min)) 
+summary(as.factor(dt1$flag_rh_avg)) 
+summary(as.factor(dt1$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt1$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt1$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt1$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt1$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt1$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt1$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt1$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt1$flag_dts_sample)) 
+summary(as.factor(dt1$flag_dts_min)) 
+infile2 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/6fdd4b85f4cedad6669fd8754b9f1358") 
+infile2 <-sub("^https","http",infile2)
+# This creates a tibble named: dt2 
+	dt2 <-read_delim(infile2  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt2$airtemp_max <- ifelse((trimws(as.character(dt2$airtemp_max))==trimws("NaN")),NA,dt2$airtemp_max)
+dt2$flag_airtemp_max <- ifelse((trimws(as.character(dt2$flag_airtemp_max))==trimws("NaN")),NA,dt2$flag_airtemp_max)
+dt2$time_airtemp_max <- ifelse((trimws(as.character(dt2$time_airtemp_max))==trimws("NaN")),NA,dt2$time_airtemp_max)
+dt2$airtemp_min <- ifelse((trimws(as.character(dt2$airtemp_min))==trimws("NaN")),NA,dt2$airtemp_min)
+dt2$flag_airtemp_min <- ifelse((trimws(as.character(dt2$flag_airtemp_min))==trimws("NaN")),NA,dt2$flag_airtemp_min)
+dt2$time_airtemp_min <- ifelse((trimws(as.character(dt2$time_airtemp_min))==trimws("NaN")),NA,dt2$time_airtemp_min)
+dt2$airtemp_avg <- ifelse((trimws(as.character(dt2$airtemp_avg))==trimws("NaN")),NA,dt2$airtemp_avg)
+dt2$flag_airtemp_avg <- ifelse((trimws(as.character(dt2$flag_airtemp_avg))==trimws("NaN")),NA,dt2$flag_airtemp_avg)
+dt2$rh_max <- ifelse((trimws(as.character(dt2$rh_max))==trimws("NaN")),NA,dt2$rh_max)
+dt2$flag_rh_max <- ifelse((trimws(as.character(dt2$flag_rh_max))==trimws("NaN")),NA,dt2$flag_rh_max)
+dt2$time_rh_max <- ifelse((trimws(as.character(dt2$time_rh_max))==trimws("NaN")),NA,dt2$time_rh_max)
+dt2$rh_min <- ifelse((trimws(as.character(dt2$rh_min))==trimws("NaN")),NA,dt2$rh_min)
+dt2$flag_rh_min <- ifelse((trimws(as.character(dt2$flag_rh_min))==trimws("NaN")),NA,dt2$flag_rh_min)
+dt2$time_rh_min <- ifelse((trimws(as.character(dt2$time_rh_min))==trimws("NaN")),NA,dt2$time_rh_min)
+dt2$rh_avg <- ifelse((trimws(as.character(dt2$rh_avg))==trimws("NaN")),NA,dt2$rh_avg)
+dt2$flag_rh_avg <- ifelse((trimws(as.character(dt2$flag_rh_avg))==trimws("NaN")),NA,dt2$flag_rh_avg)
+dt2$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt2$soiltemp_5cm_avg))==trimws("NaN")),NA,dt2$soiltemp_5cm_avg)
+dt2$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt2$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt2$flag_soiltemp_5cm_avg)
+dt2$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt2$soiltemp_30cm_avg))==trimws("NaN")),NA,dt2$soiltemp_30cm_avg)
+dt2$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt2$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt2$flag_soiltemp_30cm_avg)
+dt2$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt2$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt2$soilmoisture_a_5cm_avg)
+dt2$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt2$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt2$flag_soilmoisture_a_5cm_avg)
+dt2$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt2$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt2$soilmoisture_a_30cm_avg)
+dt2$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt2$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt2$flag_soilmoisture_a_30cm_avg)
+dt2$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt2$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt2$soilmoisture_b_5cm_avg)
+dt2$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt2$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt2$flag_soilmoisture_b_5cm_avg)
+dt2$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt2$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt2$soilmoisture_b_30cm_avg)
+dt2$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt2$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt2$flag_soilmoisture_b_30cm_avg)
+dt2$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt2$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt2$soilmoisture_c_5cm_avg)
+dt2$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt2$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt2$flag_soilmoisture_c_5cm_avg)
+dt2$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt2$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt2$soilmoisture_c_30cm_avg)
+dt2$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt2$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt2$flag_soilmoisture_c_30cm_avg)
+dt2$ppt_total <- ifelse((trimws(as.character(dt2$ppt_total))==trimws("NaN")),NA,dt2$ppt_total)
+dt2$ppt2_total <- ifelse((trimws(as.character(dt2$ppt2_total))==trimws("NaN")),NA,dt2$ppt2_total)
+dt2$dts_sample <- ifelse((trimws(as.character(dt2$dts_sample))==trimws("NaN")),NA,dt2$dts_sample)
+dt2$flag_dts_sample <- ifelse((trimws(as.character(dt2$flag_dts_sample))==trimws("NaN")),NA,dt2$flag_dts_sample)
+dt2$dts_min <- ifelse((trimws(as.character(dt2$dts_min))==trimws("NaN")),NA,dt2$dts_min)
+dt2$flag_dts_min <- ifelse((trimws(as.character(dt2$flag_dts_min))==trimws("NaN")),NA,dt2$flag_dts_min)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt2) 
+# Here is the structure of the input data tibble: 
+glimpse(dt2) 
+# And some statistical summaries of the data 
+summary(dt2) 
+# Get more details on character variables
+                     
+summary(as.factor(dt2$sensornode)) 
+summary(as.factor(dt2$flag_airtemp_max)) 
+summary(as.factor(dt2$flag_airtemp_min)) 
+summary(as.factor(dt2$flag_airtemp_avg)) 
+summary(as.factor(dt2$flag_rh_max)) 
+summary(as.factor(dt2$flag_rh_min)) 
+summary(as.factor(dt2$flag_rh_avg)) 
+summary(as.factor(dt2$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt2$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt2$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt2$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt2$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt2$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt2$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt2$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt2$flag_dts_sample)) 
+summary(as.factor(dt2$flag_dts_min)) 
+infile3 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/723813faafec935624da05dd2f2e5637") 
+infile3 <-sub("^https","http",infile3)
+# This creates a tibble named: dt3 
+	dt3 <-read_delim(infile3  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt3$airtemp_max <- ifelse((trimws(as.character(dt3$airtemp_max))==trimws("NaN")),NA,dt3$airtemp_max)
+dt3$flag_airtemp_max <- ifelse((trimws(as.character(dt3$flag_airtemp_max))==trimws("NaN")),NA,dt3$flag_airtemp_max)
+dt3$time_airtemp_max <- ifelse((trimws(as.character(dt3$time_airtemp_max))==trimws("NaN")),NA,dt3$time_airtemp_max)
+dt3$airtemp_min <- ifelse((trimws(as.character(dt3$airtemp_min))==trimws("NaN")),NA,dt3$airtemp_min)
+dt3$flag_airtemp_min <- ifelse((trimws(as.character(dt3$flag_airtemp_min))==trimws("NaN")),NA,dt3$flag_airtemp_min)
+dt3$time_airtemp_min <- ifelse((trimws(as.character(dt3$time_airtemp_min))==trimws("NaN")),NA,dt3$time_airtemp_min)
+dt3$airtemp_avg <- ifelse((trimws(as.character(dt3$airtemp_avg))==trimws("NaN")),NA,dt3$airtemp_avg)
+dt3$flag_airtemp_avg <- ifelse((trimws(as.character(dt3$flag_airtemp_avg))==trimws("NaN")),NA,dt3$flag_airtemp_avg)
+dt3$rh_max <- ifelse((trimws(as.character(dt3$rh_max))==trimws("NaN")),NA,dt3$rh_max)
+dt3$flag_rh_max <- ifelse((trimws(as.character(dt3$flag_rh_max))==trimws("NaN")),NA,dt3$flag_rh_max)
+dt3$time_rh_max <- ifelse((trimws(as.character(dt3$time_rh_max))==trimws("NaN")),NA,dt3$time_rh_max)
+dt3$rh_min <- ifelse((trimws(as.character(dt3$rh_min))==trimws("NaN")),NA,dt3$rh_min)
+dt3$flag_rh_min <- ifelse((trimws(as.character(dt3$flag_rh_min))==trimws("NaN")),NA,dt3$flag_rh_min)
+dt3$time_rh_min <- ifelse((trimws(as.character(dt3$time_rh_min))==trimws("NaN")),NA,dt3$time_rh_min)
+dt3$rh_avg <- ifelse((trimws(as.character(dt3$rh_avg))==trimws("NaN")),NA,dt3$rh_avg)
+dt3$flag_rh_avg <- ifelse((trimws(as.character(dt3$flag_rh_avg))==trimws("NaN")),NA,dt3$flag_rh_avg)
+dt3$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt3$soiltemp_30cm_avg))==trimws("NaN")),NA,dt3$soiltemp_30cm_avg)
+dt3$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt3$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt3$flag_soiltemp_30cm_avg)
+dt3$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt3$soiltemp_5cm_avg))==trimws("NaN")),NA,dt3$soiltemp_5cm_avg)
+dt3$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt3$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt3$flag_soiltemp_5cm_avg)
+dt3$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt3$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt3$soilmoisture_a_30cm_avg)
+dt3$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt3$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt3$flag_soilmoisture_a_30cm_avg)
+dt3$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt3$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt3$soilmoisture_a_5cm_avg)
+dt3$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt3$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt3$flag_soilmoisture_a_5cm_avg)
+dt3$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt3$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt3$soilmoisture_b_30cm_avg)
+dt3$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt3$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt3$flag_soilmoisture_b_30cm_avg)
+dt3$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt3$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt3$soilmoisture_b_5cm_avg)
+dt3$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt3$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt3$flag_soilmoisture_b_5cm_avg)
+dt3$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt3$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt3$soilmoisture_c_30cm_avg)
+dt3$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt3$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt3$flag_soilmoisture_c_30cm_avg)
+dt3$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt3$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt3$soilmoisture_c_5cm_avg)
+dt3$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt3$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt3$flag_soilmoisture_c_5cm_avg)
+dt3$ppt_total <- ifelse((trimws(as.character(dt3$ppt_total))==trimws("NaN")),NA,dt3$ppt_total)
+dt3$ppt2_total <- ifelse((trimws(as.character(dt3$ppt2_total))==trimws("NaN")),NA,dt3$ppt2_total)
+dt3$dts_sample <- ifelse((trimws(as.character(dt3$dts_sample))==trimws("NaN")),NA,dt3$dts_sample)
+dt3$flag_dts_sample <- ifelse((trimws(as.character(dt3$flag_dts_sample))==trimws("NaN")),NA,dt3$flag_dts_sample)
+dt3$dts_min <- ifelse((trimws(as.character(dt3$dts_min))==trimws("NaN")),NA,dt3$dts_min)
+dt3$flag_dts_min <- ifelse((trimws(as.character(dt3$flag_dts_min))==trimws("NaN")),NA,dt3$flag_dts_min)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt3) 
+# Here is the structure of the input data tibble: 
+glimpse(dt3) 
+# And some statistical summaries of the data 
+summary(dt3) 
+# Get more details on character variables
+                     
+summary(as.factor(dt3$sensornode)) 
+summary(as.factor(dt3$flag_airtemp_max)) 
+summary(as.factor(dt3$flag_airtemp_min)) 
+summary(as.factor(dt3$flag_airtemp_avg)) 
+summary(as.factor(dt3$flag_rh_max)) 
+summary(as.factor(dt3$flag_rh_min)) 
+summary(as.factor(dt3$flag_rh_avg)) 
+summary(as.factor(dt3$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt3$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt3$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt3$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt3$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt3$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt3$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt3$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt3$flag_dts_sample)) 
+summary(as.factor(dt3$flag_dts_min)) 
+infile4 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/9938aea7e8eb35e21d4838071aaab2e4") 
+infile4 <-sub("^https","http",infile4)
+# This creates a tibble named: dt4 
+	dt4 <-read_delim(infile4  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt4$airtemp_max <- ifelse((trimws(as.character(dt4$airtemp_max))==trimws("NaN")),NA,dt4$airtemp_max)
+dt4$flag_airtemp_max <- ifelse((trimws(as.character(dt4$flag_airtemp_max))==trimws("NaN")),NA,dt4$flag_airtemp_max)
+dt4$time_airtemp_max <- ifelse((trimws(as.character(dt4$time_airtemp_max))==trimws("NaN")),NA,dt4$time_airtemp_max)
+dt4$airtemp_min <- ifelse((trimws(as.character(dt4$airtemp_min))==trimws("NaN")),NA,dt4$airtemp_min)
+dt4$flag_airtemp_min <- ifelse((trimws(as.character(dt4$flag_airtemp_min))==trimws("NaN")),NA,dt4$flag_airtemp_min)
+dt4$time_airtemp_min <- ifelse((trimws(as.character(dt4$time_airtemp_min))==trimws("NaN")),NA,dt4$time_airtemp_min)
+dt4$airtemp_avg <- ifelse((trimws(as.character(dt4$airtemp_avg))==trimws("NaN")),NA,dt4$airtemp_avg)
+dt4$flag_airtemp_avg <- ifelse((trimws(as.character(dt4$flag_airtemp_avg))==trimws("NaN")),NA,dt4$flag_airtemp_avg)
+dt4$rh_max <- ifelse((trimws(as.character(dt4$rh_max))==trimws("NaN")),NA,dt4$rh_max)
+dt4$flag_rh_max <- ifelse((trimws(as.character(dt4$flag_rh_max))==trimws("NaN")),NA,dt4$flag_rh_max)
+dt4$time_rh_max <- ifelse((trimws(as.character(dt4$time_rh_max))==trimws("NaN")),NA,dt4$time_rh_max)
+dt4$rh_min <- ifelse((trimws(as.character(dt4$rh_min))==trimws("NaN")),NA,dt4$rh_min)
+dt4$flag_rh_min <- ifelse((trimws(as.character(dt4$flag_rh_min))==trimws("NaN")),NA,dt4$flag_rh_min)
+dt4$time_rh_min <- ifelse((trimws(as.character(dt4$time_rh_min))==trimws("NaN")),NA,dt4$time_rh_min)
+dt4$rh_avg <- ifelse((trimws(as.character(dt4$rh_avg))==trimws("NaN")),NA,dt4$rh_avg)
+dt4$flag_rh_avg <- ifelse((trimws(as.character(dt4$flag_rh_avg))==trimws("NaN")),NA,dt4$flag_rh_avg)
+dt4$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt4$soiltemp_5cm_avg))==trimws("NaN")),NA,dt4$soiltemp_5cm_avg)
+dt4$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt4$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt4$flag_soiltemp_5cm_avg)
+dt4$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt4$soiltemp_30cm_avg))==trimws("NaN")),NA,dt4$soiltemp_30cm_avg)
+dt4$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt4$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt4$flag_soiltemp_30cm_avg)
+dt4$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt4$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt4$soilmoisture_a_5cm_avg)
+dt4$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt4$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt4$flag_soilmoisture_a_5cm_avg)
+dt4$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt4$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt4$soilmoisture_a_30cm_avg)
+dt4$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt4$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt4$flag_soilmoisture_a_30cm_avg)
+dt4$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt4$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt4$soilmoisture_b_5cm_avg)
+dt4$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt4$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt4$flag_soilmoisture_b_5cm_avg)
+dt4$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt4$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt4$soilmoisture_b_30cm_avg)
+dt4$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt4$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt4$flag_soilmoisture_b_30cm_avg)
+dt4$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt4$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt4$soilmoisture_c_5cm_avg)
+dt4$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt4$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt4$flag_soilmoisture_c_5cm_avg)
+dt4$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt4$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt4$soilmoisture_c_30cm_avg)
+dt4$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt4$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt4$flag_soilmoisture_c_30cm_avg)
+dt4$ppt_total <- ifelse((trimws(as.character(dt4$ppt_total))==trimws("NaN")),NA,dt4$ppt_total)
+dt4$ppt2_total <- ifelse((trimws(as.character(dt4$ppt2_total))==trimws("NaN")),NA,dt4$ppt2_total)
+dt4$dts_sample <- ifelse((trimws(as.character(dt4$dts_sample))==trimws("NaN")),NA,dt4$dts_sample)
+dt4$flag_dts_sample <- ifelse((trimws(as.character(dt4$flag_dts_sample))==trimws("NaN")),NA,dt4$flag_dts_sample)
+dt4$dts_min <- ifelse((trimws(as.character(dt4$dts_min))==trimws("NaN")),NA,dt4$dts_min)
+dt4$flag_dts_min <- ifelse((trimws(as.character(dt4$flag_dts_min))==trimws("NaN")),NA,dt4$flag_dts_min)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt4) 
+# Here is the structure of the input data tibble: 
+glimpse(dt4) 
+# And some statistical summaries of the data 
+summary(dt4) 
+# Get more details on character variables
+                     
+summary(as.factor(dt4$sensornode)) 
+summary(as.factor(dt4$flag_airtemp_max)) 
+summary(as.factor(dt4$flag_airtemp_min)) 
+summary(as.factor(dt4$flag_airtemp_avg)) 
+summary(as.factor(dt4$flag_rh_max)) 
+summary(as.factor(dt4$flag_rh_min)) 
+summary(as.factor(dt4$flag_rh_avg)) 
+summary(as.factor(dt4$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt4$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt4$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt4$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt4$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt4$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt4$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt4$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt4$flag_dts_sample)) 
+summary(as.factor(dt4$flag_dts_min)) 
+infile5 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/f2b26a5b80714d7e2571782def2fc729") 
+infile5 <-sub("^https","http",infile5)
+# This creates a tibble named: dt5 
+	dt5 <-read_delim(infile5  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt5$airtemp_max <- ifelse((trimws(as.character(dt5$airtemp_max))==trimws("NaN")),NA,dt5$airtemp_max)
+dt5$flag_airtemp_max <- ifelse((trimws(as.character(dt5$flag_airtemp_max))==trimws("NaN")),NA,dt5$flag_airtemp_max)
+dt5$time_airtemp_max <- ifelse((trimws(as.character(dt5$time_airtemp_max))==trimws("NaN")),NA,dt5$time_airtemp_max)
+dt5$airtemp_min <- ifelse((trimws(as.character(dt5$airtemp_min))==trimws("NaN")),NA,dt5$airtemp_min)
+dt5$flag_airtemp_min <- ifelse((trimws(as.character(dt5$flag_airtemp_min))==trimws("NaN")),NA,dt5$flag_airtemp_min)
+dt5$time_airtemp_min <- ifelse((trimws(as.character(dt5$time_airtemp_min))==trimws("NaN")),NA,dt5$time_airtemp_min)
+dt5$airtemp_avg <- ifelse((trimws(as.character(dt5$airtemp_avg))==trimws("NaN")),NA,dt5$airtemp_avg)
+dt5$flag_airtemp_avg <- ifelse((trimws(as.character(dt5$flag_airtemp_avg))==trimws("NaN")),NA,dt5$flag_airtemp_avg)
+dt5$rh_max <- ifelse((trimws(as.character(dt5$rh_max))==trimws("NaN")),NA,dt5$rh_max)
+dt5$flag_rh_max <- ifelse((trimws(as.character(dt5$flag_rh_max))==trimws("NaN")),NA,dt5$flag_rh_max)
+dt5$time_rh_max <- ifelse((trimws(as.character(dt5$time_rh_max))==trimws("NaN")),NA,dt5$time_rh_max)
+dt5$rh_min <- ifelse((trimws(as.character(dt5$rh_min))==trimws("NaN")),NA,dt5$rh_min)
+dt5$flag_rh_min <- ifelse((trimws(as.character(dt5$flag_rh_min))==trimws("NaN")),NA,dt5$flag_rh_min)
+dt5$time_rh_min <- ifelse((trimws(as.character(dt5$time_rh_min))==trimws("NaN")),NA,dt5$time_rh_min)
+dt5$rh_avg <- ifelse((trimws(as.character(dt5$rh_avg))==trimws("NaN")),NA,dt5$rh_avg)
+dt5$flag_rh_avg <- ifelse((trimws(as.character(dt5$flag_rh_avg))==trimws("NaN")),NA,dt5$flag_rh_avg)
+dt5$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt5$soiltemp_5cm_avg))==trimws("NaN")),NA,dt5$soiltemp_5cm_avg)
+dt5$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt5$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt5$flag_soiltemp_5cm_avg)
+dt5$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt5$soiltemp_30cm_avg))==trimws("NaN")),NA,dt5$soiltemp_30cm_avg)
+dt5$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt5$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt5$flag_soiltemp_30cm_avg)
+dt5$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt5$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt5$soilmoisture_a_5cm_avg)
+dt5$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt5$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt5$flag_soilmoisture_a_5cm_avg)
+dt5$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt5$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt5$soilmoisture_a_30cm_avg)
+dt5$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt5$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt5$flag_soilmoisture_a_30cm_avg)
+dt5$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt5$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt5$soilmoisture_b_5cm_avg)
+dt5$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt5$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt5$flag_soilmoisture_b_5cm_avg)
+dt5$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt5$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt5$soilmoisture_b_30cm_avg)
+dt5$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt5$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt5$flag_soilmoisture_b_30cm_avg)
+dt5$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt5$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt5$soilmoisture_c_5cm_avg)
+dt5$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt5$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt5$flag_soilmoisture_c_5cm_avg)
+dt5$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt5$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt5$soilmoisture_c_30cm_avg)
+dt5$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt5$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt5$flag_soilmoisture_c_30cm_avg)
+dt5$ppt_total <- ifelse((trimws(as.character(dt5$ppt_total))==trimws("NaN")),NA,dt5$ppt_total)
+dt5$ppt2_total <- ifelse((trimws(as.character(dt5$ppt2_total))==trimws("NaN")),NA,dt5$ppt2_total)
+dt5$dts_sample <- ifelse((trimws(as.character(dt5$dts_sample))==trimws("NaN")),NA,dt5$dts_sample)
+dt5$flag_dts_sample <- ifelse((trimws(as.character(dt5$flag_dts_sample))==trimws("NaN")),NA,dt5$flag_dts_sample)
+dt5$dts_min <- ifelse((trimws(as.character(dt5$dts_min))==trimws("NaN")),NA,dt5$dts_min)
+dt5$flag_dts_min <- ifelse((trimws(as.character(dt5$flag_dts_min))==trimws("NaN")),NA,dt5$flag_dts_min)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt5) 
+# Here is the structure of the input data tibble: 
+glimpse(dt5) 
+# And some statistical summaries of the data 
+summary(dt5) 
+# Get more details on character variables
+                     
+summary(as.factor(dt5$sensornode)) 
+summary(as.factor(dt5$flag_airtemp_max)) 
+summary(as.factor(dt5$flag_airtemp_min)) 
+summary(as.factor(dt5$flag_airtemp_avg)) 
+summary(as.factor(dt5$flag_rh_max)) 
+summary(as.factor(dt5$flag_rh_min)) 
+summary(as.factor(dt5$flag_rh_avg)) 
+summary(as.factor(dt5$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt5$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt5$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt5$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt5$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt5$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt5$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt5$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt5$flag_dts_sample)) 
+summary(as.factor(dt5$flag_dts_min)) 
+infile6 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/be9043d12796e3fae436b358b4afe367") 
+infile6 <-sub("^https","http",infile6)
+# This creates a tibble named: dt6 
+	dt6 <-read_delim(infile6  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt6$airtemp_max <- ifelse((trimws(as.character(dt6$airtemp_max))==trimws("NaN")),NA,dt6$airtemp_max)
+dt6$flag_airtemp_max <- ifelse((trimws(as.character(dt6$flag_airtemp_max))==trimws("NaN")),NA,dt6$flag_airtemp_max)
+dt6$time_airtemp_max <- ifelse((trimws(as.character(dt6$time_airtemp_max))==trimws("NaN")),NA,dt6$time_airtemp_max)
+dt6$airtemp_min <- ifelse((trimws(as.character(dt6$airtemp_min))==trimws("NaN")),NA,dt6$airtemp_min)
+dt6$flag_airtemp_min <- ifelse((trimws(as.character(dt6$flag_airtemp_min))==trimws("NaN")),NA,dt6$flag_airtemp_min)
+dt6$time_airtemp_min <- ifelse((trimws(as.character(dt6$time_airtemp_min))==trimws("NaN")),NA,dt6$time_airtemp_min)
+dt6$airtemp_avg <- ifelse((trimws(as.character(dt6$airtemp_avg))==trimws("NaN")),NA,dt6$airtemp_avg)
+dt6$flag_airtemp_avg <- ifelse((trimws(as.character(dt6$flag_airtemp_avg))==trimws("NaN")),NA,dt6$flag_airtemp_avg)
+dt6$rh_max <- ifelse((trimws(as.character(dt6$rh_max))==trimws("NaN")),NA,dt6$rh_max)
+dt6$flag_rh_max <- ifelse((trimws(as.character(dt6$flag_rh_max))==trimws("NaN")),NA,dt6$flag_rh_max)
+dt6$time_rh_max <- ifelse((trimws(as.character(dt6$time_rh_max))==trimws("NaN")),NA,dt6$time_rh_max)
+dt6$rh_min <- ifelse((trimws(as.character(dt6$rh_min))==trimws("NaN")),NA,dt6$rh_min)
+dt6$flag_rh_min <- ifelse((trimws(as.character(dt6$flag_rh_min))==trimws("NaN")),NA,dt6$flag_rh_min)
+dt6$time_rh_min <- ifelse((trimws(as.character(dt6$time_rh_min))==trimws("NaN")),NA,dt6$time_rh_min)
+dt6$rh_avg <- ifelse((trimws(as.character(dt6$rh_avg))==trimws("NaN")),NA,dt6$rh_avg)
+dt6$flag_rh_avg <- ifelse((trimws(as.character(dt6$flag_rh_avg))==trimws("NaN")),NA,dt6$flag_rh_avg)
+dt6$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt6$soiltemp_5cm_avg))==trimws("NaN")),NA,dt6$soiltemp_5cm_avg)
+dt6$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt6$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt6$flag_soiltemp_5cm_avg)
+dt6$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt6$soiltemp_30cm_avg))==trimws("NaN")),NA,dt6$soiltemp_30cm_avg)
+dt6$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt6$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt6$flag_soiltemp_30cm_avg)
+dt6$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt6$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt6$soilmoisture_a_5cm_avg)
+dt6$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt6$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt6$flag_soilmoisture_a_5cm_avg)
+dt6$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt6$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt6$soilmoisture_a_30cm_avg)
+dt6$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt6$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt6$flag_soilmoisture_a_30cm_avg)
+dt6$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt6$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt6$soilmoisture_b_5cm_avg)
+dt6$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt6$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt6$flag_soilmoisture_b_5cm_avg)
+dt6$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt6$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt6$soilmoisture_b_30cm_avg)
+dt6$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt6$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt6$flag_soilmoisture_b_30cm_avg)
+dt6$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt6$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt6$soilmoisture_c_5cm_avg)
+dt6$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt6$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt6$flag_soilmoisture_c_5cm_avg)
+dt6$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt6$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt6$soilmoisture_c_30cm_avg)
+dt6$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt6$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt6$flag_soilmoisture_c_30cm_avg)
+dt6$ppt_total <- ifelse((trimws(as.character(dt6$ppt_total))==trimws("NaN")),NA,dt6$ppt_total)
+dt6$ppt2_total <- ifelse((trimws(as.character(dt6$ppt2_total))==trimws("NaN")),NA,dt6$ppt2_total)
+dt6$dts_sample <- ifelse((trimws(as.character(dt6$dts_sample))==trimws("NaN")),NA,dt6$dts_sample)
+dt6$flag_dts_sample <- ifelse((trimws(as.character(dt6$flag_dts_sample))==trimws("NaN")),NA,dt6$flag_dts_sample)
+dt6$dts_min <- ifelse((trimws(as.character(dt6$dts_min))==trimws("NaN")),NA,dt6$dts_min)
+dt6$flag_dts_min <- ifelse((trimws(as.character(dt6$flag_dts_min))==trimws("NaN")),NA,dt6$flag_dts_min)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt6) 
+# Here is the structure of the input data tibble: 
+glimpse(dt6) 
+# And some statistical summaries of the data 
+summary(dt6) 
+# Get more details on character variables
+                     
+summary(as.factor(dt6$sensornode)) 
+summary(as.factor(dt6$flag_airtemp_max)) 
+summary(as.factor(dt6$flag_airtemp_min)) 
+summary(as.factor(dt6$flag_airtemp_avg)) 
+summary(as.factor(dt6$flag_rh_max)) 
+summary(as.factor(dt6$flag_rh_min)) 
+summary(as.factor(dt6$flag_rh_avg)) 
+summary(as.factor(dt6$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt6$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt6$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt6$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt6$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt6$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt6$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt6$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt6$flag_dts_sample)) 
+summary(as.factor(dt6$flag_dts_min)) 
+infile7 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/68d7607ce8e25b08eaf13d1d163a8f93") 
+infile7 <-sub("^https","http",infile7)
+# This creates a tibble named: dt7 
+	dt7 <-read_delim(infile7  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt7$airtemp_max <- ifelse((trimws(as.character(dt7$airtemp_max))==trimws("NaN")),NA,dt7$airtemp_max)
+dt7$flag_airtemp_max <- ifelse((trimws(as.character(dt7$flag_airtemp_max))==trimws("NaN")),NA,dt7$flag_airtemp_max)
+dt7$time_airtemp_max <- ifelse((trimws(as.character(dt7$time_airtemp_max))==trimws("NaN")),NA,dt7$time_airtemp_max)
+dt7$airtemp_min <- ifelse((trimws(as.character(dt7$airtemp_min))==trimws("NaN")),NA,dt7$airtemp_min)
+dt7$flag_airtemp_min <- ifelse((trimws(as.character(dt7$flag_airtemp_min))==trimws("NaN")),NA,dt7$flag_airtemp_min)
+dt7$time_airtemp_min <- ifelse((trimws(as.character(dt7$time_airtemp_min))==trimws("NaN")),NA,dt7$time_airtemp_min)
+dt7$airtemp_avg <- ifelse((trimws(as.character(dt7$airtemp_avg))==trimws("NaN")),NA,dt7$airtemp_avg)
+dt7$flag_airtemp_avg <- ifelse((trimws(as.character(dt7$flag_airtemp_avg))==trimws("NaN")),NA,dt7$flag_airtemp_avg)
+dt7$rh_max <- ifelse((trimws(as.character(dt7$rh_max))==trimws("NaN")),NA,dt7$rh_max)
+dt7$flag_rh_max <- ifelse((trimws(as.character(dt7$flag_rh_max))==trimws("NaN")),NA,dt7$flag_rh_max)
+dt7$time_rh_max <- ifelse((trimws(as.character(dt7$time_rh_max))==trimws("NaN")),NA,dt7$time_rh_max)
+dt7$rh_min <- ifelse((trimws(as.character(dt7$rh_min))==trimws("NaN")),NA,dt7$rh_min)
+dt7$flag_rh_min <- ifelse((trimws(as.character(dt7$flag_rh_min))==trimws("NaN")),NA,dt7$flag_rh_min)
+dt7$time_rh_min <- ifelse((trimws(as.character(dt7$time_rh_min))==trimws("NaN")),NA,dt7$time_rh_min)
+dt7$rh_avg <- ifelse((trimws(as.character(dt7$rh_avg))==trimws("NaN")),NA,dt7$rh_avg)
+dt7$flag_rh_avg <- ifelse((trimws(as.character(dt7$flag_rh_avg))==trimws("NaN")),NA,dt7$flag_rh_avg)
+dt7$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt7$soiltemp_5cm_avg))==trimws("NaN")),NA,dt7$soiltemp_5cm_avg)
+dt7$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt7$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt7$flag_soiltemp_5cm_avg)
+dt7$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt7$soiltemp_30cm_avg))==trimws("NaN")),NA,dt7$soiltemp_30cm_avg)
+dt7$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt7$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt7$flag_soiltemp_30cm_avg)
+dt7$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt7$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt7$soilmoisture_a_5cm_avg)
+dt7$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt7$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt7$flag_soilmoisture_a_5cm_avg)
+dt7$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt7$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt7$soilmoisture_a_30cm_avg)
+dt7$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt7$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt7$flag_soilmoisture_a_30cm_avg)
+dt7$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt7$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt7$soilmoisture_b_5cm_avg)
+dt7$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt7$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt7$flag_soilmoisture_b_5cm_avg)
+dt7$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt7$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt7$soilmoisture_b_30cm_avg)
+dt7$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt7$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt7$flag_soilmoisture_b_30cm_avg)
+dt7$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt7$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt7$soilmoisture_c_5cm_avg)
+dt7$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt7$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt7$flag_soilmoisture_c_5cm_avg)
+dt7$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt7$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt7$soilmoisture_c_30cm_avg)
+dt7$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt7$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt7$flag_soilmoisture_c_30cm_avg)
+dt7$ppt_total <- ifelse((trimws(as.character(dt7$ppt_total))==trimws("NaN")),NA,dt7$ppt_total)
+dt7$ppt2_total <- ifelse((trimws(as.character(dt7$ppt2_total))==trimws("NaN")),NA,dt7$ppt2_total)
+dt7$dts_sample <- ifelse((trimws(as.character(dt7$dts_sample))==trimws("NaN")),NA,dt7$dts_sample)
+dt7$flag_dts_sample <- ifelse((trimws(as.character(dt7$flag_dts_sample))==trimws("NaN")),NA,dt7$flag_dts_sample)
+dt7$dts_min <- ifelse((trimws(as.character(dt7$dts_min))==trimws("NaN")),NA,dt7$dts_min)
+dt7$flag_dts_min <- ifelse((trimws(as.character(dt7$flag_dts_min))==trimws("NaN")),NA,dt7$flag_dts_min)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt7) 
+# Here is the structure of the input data tibble: 
+glimpse(dt7) 
+# And some statistical summaries of the data 
+summary(dt7) 
+# Get more details on character variables
+                     
+summary(as.factor(dt7$sensornode)) 
+summary(as.factor(dt7$flag_airtemp_max)) 
+summary(as.factor(dt7$flag_airtemp_min)) 
+summary(as.factor(dt7$flag_airtemp_avg)) 
+summary(as.factor(dt7$flag_rh_max)) 
+summary(as.factor(dt7$flag_rh_min)) 
+summary(as.factor(dt7$flag_rh_avg)) 
+summary(as.factor(dt7$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt7$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt7$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt7$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt7$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt7$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt7$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt7$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt7$flag_dts_sample)) 
+summary(as.factor(dt7$flag_dts_min)) 
+infile8 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/56a1eba0efe571090ab4ad8488c7fd20") 
+infile8 <-sub("^https","http",infile8)
+# This creates a tibble named: dt8 
+	dt8 <-read_delim(infile8  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt8$airtemp_max <- ifelse((trimws(as.character(dt8$airtemp_max))==trimws("NaN")),NA,dt8$airtemp_max)
+dt8$flag_airtemp_max <- ifelse((trimws(as.character(dt8$flag_airtemp_max))==trimws("NaN")),NA,dt8$flag_airtemp_max)
+dt8$time_airtemp_max <- ifelse((trimws(as.character(dt8$time_airtemp_max))==trimws("NaN")),NA,dt8$time_airtemp_max)
+dt8$airtemp_min <- ifelse((trimws(as.character(dt8$airtemp_min))==trimws("NaN")),NA,dt8$airtemp_min)
+dt8$flag_airtemp_min <- ifelse((trimws(as.character(dt8$flag_airtemp_min))==trimws("NaN")),NA,dt8$flag_airtemp_min)
+dt8$time_airtemp_min <- ifelse((trimws(as.character(dt8$time_airtemp_min))==trimws("NaN")),NA,dt8$time_airtemp_min)
+dt8$airtemp_avg <- ifelse((trimws(as.character(dt8$airtemp_avg))==trimws("NaN")),NA,dt8$airtemp_avg)
+dt8$flag_airtemp_avg <- ifelse((trimws(as.character(dt8$flag_airtemp_avg))==trimws("NaN")),NA,dt8$flag_airtemp_avg)
+dt8$rh_max <- ifelse((trimws(as.character(dt8$rh_max))==trimws("NaN")),NA,dt8$rh_max)
+dt8$flag_rh_max <- ifelse((trimws(as.character(dt8$flag_rh_max))==trimws("NaN")),NA,dt8$flag_rh_max)
+dt8$time_rh_max <- ifelse((trimws(as.character(dt8$time_rh_max))==trimws("NaN")),NA,dt8$time_rh_max)
+dt8$rh_min <- ifelse((trimws(as.character(dt8$rh_min))==trimws("NaN")),NA,dt8$rh_min)
+dt8$flag_rh_min <- ifelse((trimws(as.character(dt8$flag_rh_min))==trimws("NaN")),NA,dt8$flag_rh_min)
+dt8$time_rh_min <- ifelse((trimws(as.character(dt8$time_rh_min))==trimws("NaN")),NA,dt8$time_rh_min)
+dt8$rh_avg <- ifelse((trimws(as.character(dt8$rh_avg))==trimws("NaN")),NA,dt8$rh_avg)
+dt8$flag_rh_avg <- ifelse((trimws(as.character(dt8$flag_rh_avg))==trimws("NaN")),NA,dt8$flag_rh_avg)
+dt8$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt8$soiltemp_5cm_avg))==trimws("NaN")),NA,dt8$soiltemp_5cm_avg)
+dt8$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt8$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt8$flag_soiltemp_5cm_avg)
+dt8$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt8$soiltemp_30cm_avg))==trimws("NaN")),NA,dt8$soiltemp_30cm_avg)
+dt8$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt8$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt8$flag_soiltemp_30cm_avg)
+dt8$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt8$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt8$soilmoisture_a_5cm_avg)
+dt8$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt8$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt8$flag_soilmoisture_a_5cm_avg)
+dt8$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt8$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt8$soilmoisture_a_30cm_avg)
+dt8$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt8$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt8$flag_soilmoisture_a_30cm_avg)
+dt8$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt8$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt8$soilmoisture_b_5cm_avg)
+dt8$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt8$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt8$flag_soilmoisture_b_5cm_avg)
+dt8$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt8$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt8$soilmoisture_b_30cm_avg)
+dt8$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt8$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt8$flag_soilmoisture_b_30cm_avg)
+dt8$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt8$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt8$soilmoisture_c_5cm_avg)
+dt8$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt8$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt8$flag_soilmoisture_c_5cm_avg)
+dt8$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt8$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt8$soilmoisture_c_30cm_avg)
+dt8$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt8$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt8$flag_soilmoisture_c_30cm_avg)
+dt8$ppt_total <- ifelse((trimws(as.character(dt8$ppt_total))==trimws("NaN")),NA,dt8$ppt_total)
+dt8$ppt2_total <- ifelse((trimws(as.character(dt8$ppt2_total))==trimws("NaN")),NA,dt8$ppt2_total)
+dt8$dts_sample <- ifelse((trimws(as.character(dt8$dts_sample))==trimws("NaN")),NA,dt8$dts_sample)
+dt8$flag_dts_sample <- ifelse((trimws(as.character(dt8$flag_dts_sample))==trimws("NaN")),NA,dt8$flag_dts_sample)
+dt8$dts_min <- ifelse((trimws(as.character(dt8$dts_min))==trimws("NaN")),NA,dt8$dts_min)
+dt8$flag_dts_min <- ifelse((trimws(as.character(dt8$flag_dts_min))==trimws("NaN")),NA,dt8$flag_dts_min)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt8) 
+# Here is the structure of the input data tibble: 
+glimpse(dt8) 
+# And some statistical summaries of the data 
+summary(dt8) 
+# Get more details on character variables
+                     
+summary(as.factor(dt8$sensornode)) 
+summary(as.factor(dt8$flag_airtemp_max)) 
+summary(as.factor(dt8$flag_airtemp_min)) 
+summary(as.factor(dt8$flag_airtemp_avg)) 
+summary(as.factor(dt8$flag_rh_max)) 
+summary(as.factor(dt8$flag_rh_min)) 
+summary(as.factor(dt8$flag_rh_avg)) 
+summary(as.factor(dt8$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt8$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt8$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt8$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt8$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt8$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt8$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt8$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt8$flag_dts_sample)) 
+summary(as.factor(dt8$flag_dts_min)) 
+infile9 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/fbad168586c727d30916148e284040e9") 
+infile9 <-sub("^https","http",infile9)
+# This creates a tibble named: dt9 
+	dt9 <-read_delim(infile9  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample",   
+                        "dts_min",   
+                        "flag_dts_min"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt9$airtemp_max <- ifelse((trimws(as.character(dt9$airtemp_max))==trimws("NaN")),NA,dt9$airtemp_max)
+dt9$flag_airtemp_max <- ifelse((trimws(as.character(dt9$flag_airtemp_max))==trimws("NaN")),NA,dt9$flag_airtemp_max)
+dt9$time_airtemp_max <- ifelse((trimws(as.character(dt9$time_airtemp_max))==trimws("NaN")),NA,dt9$time_airtemp_max)
+dt9$airtemp_min <- ifelse((trimws(as.character(dt9$airtemp_min))==trimws("NaN")),NA,dt9$airtemp_min)
+dt9$flag_airtemp_min <- ifelse((trimws(as.character(dt9$flag_airtemp_min))==trimws("NaN")),NA,dt9$flag_airtemp_min)
+dt9$time_airtemp_min <- ifelse((trimws(as.character(dt9$time_airtemp_min))==trimws("NaN")),NA,dt9$time_airtemp_min)
+dt9$airtemp_avg <- ifelse((trimws(as.character(dt9$airtemp_avg))==trimws("NaN")),NA,dt9$airtemp_avg)
+dt9$flag_airtemp_avg <- ifelse((trimws(as.character(dt9$flag_airtemp_avg))==trimws("NaN")),NA,dt9$flag_airtemp_avg)
+dt9$rh_max <- ifelse((trimws(as.character(dt9$rh_max))==trimws("NaN")),NA,dt9$rh_max)
+dt9$flag_rh_max <- ifelse((trimws(as.character(dt9$flag_rh_max))==trimws("NaN")),NA,dt9$flag_rh_max)
+dt9$time_rh_max <- ifelse((trimws(as.character(dt9$time_rh_max))==trimws("NaN")),NA,dt9$time_rh_max)
+dt9$rh_min <- ifelse((trimws(as.character(dt9$rh_min))==trimws("NaN")),NA,dt9$rh_min)
+dt9$flag_rh_min <- ifelse((trimws(as.character(dt9$flag_rh_min))==trimws("NaN")),NA,dt9$flag_rh_min)
+dt9$time_rh_min <- ifelse((trimws(as.character(dt9$time_rh_min))==trimws("NaN")),NA,dt9$time_rh_min)
+dt9$rh_avg <- ifelse((trimws(as.character(dt9$rh_avg))==trimws("NaN")),NA,dt9$rh_avg)
+dt9$flag_rh_avg <- ifelse((trimws(as.character(dt9$flag_rh_avg))==trimws("NaN")),NA,dt9$flag_rh_avg)
+dt9$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt9$soiltemp_5cm_avg))==trimws("NaN")),NA,dt9$soiltemp_5cm_avg)
+dt9$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt9$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt9$flag_soiltemp_5cm_avg)
+dt9$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt9$soiltemp_30cm_avg))==trimws("NaN")),NA,dt9$soiltemp_30cm_avg)
+dt9$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt9$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt9$flag_soiltemp_30cm_avg)
+dt9$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt9$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt9$soilmoisture_a_5cm_avg)
+dt9$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt9$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt9$flag_soilmoisture_a_5cm_avg)
+dt9$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt9$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt9$soilmoisture_a_30cm_avg)
+dt9$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt9$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt9$flag_soilmoisture_a_30cm_avg)
+dt9$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt9$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt9$soilmoisture_b_5cm_avg)
+dt9$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt9$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt9$flag_soilmoisture_b_5cm_avg)
+dt9$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt9$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt9$soilmoisture_b_30cm_avg)
+dt9$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt9$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt9$flag_soilmoisture_b_30cm_avg)
+dt9$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt9$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt9$soilmoisture_c_5cm_avg)
+dt9$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt9$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt9$flag_soilmoisture_c_5cm_avg)
+dt9$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt9$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt9$soilmoisture_c_30cm_avg)
+dt9$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt9$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt9$flag_soilmoisture_c_30cm_avg)
+dt9$ppt_total <- ifelse((trimws(as.character(dt9$ppt_total))==trimws("NaN")),NA,dt9$ppt_total)
+dt9$ppt2_total <- ifelse((trimws(as.character(dt9$ppt2_total))==trimws("NaN")),NA,dt9$ppt2_total)
+dt9$dts_sample <- ifelse((trimws(as.character(dt9$dts_sample))==trimws("NaN")),NA,dt9$dts_sample)
+dt9$flag_dts_sample <- ifelse((trimws(as.character(dt9$flag_dts_sample))==trimws("NaN")),NA,dt9$flag_dts_sample)
+dt9$dts_min <- ifelse((trimws(as.character(dt9$dts_min))==trimws("NaN")),NA,dt9$dts_min)
+dt9$flag_dts_min <- ifelse((trimws(as.character(dt9$flag_dts_min))==trimws("NaN")),NA,dt9$flag_dts_min)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt9) 
+# Here is the structure of the input data tibble: 
+glimpse(dt9) 
+# And some statistical summaries of the data 
+summary(dt9) 
+# Get more details on character variables
+                     
+summary(as.factor(dt9$sensornode)) 
+summary(as.factor(dt9$flag_airtemp_max)) 
+summary(as.factor(dt9$flag_airtemp_min)) 
+summary(as.factor(dt9$flag_airtemp_avg)) 
+summary(as.factor(dt9$flag_rh_max)) 
+summary(as.factor(dt9$flag_rh_min)) 
+summary(as.factor(dt9$flag_rh_avg)) 
+summary(as.factor(dt9$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt9$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt9$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt9$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt9$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt9$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt9$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt9$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt9$flag_dts_sample)) 
+summary(as.factor(dt9$flag_dts_min)) 
+infile10 <- trimws("https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/210/1/c031b3fe87ab2e7f0c5e100823cc1f36") 
+infile10 <-sub("^https","http",infile10)
+# This creates a tibble named: dt10 
+	dt10 <-read_delim(infile10  
+                ,delim=","   
+                ,skip=1 
+                    ,quote='"'  
+                    , col_names=c( 
+                        "date",   
+                        "sensornode",   
+                        "airtemp_max",   
+                        "flag_airtemp_max",   
+                        "time_airtemp_max",   
+                        "airtemp_min",   
+                        "flag_airtemp_min",   
+                        "time_airtemp_min",   
+                        "airtemp_avg",   
+                        "flag_airtemp_avg",   
+                        "rh_max",   
+                        "flag_rh_max",   
+                        "time_rh_max",   
+                        "rh_min",   
+                        "flag_rh_min",   
+                        "time_rh_min",   
+                        "rh_avg",   
+                        "flag_rh_avg",   
+                        "soiltemp_5cm_avg",   
+                        "flag_soiltemp_5cm_avg",   
+                        "soiltemp_30cm_avg",   
+                        "flag_soiltemp_30cm_avg",   
+                        "soilmoisture_a_5cm_avg",   
+                        "flag_soilmoisture_a_5cm_avg",   
+                        "soilmoisture_a_30cm_avg",   
+                        "flag_soilmoisture_a_30cm_avg",   
+                        "soilmoisture_b_5cm_avg",   
+                        "flag_soilmoisture_b_5cm_avg",   
+                        "soilmoisture_b_30cm_avg",   
+                        "flag_soilmoisture_b_30cm_avg",   
+                        "soilmoisture_c_5cm_avg",   
+                        "flag_soilmoisture_c_5cm_avg",   
+                        "soilmoisture_c_30cm_avg",   
+                        "flag_soilmoisture_c_30cm_avg",   
+                        "ppt_total",   
+                        "ppt2_total",   
+                        "dts_sample",   
+                        "flag_dts_sample"   ), 
+                    col_types=list( 
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                     
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(),  
+                        col_datetime("%Y-%m-%d %H:%M:%S"), 
+                                    
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() ,  
+                        col_character(), 
+                        col_number() , 
+                        col_number() , 
+                        col_number() ,  
+                        col_character()), 
+                        na=c( " ",".","NA")  )
+                        
+                    
+# Convert Missing Values to NA for individual vectors 
+dt10$airtemp_max <- ifelse((trimws(as.character(dt10$airtemp_max))==trimws("NaN")),NA,dt10$airtemp_max)
+dt10$flag_airtemp_max <- ifelse((trimws(as.character(dt10$flag_airtemp_max))==trimws("NaN")),NA,dt10$flag_airtemp_max)
+dt10$time_airtemp_max <- ifelse((trimws(as.character(dt10$time_airtemp_max))==trimws("NaN")),NA,dt10$time_airtemp_max)
+dt10$airtemp_min <- ifelse((trimws(as.character(dt10$airtemp_min))==trimws("NaN")),NA,dt10$airtemp_min)
+dt10$flag_airtemp_min <- ifelse((trimws(as.character(dt10$flag_airtemp_min))==trimws("NaN")),NA,dt10$flag_airtemp_min)
+dt10$time_airtemp_min <- ifelse((trimws(as.character(dt10$time_airtemp_min))==trimws("NaN")),NA,dt10$time_airtemp_min)
+dt10$airtemp_avg <- ifelse((trimws(as.character(dt10$airtemp_avg))==trimws("NaN")),NA,dt10$airtemp_avg)
+dt10$flag_airtemp_avg <- ifelse((trimws(as.character(dt10$flag_airtemp_avg))==trimws("NaN")),NA,dt10$flag_airtemp_avg)
+dt10$rh_max <- ifelse((trimws(as.character(dt10$rh_max))==trimws("NaN")),NA,dt10$rh_max)
+dt10$flag_rh_max <- ifelse((trimws(as.character(dt10$flag_rh_max))==trimws("NaN")),NA,dt10$flag_rh_max)
+dt10$time_rh_max <- ifelse((trimws(as.character(dt10$time_rh_max))==trimws("NaN")),NA,dt10$time_rh_max)
+dt10$rh_min <- ifelse((trimws(as.character(dt10$rh_min))==trimws("NaN")),NA,dt10$rh_min)
+dt10$flag_rh_min <- ifelse((trimws(as.character(dt10$flag_rh_min))==trimws("NaN")),NA,dt10$flag_rh_min)
+dt10$time_rh_min <- ifelse((trimws(as.character(dt10$time_rh_min))==trimws("NaN")),NA,dt10$time_rh_min)
+dt10$rh_avg <- ifelse((trimws(as.character(dt10$rh_avg))==trimws("NaN")),NA,dt10$rh_avg)
+dt10$flag_rh_avg <- ifelse((trimws(as.character(dt10$flag_rh_avg))==trimws("NaN")),NA,dt10$flag_rh_avg)
+dt10$soiltemp_5cm_avg <- ifelse((trimws(as.character(dt10$soiltemp_5cm_avg))==trimws("NaN")),NA,dt10$soiltemp_5cm_avg)
+dt10$flag_soiltemp_5cm_avg <- ifelse((trimws(as.character(dt10$flag_soiltemp_5cm_avg))==trimws("NaN")),NA,dt10$flag_soiltemp_5cm_avg)
+dt10$soiltemp_30cm_avg <- ifelse((trimws(as.character(dt10$soiltemp_30cm_avg))==trimws("NaN")),NA,dt10$soiltemp_30cm_avg)
+dt10$flag_soiltemp_30cm_avg <- ifelse((trimws(as.character(dt10$flag_soiltemp_30cm_avg))==trimws("NaN")),NA,dt10$flag_soiltemp_30cm_avg)
+dt10$soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt10$soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt10$soilmoisture_a_5cm_avg)
+dt10$flag_soilmoisture_a_5cm_avg <- ifelse((trimws(as.character(dt10$flag_soilmoisture_a_5cm_avg))==trimws("NaN")),NA,dt10$flag_soilmoisture_a_5cm_avg)
+dt10$soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt10$soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt10$soilmoisture_a_30cm_avg)
+dt10$flag_soilmoisture_a_30cm_avg <- ifelse((trimws(as.character(dt10$flag_soilmoisture_a_30cm_avg))==trimws("NaN")),NA,dt10$flag_soilmoisture_a_30cm_avg)
+dt10$soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt10$soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt10$soilmoisture_b_5cm_avg)
+dt10$flag_soilmoisture_b_5cm_avg <- ifelse((trimws(as.character(dt10$flag_soilmoisture_b_5cm_avg))==trimws("NaN")),NA,dt10$flag_soilmoisture_b_5cm_avg)
+dt10$soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt10$soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt10$soilmoisture_b_30cm_avg)
+dt10$flag_soilmoisture_b_30cm_avg <- ifelse((trimws(as.character(dt10$flag_soilmoisture_b_30cm_avg))==trimws("NaN")),NA,dt10$flag_soilmoisture_b_30cm_avg)
+dt10$soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt10$soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt10$soilmoisture_c_5cm_avg)
+dt10$flag_soilmoisture_c_5cm_avg <- ifelse((trimws(as.character(dt10$flag_soilmoisture_c_5cm_avg))==trimws("NaN")),NA,dt10$flag_soilmoisture_c_5cm_avg)
+dt10$soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt10$soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt10$soilmoisture_c_30cm_avg)
+dt10$flag_soilmoisture_c_30cm_avg <- ifelse((trimws(as.character(dt10$flag_soilmoisture_c_30cm_avg))==trimws("NaN")),NA,dt10$flag_soilmoisture_c_30cm_avg)
+dt10$ppt_total <- ifelse((trimws(as.character(dt10$ppt_total))==trimws("NaN")),NA,dt10$ppt_total)
+dt10$ppt2_total <- ifelse((trimws(as.character(dt10$ppt2_total))==trimws("NaN")),NA,dt10$ppt2_total)
+dt10$dts_sample <- ifelse((trimws(as.character(dt10$dts_sample))==trimws("NaN")),NA,dt10$dts_sample)
+dt10$flag_dts_sample <- ifelse((trimws(as.character(dt10$flag_dts_sample))==trimws("NaN")),NA,dt10$flag_dts_sample)
+                    
+                
+# Observed issues when reading the data. An empty list is good!
+problems(dt10) 
+# Here is the structure of the input data tibble: 
+glimpse(dt10) 
+# And some statistical summaries of the data 
+summary(dt10) 
+# Get more details on character variables
+                     
+summary(as.factor(dt10$sensornode)) 
+summary(as.factor(dt10$flag_airtemp_max)) 
+summary(as.factor(dt10$flag_airtemp_min)) 
+summary(as.factor(dt10$flag_airtemp_avg)) 
+summary(as.factor(dt10$flag_rh_max)) 
+summary(as.factor(dt10$flag_rh_min)) 
+summary(as.factor(dt10$flag_rh_avg)) 
+summary(as.factor(dt10$flag_soiltemp_5cm_avg)) 
+summary(as.factor(dt10$flag_soiltemp_30cm_avg)) 
+summary(as.factor(dt10$flag_soilmoisture_a_5cm_avg)) 
+summary(as.factor(dt10$flag_soilmoisture_a_30cm_avg)) 
+summary(as.factor(dt10$flag_soilmoisture_b_5cm_avg)) 
+summary(as.factor(dt10$flag_soilmoisture_b_30cm_avg)) 
+summary(as.factor(dt10$flag_soilmoisture_c_5cm_avg)) 
+summary(as.factor(dt10$flag_soilmoisture_c_30cm_avg)) 
+summary(as.factor(dt10$flag_dts_sample))
+
+
+
+
