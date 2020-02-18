@@ -85,8 +85,8 @@ soil.all %>%
 
 # Looks to me like Nitrogen addition makes KOMY nosedive
 # DECE increases with Phosphorous addition but not N+P
-# KOMY appears predominantly where it's wet,
-# DECE and GEROT appear where it's dry
+# DECE appears predominantly where it's wet,
+# KOMY and GEROT appear where it's dry
 
 # Read:
 # Theodose and Bowman, 1997, Ecology
