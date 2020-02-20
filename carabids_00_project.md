@@ -41,7 +41,7 @@ This is a centralized location to organize our thoughts and resources for this p
 | soil temp | NEON | DP1.00041.001 | a couple sensors near tower | 1min, 30min series, mid2017-current | [data page](https://data.neonscience.org/data-products/DP1.00041.001) |
 | Soil water content and water salinity | NEON | DP1.00094.001 | many base plots, including pitfall locations |  |  | 
 | Woody plant vegetation structure | NEON | DP1.10098.001 | many base plots, including pitfall locations |  | [TOS Science Design for Plant Biomass and Productivity](https://data.neonscience.org/documents/10179/1723439/NEON.DOC.000914vA/b21f8a50-2f1e-4261-8890-3f922fd78141)| 
-| Litterfall and fine woody debris sampling | NEON | DP1.10033.001 | many base plots, including pitfall locations |  |  | 
+| Litterfall and fine woody debris sampling | NEON | DP1.10033.001 | 12 base plots, including pitfall locations | monthly samples (some gaps by location), June or July through November, 2016-2019 |  | 
 | [Permanent forest plot data](https://portal.lternet.edu/nis/mapbrowse?packageid=knb-lter-nwt.207.3) | NiwotLTER | NA |  | 1982-2016 | [Chai et al. 2019](https://www.nrcresearchpress.com/doi/pdfplus/10.1139/cjfr-2019-0023) | 
 | canopy gaps |  |  |  |  |  | 
 | hydrology |  |  |  |  |  | 
