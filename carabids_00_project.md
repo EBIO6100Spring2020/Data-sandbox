@@ -34,11 +34,11 @@ This is a centralized location to organize our thoughts and resources for this p
 | elevation | NEON | DP3.30024.001 | full extent of site, well beyond pitfalls, 1mx1m resolution | 2017-2019 (Sept, Aug, Aug) | [data page](https://data.neonscience.org/data-products/DP3.30024.001) | 
 | precipitation | NEON | DP1.00006.001 | looks like a couple of sensors per NEON site - CHECK | (almost) every month 2017-current | [neon data page](https://data.neonscience.org/data-products/DP1.00006.001) | 
 | relative humidity | NEON | DP1.00098.001 | sensors on flux tower and in soil array - CHECK | 1min and 30min time series, 2017-current | [data page](https://data.neonscience.org/data-products/DP1.00098.001) | 
-| IR biological temp | NEON | DP1.00005.001 | a couple sensors near tower |  | [data page](https://data.neonscience.org/data-products/DP1.00005.001) | 
+| IR biological temp | NEON | DP1.00005.001 | a couple sensors near tower | 1min and 30min series, every month 2017-current | [data page](https://data.neonscience.org/data-products/DP1.00005.001) | 
 | Shortwave radiation (direct and diffuse pyranometer) | NEON | DP1.00014.001 |  |  |  | 
 | Shortwave and longwave radiation (net radiometer) | NEON | DP1.00023.001 |  |  |  | 
 | LAI - spectrometer - flightline | NEON | DP2.30012.001 |  |  |  | 
-| soil temp | NEON | DP1.00041.001 | a couple sensors near tower |  | [data page](https://data.neonscience.org/data-products/DP1.00041.001) |
+| soil temp | NEON | DP1.00041.001 | a couple sensors near tower | 1min, 30min series, mid2017-current | [data page](https://data.neonscience.org/data-products/DP1.00041.001) |
 | Soil water content and water salinity | NEON | DP1.00094.001 | many base plots, including pitfall locations |  |  | 
 | Woody plant vegetation structure | NEON | DP1.10098.001 | many base plots, including pitfall locations |  | [TOS Science Design for Plant Biomass and Productivity](https://data.neonscience.org/documents/10179/1723439/NEON.DOC.000914vA/b21f8a50-2f1e-4261-8890-3f922fd78141)| 
 | Litterfall and fine woody debris sampling | NEON | DP1.10033.001 | many base plots, including pitfall locations |  |  | 
