@@ -37,6 +37,7 @@ soil_water_spat = def.extr.geo.os(data = soil_water_all$vst_perplotperyear,
 woody_all = loadByProduct(dpID = "DP1.10098.001", 
                                  site = "NIWO", 
                                  check.size = FALSE)
+list2env(woody_all, .GlobalEnv)
 woody_spat = def.extr.geo.os(data = woody_all$vst_perplotperyear, 
                              'namedLocation', 
                              locOnly=T) %>%
