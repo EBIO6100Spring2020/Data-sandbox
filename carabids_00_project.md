@@ -65,9 +65,10 @@ These are the 7 most abundant and accurately identified species at Niwot Ridge.
 | Amara quenseli | Anna |   | 
 | Calathus advena | Anna |   |
 | Carabus taedatus | Anna |   |
-| Cymindis unicolor | Christa |   | 
-| Harpalus nigritarsis | Christa |   |
-| Pterostichus restrictus | Christa |   |
+| Cymindis unicolor | **Tribe**: Lebiini **Habitat**: An arctic-alpine species occurring in tundra and tundra-forest transition zones; inhabits treeless, well-drained environments |  Garry 1990, Nelson 1988
+| 
+| Harpalus nigritarsis | **Tribe** Harpalini  **Diet** (for genus): seed-eaters as adults and typically also as larvae. **Phenology** annual life cycle |  Kent Wildlife Trust |
+| Pterostichus restrictus | **Tribe** Pterostichini |   |
 
 ##### Data thoughts & questions
 * How to choose which species to model? [Dittrich et al. 2020](https://www.mdpi.com/2072-4292/12/1/80/htm) chose species to reduce interannual variability by selecting ones that are (1) not directly depending on ephemeral resources and (2) nonspecific predators, feeding on various soil arthropods.
