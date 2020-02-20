@@ -51,3 +51,8 @@ https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.03315
 Tikhonov et al., 2019. R Package HMSC.
 https://cran.r-project.org/web/packages/Hmsc/index.html
 
+### Quick follow up on GEUM-DECE competition
+Talking to katie post meeting about whether competition is important between the two dominants. She noted that in an experiment where either DECE or GEUM was removed the other one increased in abundance. She also suggested we look at this Farrer et al paper. 
+
+Farrer, Emily C., et al. "Separating direct and indirect effects of global change: a population dynamic modeling approach using readily available field data." Global change biology 20.4 (2014): 1238-1250.
+https://onlinelibrary.wiley.com/doi/full/10.1111/gcb.12401
