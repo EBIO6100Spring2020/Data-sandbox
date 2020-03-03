@@ -1,0 +1,5 @@
+Manifest file for knb-lter-nwt.31.16.zip created on Thu Oct 03 12:31:54 MDT 2019
+saddsnow.dw.data.csv (1917436 bytes)
+knb-lter-nwt.31.16.xml (27901 bytes)
+knb-lter-nwt.31.16.txt (19219 bytes)
+knb-lter-nwt.31.16.report.xml (32224 bytes)
