@@ -61,6 +61,22 @@ snowdep %>%
   distinct(month, year)
 # Actually this looks okay. Looks like there is sampling in every month with snow.
 
+# How many times per month does sampling happen?
+
+snowdep %>%
+  group_by(point_ID, year, month) %>%
+  summarise(nobs = n(),
+            totmeas = sum(num_meas))
+# Looks like mostly ones and twos
+# Confirm this.
+snowdep %>%
+  group_by(point_ID, year, month) %>%
+  summarise(nobs = n()) %>%
+  group_by(nobs) %>%
+  summarise(n = n())
+# Wtf! 440 times there are five samples in a month?
+# Maybe take the minimum/max? See below.
+
 # Maybe pick one year and see what it looks like.
 
 snowdep %>%
@@ -68,3 +84,21 @@ snowdep %>%
   distinct(point_ID, month, .keep_all = TRUE) %>%
   ggplot() + 
   geom_line(aes())
+
+
+# Okay. We have inconsistencies across year,
+# 
+snowdep.one.month = snowdep %>%
+  select(point_ID, year, month, dayofyear, mean_depth) %>%
+#  distinct(year, month, dayofyear, .keep_all = TRUE) %>%
+  arrange(year, month, dayofyear) %>%
+  distinct(point_ID, year, month, .keep_all = TRUE) %>%
+  mutate(mean_depth = ifelse(is.na(mean_depth) | is.nan(mean_depth), 0, mean_depth))
+
+table(snowdep.one.month$point_ID)
+# 404 measurements here for each point. This is good!
+
+# Aggregate by growing season... but need to define growing season
+snowdep.one.month %>%
+  group_by(point, year) %>%
+
