@@ -100,5 +100,55 @@ table(snowdep.one.month$point_ID)
 
 # Aggregate by growing season... but need to define growing season
 snowdep.one.month %>%
-  group_by(point, year) %>%
+  group_by(point_ID, year) %>%
+  mutate(season = year + as.numeric(month > 9)) %>%
+  View()
 
+# Adivce from Sarah:
+# consider max snowdepth (could use a spline)
+# consider date of first melt-out (n.b., maybe should be first time with TWO zero-snow measuremens?)
+
+
+snowdep %>%
+  filter(!mean_depth) %>%
+  mutate(date = as.Date(date)) %>%
+  mutate(mean_depth = ifelse(is.na(mean_depth) | is.nan(mean_depth), 0, mean_depth)) %>%
+  mutate(season = year + as.numeric(month > 9)) %>%
+  group_by(point_ID, season) %>%
+  summarise(first.date = min(date)) %>%
+  View()
+
+# Here is an attempt to find cases with two consecutive measurements of no snowmelt:
+
+snowmelt = snowdep %>%
+  select(date, point_ID, mean_depth, year, month, dayofyear) %>%
+  mutate(date = as.Date(date)) %>%
+  mutate(mean_depth = ifelse(is.na(mean_depth) | is.nan(mean_depth), 0, mean_depth)) %>%
+  mutate(season = year + as.numeric(month > 9)) %>%
+  arrange(point_ID, date) %>%
+  group_by(point_ID, season) %>%
+  mutate(snow.diff = c(0, diff(mean_depth))) %>%
+  filter(!mean_depth & !snow.diff) %>%
+  distinct(season, point_ID, .keep_all = TRUE)
+
+# Is every point_ID-year combo represented here?
+with(snowmelt, table(season, point_ID))
+# No - lots are missing. (e.g., point 65!)
+
+# Is every point measured in every year?
+snowdep %>%
+  mutate(season = year + as.numeric(month > 9)) %>%
+  with(table(season, point_ID))
+
+# Look at a representative plot: 65:
+snowdep %>% filter(point_ID %in% 65) %>% View()
+# There are some years where there is snow in June/July
+# and "first snowmelt" days are gone.
+# Likely need to impute these using a spline.
+
+snowdep %>% 
+  filter(point_ID %in% 65) %>% 
+  mutate(jd = paste(month, dayofyear, sep = '-') %>% as.Date(format = '%m-%d', origin = '01-01-2020') %>% julian()) %>% 
+  ggplot() + 
+  geom_line(aes(x = jd, y = mean_depth, group = year)) + 
+  geom_point(aes(x = jd, y = mean_depth)) + facet_wrap(~ year)
